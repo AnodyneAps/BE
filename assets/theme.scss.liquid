@@ -5581,6 +5581,7 @@ cite {
 
   a {
     color: $colorAnnouncementText;
+    margin-top: 5px;
   }
 
   .rte {
@@ -7756,11 +7757,13 @@ body {
   .cu-product-name {
     margin-bottom: 0;
     margin-left: $spacer-sm;
+    display:none;
   }
 
   .cu-product-wrapper {
     @include display-flexbox();
     line-height: 0;
+    flex-wrap: wrap;
   }
 
   .cu-image-wrapper {
@@ -7771,12 +7774,13 @@ body {
 
   .cu-product-select {
     margin-right: $spacer-sm;
-    width: 120px;
+    width: 220px;
     @include flex(auto);
   }
 
   .cu-product-button {
     max-width: 140px;
+    margin-top:$gutter-xs;
   }
 }
 {%- endif -%}

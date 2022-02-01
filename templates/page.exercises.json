@@ -1,0 +1,253 @@
+{
+  "sections": {
+    "1636011126d2c47b6d": {
+      "type": "HTML-columns",
+      "blocks": {
+        "1636011126d2c47b6d-0": {
+          "type": "HTML_column",
+          "settings": {
+            "wrapper_size": "",
+            "html_area_1": "<div style=\"margin:-40px 20px -60px 20px\">\n<h1>Oefeningen voor het strekken van de rug en de nek<\/h1>\n<p>Heeft u last van nekpijn of spanningen in schouders en rug? In samenwerking met chiropractor en kliniek eigenaar Michael Justad van JustHealth, hebben we in de onderstaande video 5 eenvoudige oefeningen samengesteld die u op kantoor of thuis kunt doen. Het duurt maar vijf minuten.<\/p>\n<\/div>",
+            "column_width_1": 12,
+            "column_width_mobile_1": 12,
+            "text_alignment_1": "text-center",
+            "html_area_2": "",
+            "column_width_2": 4,
+            "column_width_mobile_2": 12,
+            "text_alignment_2": "text-center",
+            "html_area_3": "",
+            "column_width_3": 4,
+            "column_width_mobile_3": 12,
+            "text_alignment_3": "text-center",
+            "html_area_4": "",
+            "column_width_4": 4,
+            "column_width_mobile_4": 12,
+            "text_alignment_4": "text-center",
+            "html_area_5": "",
+            "column_width_5": 4,
+            "column_width_mobile_5": 12,
+            "text_alignment_5": "text-center",
+            "html_area_6": "",
+            "column_width_6": 4,
+            "column_width_mobile_6": 12,
+            "text_alignment_6": "text-center",
+            "html_area_7": "",
+            "column_width_7": 4,
+            "column_width_mobile_7": 12,
+            "text_alignment_7": "text-center",
+            "html_area_8": "",
+            "column_width_8": 4,
+            "column_width_mobile_8": 12,
+            "text_alignment_8": "text-center",
+            "html_area_9": "",
+            "column_width_9": 4,
+            "column_width_mobile_9": 12,
+            "text_alignment_9": "text-center",
+            "html_area_10": "",
+            "column_width_10": 4,
+            "column_width_mobile_10": 12,
+            "text_alignment_10": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "1636011126d2c47b6d-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "",
+        "subtitle": "",
+        "section_style": "section-blank"
+      }
+    },
+    "163600963681aed54c": {
+      "type": "featured-video",
+      "blocks": {
+        "163600963681aed54c-0": {
+          "type": "video",
+          "settings": {
+            "video_cover_image": "shopify:\/\/shop_images\/Cover_video.jpg",
+            "video_cover_image_fr": "shopify:\/\/shop_images\/Cover_video.jpg",
+            "video_url": "https:\/\/youtu.be\/RneagSabx9o",
+            "video_url_fr": "https:\/\/youtu.be\/RozA9sXOX3o",
+            "animated_button": false
+          }
+        }
+      },
+      "block_order": [
+        "163600963681aed54c-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": false,
+        "title": "",
+        "subtitle": "",
+        "section_style": "section-blank"
+      }
+    },
+    "16363589409f6f02aa": {
+      "type": "featured-row",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "image": "shopify:\/\/shop_images\/Working_posture_1296x1296_c2552524-c803-42c2-9e9f-8c3aa8004bea.jpg",
+        "section_style": "section-blank",
+        "text_size": "large",
+        "image_alignement": "right",
+        "text_alignment": "",
+        "title": "Optimaliseer uw zithouding op kantoor",
+        "text": "<p>Als u last heeft van spanning in nek, schouders of rug omdat u voornamelijk zittend werk doet, zullen deze 5 ontspanningsoefeningen u helpen spanning in uw dagelijks leven te verlichten en te voorkomen. Het kan ook nuttig zijn om te kijken naar manieren om uw houding te optimaliseren wanneer u aan een bureau zit.<\/p><p><strong>Volg deze tips voor een correcte houding aan uw bureau:<\/strong><\/p><p>• Zit met rechte rug, duw uw bekken naar binnen en trek uw schouders naar achteren. Van opzij gezien, moet de ruggengraat in een S-bocht staan.<\/p><p>• Benen en knieën moeten in een hoek van 90 graden of meer staan.<\/p><p>• Beide ellebogen moeten op het bureau of de armleuning rusten in een rechte hoek ten opzichte van het lichaam, zodat de schouders kunnen ontspannen.<\/p><p>• Het beeldscherm moet op ooghoogte staan.<\/p><p>• Verander uw zithouding regelmatig en wissel staan en zitten af.<\/p>",
+        "button_style": "btn--primary",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "163636123033606d35": {
+      "type": "featured-products",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Bestsellers",
+        "subtitle": "",
+        "section_style": "section-default",
+        "home_featured_products": "alle-producten",
+        "rows": "2",
+        "desktop_grid": "4",
+        "mobile_grid": "2",
+        "show_view_all": false,
+        "button_label": "View all",
+        "button_link": "",
+        "button_style": "btn-outline-primary",
+        "slider_related_products": true,
+        "arrows": true,
+        "dots": true,
+        "autoplay": false,
+        "autoplayspeed": 5
+      }
+    },
+    "16363636370262f21e": {
+      "type": "HTML-columns",
+      "blocks": {
+        "16363636370262f21e-0": {
+          "type": "HTML_column",
+          "settings": {
+            "wrapper_size": "",
+            "html_area_1": "<div style=\"margin-top:-30px\">\n<h2>Houdingscorrigerende producten voor kantoorwerk<\/h2>\n<p>Bij Anodyne® bieden we producten voor houdingscorrectie, ontspanning en algemene lichaamsgezondheid. Onze producten zijn erop gericht het lichaam te ondersteunen en het houdingsbewustzijn in het dagelijks leven te vergroten en pijn en spanning te verlichten om de kwaliteit van leven te verhogen.<\/p>\n<p><\/p>\n<\/div>",
+            "column_width_1": 12,
+            "column_width_mobile_1": 12,
+            "text_alignment_1": "text-center",
+            "html_area_2": "",
+            "column_width_2": 4,
+            "column_width_mobile_2": 12,
+            "text_alignment_2": "text-center",
+            "html_area_3": "",
+            "column_width_3": 4,
+            "column_width_mobile_3": 12,
+            "text_alignment_3": "text-center",
+            "html_area_4": "",
+            "column_width_4": 4,
+            "column_width_mobile_4": 12,
+            "text_alignment_4": "text-center",
+            "html_area_5": "",
+            "column_width_5": 4,
+            "column_width_mobile_5": 12,
+            "text_alignment_5": "text-center",
+            "html_area_6": "",
+            "column_width_6": 4,
+            "column_width_mobile_6": 12,
+            "text_alignment_6": "text-center",
+            "html_area_7": "",
+            "column_width_7": 4,
+            "column_width_mobile_7": 12,
+            "text_alignment_7": "text-center",
+            "html_area_8": "",
+            "column_width_8": 4,
+            "column_width_mobile_8": 12,
+            "text_alignment_8": "text-center",
+            "html_area_9": "",
+            "column_width_9": 4,
+            "column_width_mobile_9": 12,
+            "text_alignment_9": "text-center",
+            "html_area_10": "",
+            "column_width_10": 4,
+            "column_width_mobile_10": 12,
+            "text_alignment_10": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "16363636370262f21e-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "",
+        "subtitle": "",
+        "section_style": "section-blank"
+      }
+    },
+    "163636091562f8a855": {
+      "type": "featured-row",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "image": "shopify:\/\/shop_images\/Lumbar.jpg",
+        "section_style": "section-default",
+        "text_size": "large",
+        "image_alignement": "left",
+        "text_alignment": "",
+        "title": "Ontlast rug en onderrug met Houding Corrector of Rugbrace",
+        "text": "<p>Onze rug is vooral kwetsbaar als we veel zitten. Daarom kan het goed zijn om onze rug en schouders tijdens de werkdag te ontlasten. Bij Anodyne® hebben we een reeks producten voor rugondersteuning, waaronder onze houding correctors en rugbrace. Beide producten zijn ideale hulpmiddelen om pijn en spanning te voorkomen en te behandelen, en ze fungeren als hulpmiddelen om de spieren te ondersteunen en te ontlasten als er een acute behoefte ontstaat.<br\/>Onze houding correctors helpen de houding te verbeteren zolang u het product draagt en kunnen worden gebruikt bij pijn en spanning in de nek, schouders en bovenrug. De schouderbladen worden terug op hun plaats getrokken, waardoor de druk op de schouders en bovenrug wordt verlicht. De rugbrace is ideaal als u last heeft van pijn of spanning in de onderrug. De rugbrace vermindert de druk op de spieren en helpt de houding rond de lendenstreek te verbeteren.<\/p>",
+        "button_style": "btn--primary",
+        "button_label": "Bekijk aanbod",
+        "button_link": "shopify:\/\/collections\/rugsteun"
+      }
+    },
+    "1636360953a3f8a06e": {
+      "type": "featured-row",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "image": "shopify:\/\/shop_images\/Posture_shirt.jpg",
+        "section_style": "section-blank",
+        "text_size": "large",
+        "image_alignement": "right",
+        "text_alignment": "",
+        "title": "Voorkom overbelasting van de houding met een houdingscorrigerend shirt",
+        "text": "<p>Een optimale zithouding kan in de overgrote meerderheid van de gevallen pijn of spanning in de nek en rug voorkomen. Het kan echter moeilijk zijn om er steeds aan te denken om rechtop te gaan zitten. Als u hulp nodig heeft om eraan te denken rechtop te gaan zitten, is ons Posture Shirt™ een ideale keuze. De geïntegreerde ondersteunende banden op de rug, NeuroBands™ genaamd, trekken zachtjes aan de schouders om u eraan te herinneren ze weer op hun plaats te trekken. Op deze manier fungeert het Posture Shirt™ als een geheugensteuntje, waardoor het gemakkelijker wordt om eraan te denken uw rug de hele dag recht te houden en van een goede houding een gewoonte te maken.<\/p>",
+        "button_style": "btn--primary",
+        "button_label": "Bekijk aanbod",
+        "button_link": "shopify:\/\/collections\/posture-shirt"
+      }
+    },
+    "163636096212911faf": {
+      "type": "featured-row",
+      "disabled": true,
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "section_style": "section-blank",
+        "text_size": "large",
+        "image_alignement": "left",
+        "text_alignment": "",
+        "title": "Optimaliseer uw zithouding met ergonomische producten",
+        "text": "<p>Wij bieden ook een reeks producten die specifiek helpen bij uw houding aan het bureau, waaronder onze BackJoy Posture+, ondersteunend kussen en rugkussen. Alle producten helpen om lage rugpijn en spanning te voorkomen, die gemakkelijk kunnen ontstaan bij een voornamelijk zittend beroep.<br\/>De producten bieden een goede lendensteun, verminderen de druk op de onderrugspieren en brengen de natuurlijke lendenwerveling naar boven door de bekken naar voren te duwen. Gebruik de producten aan uw bureau, eettafel, op de bank, in de auto of overal waar u extra lendensteun nodig heeft.<\/p>",
+        "button_style": "btn--primary",
+        "button_label": "Bekijk aanbod",
+        "button_link": "shopify:\/\/collections\/andere-producten"
+      }
+    }
+  },
+  "order": [
+    "1636011126d2c47b6d",
+    "163600963681aed54c",
+    "16363589409f6f02aa",
+    "163636123033606d35",
+    "16363636370262f21e",
+    "163636091562f8a855",
+    "1636360953a3f8a06e",
+    "163636096212911faf"
+  ]
+}

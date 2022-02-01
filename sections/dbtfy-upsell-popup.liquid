@@ -1,0 +1,196 @@
+{%- if content_for_header contains 'debutify' and settings.dbtfy_upsell_popup and section.blocks.size > 0 -%}
+  <div class="dbtfy dbtfy-upsell_popup"
+       data-section-id="{{ section.id }}"
+       data-section-type="upsell-popup"
+       data-popup-width="{{ section.settings.dbtfy_upsell_popup_width }}"
+       data-popup-description="{{ section.settings.dbtfy_upsell_popup_description }}"
+       data-cart-text="{{ section.settings.dbtfy_upsell_popup_cart }}"
+       data-checkout-text="{{ section.settings.dbtfy_upsell_popup_checkout }}"
+       data-text-alignment="{{ section.settings.text_alignment }}"
+       data-range="{{ section.settings.dbtfy_upsell_popup_range }}"
+  >
+
+    <!-- Blocks -->
+    {%- for block in section.blocks -%}
+      {%- assign title = block.settings.dbtfy_upsell_popup_title -%}
+      {%- assign text = block.settings.dbtfy_upsell_popup_text -%}
+      {%- assign product_trigger = block.settings.dbtfy_upsell_popup_product_trigger -%}
+      {%- assign product_offer = block.settings.dbtfy_upsell_popup_product_offer -%}
+      {%- assign icons = block.settings.dbtfy_upsell_popup_icons -%}
+      {%- assign button_label = block.settings.button_label -%}
+      {%- assign discount_name = block.settings.dbtfy_upsell_popup_discount_name -%}
+      {%- assign discount_amount = block.settings.dbtfy_upsell_popup_discount_amount -%}
+      {%- assign discount_type = block.settings.dbtfy_upsell_popup_discount_type -%}
+
+      <div class="upsell-popup-item"
+           data-title="{{ title }}"
+           data-text="{{ text }}"
+           data-product-trigger="{{ product_trigger }}"
+           data-product-offer="{{ product_offer }}"
+           data-icons="{{ icons }}"
+           data-button-label="{{ button_label }}"
+           data-discount-name="{{ discount_name }}"
+           data-discount-amount="{{ discount_amount }}"
+           data-discount-type="{{ discount_type }}"
+           data-block-id="{{ block.id }}"
+      ></div>
+    {%- endfor -%}
+  </div>
+{%- endif -%}
+
+{%- schema -%}
+  {
+    "name": "⚡ Upsell pop-up",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Help Center"
+      },
+      {
+        "type": "paragraph",
+        "content": "[Follow our step-by-step tutorial](https:\/\/help.debutify.com\/en\/articles\/5054298-how-to-use-upsell-pop-up-in-3-0)"
+      },
+      {
+        "type": "paragraph",
+        "content": "To enable/disable this add-on, go to Theme settings > Debutify Add-ons."
+      },
+      {
+        "type": "select",
+        "id": "dbtfy_upsell_popup_width",
+        "label": "Size",
+        "default": "",
+        "options": [
+          {
+            "value": "",
+            "label": "Medium"
+          },
+          {
+            "value": "modal-large",
+            "label": "Large"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "dbtfy_upsell_popup_description",
+        "label": "Description text",
+        "default": "See product details"
+      },
+      {
+        "type": "text",
+        "id": "dbtfy_upsell_popup_cart",
+        "label": "Decline offer text",
+        "default": "No thanks"
+      },
+      {
+        "type": "text",
+        "id": "dbtfy_upsell_popup_checkout",
+        "label": "Checkout text",
+        "default": "Go to checkout →"
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text alignment",
+        "default": "text-center",
+        "options": [
+          {
+            "value": "",
+            "label": "Left"
+          },
+          {
+            "value": "text-center",
+            "label": "Center"
+          }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "dbtfy_upsell_popup_range",
+        "label": "Progress bar width",
+        "min": 50,
+        "max": 90,
+        "step": 1,
+        "unit": "%",
+        "default": 75
+      }
+    ],
+    "blocks" : [
+      {
+        "type": "upsell",
+        "name": "Upsell",
+        "settings": [
+          {
+            "type": "text",
+            "id": "dbtfy_upsell_popup_title",
+            "label": "Title",
+            "default": "Special Offer!"
+          },
+          {
+            "type": "richtext",
+            "id": "dbtfy_upsell_popup_text",
+            "label": "Text",
+            "default": "<p>Add this product to your cart and get 20% OFF your entire order.<\/p>"
+          },
+          {
+            "type": "product",
+            "id": "dbtfy_upsell_popup_product_trigger",
+            "label": "Product trigger",
+            "info": "Leave empty to trigger on all products"
+          },
+          {
+            "type": "product",
+            "id": "dbtfy_upsell_popup_product_offer",
+            "label": "Product offer"
+          },
+          {
+            "type": "text",
+            "id": "dbtfy_upsell_popup_icons",
+            "label": "Button icon",
+            "info": "[View all available icons](https:\/\/material.io\/resources\/icons)",
+            "default": "card_giftcard"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button label",
+            "default": "Claim offer!"
+          },
+          {
+            "type": "header",
+            "content": "Discount code",
+            "info": "[Create a discount code](\/admin\/discounts\/new)"
+          },
+          {
+            "type": "text",
+            "id": "dbtfy_upsell_popup_discount_name",
+            "label": "Name",
+            "placeholder": "20OFF"
+          },
+          {
+            "type": "text",
+            "id": "dbtfy_upsell_popup_discount_amount",
+            "label": "Amount",
+            "placeholder": "20"
+          },
+          {
+            "type": "radio",
+            "id": "dbtfy_upsell_popup_discount_type",
+            "label": "Type",
+            "default": "%",
+            "options": [
+              {
+                "value": "%",
+                "label": "Percentage"
+              },
+              {
+                "value": "$",
+                "label": "Fixed amount"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+{%- endschema -%}

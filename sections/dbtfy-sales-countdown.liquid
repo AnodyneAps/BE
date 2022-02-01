@@ -1,0 +1,246 @@
+{%- if content_for_header contains 'debutify' and settings.dbtfy_sales_countdown -%}
+  {%- if section.blocks.size >= 1 -%}
+    <div class="dbtfy-sales-countdown-templates" hidden
+         data-text-days="{{ section.settings.dbtfy_sales_countdown_d }}"
+         data-text-hours="{{ section.settings.dbtfy_sales_countdown_h }}"
+         data-text-minutes="{{ section.settings.dbtfy_sales_countdown_m }}"
+         data-text-seconds="{{ section.settings.dbtfy_sales_countdown_s }}">
+
+      {%- for block in section.blocks -%}
+        <div class="dbtfy dbtfy-sales_countdown dbtfy-countdown-{{ block.id }}"
+            data-countdown-id="dbtfy-countdown-{{ block.id }}"
+            data-action="{{ block.settings.when_timer_id_over_action }}"
+            data-date="{{ block.settings.dbtfy_sales_countdown_date }}"
+            data-hours="{{ block.settings.dbtfy_sales_countdown_time_hours }}"
+            data-minutes="{{ block.settings.dbtfy_sales_countdown_time_mins }}"
+            data-visibility="{{ block.settings.visibility }}"
+            data-show-in-product-grid="{{ block.settings.dbtfy_sales_countdown_product_grid }}"
+            data-tag="{{ block.settings.dbtfy_sales_countdown_tag }}"
+            data-type="{{ block.settings.dbtfy_sales_countdown_type }}"
+            data-product="{{ all_products[block.settings.dbtfy_sales_countdown_product].id }}"
+            data-collection="{{ collections[block.settings.dbtfy_sales_countdown_collection].handle }}">
+
+          <div id="SalesCountdown-{{ block.id }}" class="SalesCountdown">
+            {%- unless section.settings.dbtfy_sales_countdown_icons == blank -%}
+            <span class="{{ settings.icon }}">{{ section.settings.dbtfy_sales_countdown_icons }}</span>
+            {%- endunless -%}
+
+            {%- unless section.settings.dbtfy_sales_countdown_prefix == blank -%}
+            <span class="prefix-sales_countdown spacer-left-xs">{{ section.settings.dbtfy_sales_countdown_prefix }}</span>
+            {%- endunless -%}
+
+            <strong class="timer-sales_countdown text-secondary">
+              <span class="days-sales_countdown"></span>
+              <span class="hours-sales_countdown"></span>
+              <span class="minutes-sales_countdown"></span>
+              <span class="seconds-sales_countdown"></span>
+            </strong>
+
+            {%- unless section.settings.dbtfy_sales_countdown_suffix == blank -%}
+            <span class="suffix-sales_countdown">{{ section.settings.dbtfy_sales_countdown_suffix }}</span>
+            {%- endunless -%}
+          </div>
+          {%- if block.settings.timer_message != blank and block.settings.when_timer_id_over_action == "message" -%}
+          <div class="dbtfy-sales_countdown_message" hidden>
+            {%- unless section.settings.dbtfy_sales_countdown_icons == blank -%}
+            <span class="{{ settings.icon }} icon-width">{{ section.settings.dbtfy_sales_countdown_icons }}</span>
+            {%- endunless -%}
+
+            <span>{{ block.settings.timer_message }}</span>
+          </div>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+{%- endif -%}
+
+{% schema %}
+  {
+    "name": "⚡ Sales countdown",
+    "class": "sales-countdown-section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Help Center"
+      },
+      {
+        "type": "paragraph",
+        "content": "[Follow our step-by-step tutorial](https:\/\/help.debutify.com\/en\/articles\/5054213-how-to-display-a-sales-countdown-on-your-product-page-in-3-0)"
+      },
+      {
+        "type": "text",
+        "id": "dbtfy_sales_countdown_icons",
+        "label": "Icon",
+        "default": "local_fire_department",
+        "info": "Enter the name of any free solid icons on [Material Design](https:\/\/material.io\/resources\/icons\/?style=baseline)"
+      },
+      {
+        "type": "text",
+        "id": "dbtfy_sales_countdown_prefix",
+        "label": "Prefix",
+        "default": "Sale ends in"
+      },
+      {
+        "type": "text",
+        "id": "dbtfy_sales_countdown_suffix",
+        "label": "Suffix"
+      },
+      {
+        "type": "header",
+        "content": "Translation Settings"
+      },
+      {
+        "type": "text",
+        "id": "dbtfy_sales_countdown_d",
+        "label": "Days",
+        "default": "d"
+      },
+      {
+        "type": "text",
+        "id": "dbtfy_sales_countdown_h",
+        "label": "Hours",
+        "default": "h"
+      },
+      {
+        "type": "text",
+        "id": "dbtfy_sales_countdown_m",
+        "label": "Minutes",
+        "default": "m"
+      },
+      {
+        "type": "text",
+        "id": "dbtfy_sales_countdown_s",
+        "label": "Seconds",
+        "default": "s"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "countdown",
+        "name": "Sales countdown",
+        "settings": [
+          {
+            "type": "header",
+            "content": "Timer settings"
+          },
+          {
+            "type": "text",
+            "id": "dbtfy_sales_countdown_date",
+            "label": "Sale end date",
+            "info": "MM\/DD\/YYYY"
+          },
+          {
+            "type": "range",
+            "id": "dbtfy_sales_countdown_time_hours",
+            "label": "Hours",
+            "min": 0,
+            "max": 23,
+            "step": 1,
+            "default": 2
+          },
+          {
+            "type": "range",
+            "id": "dbtfy_sales_countdown_time_mins",
+            "label": "Minutes",
+            "min": 0,
+            "max": 59,
+            "step": 1,
+            "default": 48
+          },
+          {
+            "type": "header",
+            "content": "When timer is over",
+            "info": "The 'reset timer' action does not work with the Date field. If this action is selected it will take the value of 'hours' and 'minutes' for the timer."
+          },
+          {
+            "type": "select",
+            "id": "when_timer_id_over_action",
+            "options": [
+              {
+                "value": "hide",
+                "label": "Hide timer"
+              },
+              {
+                "value": "reload",
+                "label": "Reload timer"
+              },
+              {
+                "value": "message",
+                "label": "Show message"
+              }
+            ],
+            "label": "Action after finish",
+            "default": "hide"
+          },
+          {
+            "type": "textarea",
+            "id": "timer_message",
+            "label": "Message"
+          },
+          {
+            "type": "header",
+            "content": "Visibility Settings"
+          },
+          {
+            "type": "checkbox",
+            "id": "dbtfy_sales_countdown_product_grid",
+            "label": "Show in product grid",
+            "default": true
+          },
+          {
+            "type": "radio",
+            "id": "visibility",
+            "label": "Visibility",
+            "options": [
+              {
+                "value": "all",
+                "label": "All"
+              },
+              {
+                "value": "collection",
+                "label": "Collection based"
+              },
+              {
+                "value": "type",
+                "label": "Type based"
+              },
+              {
+                "value": "tag",
+                "label": "Tag based"
+              },
+              {
+                "value": "product",
+                "label": "Product based"
+              }
+            ],
+            "info": "From lowest to higher priority.",
+            "default": "all"
+          },
+          {
+            "type": "collection",
+            "id": "dbtfy_sales_countdown_collection",
+            "label": "Collection"
+          },
+          {
+            "type": "textarea",
+            "id": "dbtfy_sales_countdown_type",
+            "label": "Product types",
+            "info": "Comma-separated"
+          },
+          {
+            "type": "textarea",
+            "id": "dbtfy_sales_countdown_tag",
+            "label": "Product tags",
+            "info": "Comma-separated"
+          },
+          {
+            "type": "product",
+            "id": "dbtfy_sales_countdown_product",
+            "label": "Product"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

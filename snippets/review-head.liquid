@@ -1,0 +1,7 @@
+{%- unless settings.review_app == "" -%}
+  {%- case settings.review_app -%}
+    {%- when 'opinew' -%}
+      {% render 'opinew_head' %}
+
+  {%- endcase -%}
+{%- endunless -%}

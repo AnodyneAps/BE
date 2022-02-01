@@ -1,0 +1,120 @@
+{%- if content_for_header contains 'debutify' and settings.dbtfy_product_bullet_points and section.blocks.size > 0 -%}
+  <div class="dbtfy dbtfy-product_bullet_points hide"
+       data-position="{{ section.settings.dbtfy_bullet_points_position }}">
+
+    <ul>
+      {%- for block in section.blocks -%}
+        {%- assign point_text = block.settings.dbtfy_bullet_point_text | remove: "<p>" | remove: "</p>" -%}
+        {%- assign point_icon = block.settings.dbtfy_bullet_point_icon -%}
+
+        {%- assign visibility_type = block.settings.dbtfy_bullet_point_type -%}
+        {%- assign visibility_tag = block.settings.dbtfy_bullet_point_tag -%}
+        {%- assign visibility_product = block.settings.dbtfy_bullet_point_product -%}
+        {%- assign visibility_collection = block.settings.dbtfy_bullet_point_collection -%}
+
+        {%- if point_text != blank -%}
+          <li class="pbp-point"
+              data-product-types="{{ visibility_type }}"
+              data-product-tags="{{ visibility_tag }}"
+              data-product-handle="{{ visibility_product }}"
+              data-product-collection="{{ visibility_collection }}">
+
+            {% if point_icon != blank %}
+              <span class="{{ settings.icon }} text-secondary">{{ point_icon }}</span>
+            {% endif %}
+
+            {{ point_text }}
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </div>
+{%- endif -%}
+
+{%- schema -%}
+  {
+    "name": "⚡ Product bullet points",
+	  "class": "dbtfy-product-bullet-points",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Help Center"
+      },
+      {
+        "type": "paragraph",
+        "content": "[Follow our step-by-step tutorial](https:\/\/help.debutify.com\/en\/articles\/5227389-how-to-add-product-bullet-points-add-on-in-debutify-3-0-shopify-theme)"
+      },
+      {
+        "type": "paragraph",
+        "content": "To enable/disable this add-on, go to Theme settings > Debutify Add-ons."
+      },
+      {
+        "type": "header",
+        "content": "Position settings"
+      },
+      {
+        "type": "select",
+        "id": "dbtfy_bullet_points_position",
+        "label": "Bullet points position",
+        "default": "under-product-price",
+        "options": [
+          {
+            "value": "under-product-price",
+            "label": "Under product price"
+          },
+          {
+            "value": "under-addtocart-button",
+            "label": "Under the add-to-cart button"
+          }
+        ]
+      }
+    ],
+    "blocks" : [
+	    {
+        "type": "point",
+        "name": "Bullet point",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "dbtfy_bullet_point_text",
+            "label": "Text",
+            "default": "<p>Example point text</p>"
+          },
+          {
+            "type": "text",
+            "id": "dbtfy_bullet_point_icon",
+            "label": "Icon",
+            "default": "check_circle",
+            "info": "[View all available icons](https:\/\/material.io\/resources\/icons)"
+          },
+          {
+            "type": "header",
+            "content": "Visibility settings"
+          },
+          {
+            "type": "text",
+            "id": "dbtfy_bullet_point_type",
+            "label": "Product type",
+		      	"info": "Comma-separated"
+          },
+          {
+            "type": "text",
+            "id": "dbtfy_bullet_point_tag",
+            "label": "Product tag",
+            "info": "Comma-separated"
+          },
+          {
+            "type": "product",
+            "id": "dbtfy_bullet_point_product",
+            "label": "Product"
+          },
+          {
+            "type": "collection",
+            "id": "dbtfy_bullet_point_collection",
+            "label": "Collection"
+          }
+        ]
+      }
+    ]
+  }
+{%- endschema -%}

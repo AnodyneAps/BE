@@ -1,0 +1,23 @@
+{%- if content_for_header contains 'debutify' and settings.dbtfy_agree_to_terms -%}
+  <div class="dbtfy dbtfy-agree_to_terms {% if location == 'cart-drawer' %} spacer-top{% else %} spacer-bottom{% endif %}">
+    {%- if settings.dbtfy_agree_text != blank -%}
+      {%- assign order_title = settings.dbtfy_agree_order_title -%}
+
+      <div class="at-terms-checkbox checkbox rte spacer-bottom-none">
+        <input class="at-terms-input"
+               id="agree-terms"
+               type="checkbox"
+               name="attributes[{{ order_title }}]"
+               value="{{ settings.dbtfy_agree_order_yes_answer }}">
+
+        <label for="agree-terms">
+          {{ settings.dbtfy_agree_text | replace: '<p>', '' | replace: '</p>', '' }}
+        </label>
+      </div>
+    {%- endif -%}
+
+    {%- if settings.dbtfy_agree_warning_text != blank -%}
+      <p class="at-terms-error-message errors spacer-bottom-none spacer-top-sm" hidden="hidden"></p>
+    {%- endif -%}
+  </div>
+{% endif %}

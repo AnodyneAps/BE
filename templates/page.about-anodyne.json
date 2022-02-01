@@ -1,0 +1,192 @@
+{
+  "sections": {
+    "163722745665ec8983": {
+      "type": "mission",
+      "blocks": {
+        "1637227456ea4938f3-0": {
+          "type": "html",
+          "settings": {
+            "mission_title": "<h1>Over Anodyne<\/h1>",
+            "mission_description": "",
+            "column_width": 12,
+            "column_width_mobile": 12,
+            "text_alignment": "text-center",
+            "btn_text": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1637227456ea4938f3-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "margin__bottom": 0,
+        "section_style": "section-blank",
+        "wrapper_size": ""
+      }
+    },
+    "1636031658e0d1a514": {
+      "type": "featured-video",
+      "blocks": {
+        "1636031658e0d1a514-0": {
+          "type": "video",
+          "settings": {
+            "video_cover_image": "shopify:\/\/shop_images\/cover_about.jpg",
+            "video_cover_image_fr": "shopify:\/\/shop_images\/cover_about.jpg",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=aUOn534ScWc",
+            "video_url_fr": "https:\/\/www.youtube.com\/watch?v=ttlT7yb1u9I",
+            "animated_button": true
+          }
+        }
+      },
+      "block_order": [
+        "1636031658e0d1a514-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": false,
+        "title": "",
+        "subtitle": "",
+        "section_style": "section-blank"
+      }
+    },
+    "1636031478e064afb7": {
+      "type": "featured-row",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "image": "shopify:\/\/shop_images\/MK2.jpg",
+        "section_style": "section-blank",
+        "text_size": "large",
+        "image_alignement": "left",
+        "text_alignment": "",
+        "title": "Wie zijn wij?",
+        "text": "<p>Anodyne® is de officiële Europese distributeur van houdingscorrigerende kleding van AlignMed, het bedrijf achter het gepatenteerde en medisch geregistreerde Posture Shirt™. Anodyne® bestaat sinds 2014, toen het echtpaar Mia en Kenneth het allereerste Posture Shirt™ vanuit hun huis verscheepten. Sindsdien zijn er meer dan 300.000 producten vanuit ons magazijn verzonden en is het assortiment uitgebreid met een breed scala aan producten die de lichaamshouding verbeteren, pijn helpen verlichten en het dagelijks welzijn vergroten.<\/p>",
+        "button_style": "btn-outline-primary",
+        "button_label": "Bekijk onze ambitie en waarden",
+        "button_link": "shopify:\/\/pages\/onze-visie"
+      }
+    },
+    "1636027351fe143cef": {
+      "type": "featured-colleagues",
+      "disabled": true,
+      "blocks": {
+        "1636027351fe143cef-0": {
+          "type": "featured_colleagues",
+          "settings": {
+            "colleague_desc": "<h2>Kenneth Avnsted<\/h2><p>Direktør \/ Grundlægger\n<\/p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "774d0d2e-e58b-4084-817e-92a1fc770fde": {
+          "type": "featured_colleagues",
+          "settings": {
+            "colleague_desc": "<h2>Mia Avnsted<\/h2><p>Driftschef \/ Medstifter<\/p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "18698e24-dfd6-452d-aa50-7151eeee1215": {
+          "type": "featured_colleagues",
+          "settings": {
+            "colleague_desc": "<h2>Anne Hill<\/h2><p>Marketing Manager<\/p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "38b2ccec-e91c-42c3-8455-25d1be1fe787": {
+          "type": "featured_colleagues",
+          "settings": {
+            "colleague_desc": "<h2>Peter Fronius<\/h2><p>Kundeserviceansvarlig<\/p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "a142b6ba-b136-49bf-95da-dde39323c9a6": {
+          "type": "featured_colleagues",
+          "settings": {
+            "colleague_desc": "<h2>Munir Younosi<\/h2><p>Web Developer<\/p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "d5c4b073-6e41-406e-bfb4-fdcd1aacc0d8": {
+          "type": "featured_colleagues",
+          "settings": {
+            "colleague_desc": "<h2>Simone Ahrenfeldt<\/h2><p>Marketingkoordinator<\/p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "a88e16d5-0c93-46e3-a966-aea4c819fa66": {
+          "type": "featured_colleagues",
+          "settings": {
+            "colleague_desc": "<h2>Steffen Søe<\/h2><p>Brand Manager<\/p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "c9a6e38e-bb3e-4af2-a27d-426498a4250c": {
+          "type": "featured_colleagues",
+          "settings": {
+            "colleague_desc": "<h2>Jan Christiansen<\/h2><p>Office Manager<\/p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "9e43c8e1-9b8c-4ddc-9690-fc8565418dda": {
+          "type": "featured_colleagues",
+          "settings": {
+            "colleague_desc": "<h2>Jengin Sulaiman<\/h2><p>Amazon Specialist<\/p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "ad265b2c-ceaf-47c8-9206-41d898682445": {
+          "type": "featured_colleagues",
+          "settings": {
+            "colleague_desc": "<h2>Martin Jørgensen<\/h2><p>Videoproducer<\/p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "db5a0a1a-93f7-48ca-82cd-fa78378a5fea": {
+          "type": "featured_colleagues",
+          "settings": {
+            "colleague_desc": "<h2>Justin Houtepen<\/h2><p>Country Manager<\/p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "f571baf6-7bc2-4b45-8f2f-0dbf6519482c": {
+          "type": "featured_colleagues",
+          "settings": {
+            "colleague_desc": "<h2>Fabian Hofmann<\/h2><p>Direktør (Schweiz)<\/p>",
+            "text_alignment": "text-left"
+          }
+        }
+      },
+      "block_order": [
+        "1636027351fe143cef-0",
+        "774d0d2e-e58b-4084-817e-92a1fc770fde",
+        "18698e24-dfd6-452d-aa50-7151eeee1215",
+        "38b2ccec-e91c-42c3-8455-25d1be1fe787",
+        "a142b6ba-b136-49bf-95da-dde39323c9a6",
+        "d5c4b073-6e41-406e-bfb4-fdcd1aacc0d8",
+        "a88e16d5-0c93-46e3-a966-aea4c819fa66",
+        "c9a6e38e-bb3e-4af2-a27d-426498a4250c",
+        "9e43c8e1-9b8c-4ddc-9690-fc8565418dda",
+        "ad265b2c-ceaf-47c8-9206-41d898682445",
+        "db5a0a1a-93f7-48ca-82cd-fa78378a5fea",
+        "f571baf6-7bc2-4b45-8f2f-0dbf6519482c"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Meet the team",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "wrapper_size": ""
+      }
+    }
+  },
+  "order": [
+    "163722745665ec8983",
+    "1636031658e0d1a514",
+    "1636031478e064afb7",
+    "1636027351fe143cef"
+  ]
+}

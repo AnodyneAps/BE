@@ -1,0 +1,1704 @@
+{
+  "current": {
+    "sticky_header": true,
+    "sticky_announcement_bar": true,
+    "hero_header": false,
+    "height_header": 100,
+    "height_header_mobile": 70,
+    "icon": "material-icons",
+    "grid_product_truncate": false,
+    "collection_grid_card": false,
+    "collection_grid_products_count": false,
+    "collection_grid_animation": true,
+    "collection_grid_button_style": "",
+    "word_count": 33,
+    "show_currency_selector": false,
+    "localization_position": "header",
+    "newsletter_name": false,
+    "newsletter_optin": false,
+    "section_height": "small",
+    "section_height_mobile": "small",
+    "border_radius": 1,
+    "button_padding_x": 30,
+    "button_padding_y": 15,
+    "show_top_button": false,
+    "top_button_mobile": false,
+    "top_button_position": "right",
+    "page_wrapper": "1248",
+    "payment_icon_size": 24,
+    "sale_type": "percentage",
+    "zindex_drawer": "999",
+    "cart_notes_enable": false,
+    "color_announcement_bg": "#444444",
+    "color_nav_text": "#252525",
+    "color_default": "#f7f7f7",
+    "color_headings": "#252525",
+    "color_body_text": "#353535",
+    "color_primary": "#398e82",
+    "color_secondary": "#398e82",
+    "color_accent": "#f48400",
+    "color_drawer_bg": "#f7f7f7",
+    "color_drawer_default": "#eaeaea",
+    "color_drawer_border": "#e7e7e7",
+    "color_drawer_text": "#444444",
+    "color_drawer_primary": "#398e82",
+    "color_drawer_button_text": "#eaeaea",
+    "color_drawer_secondary": "#398e82",
+    "color_drawer_input": "#ffffff",
+    "color_drawer_error_text": "#f48400",
+    "color_drawer_sales_price": "#f48400",
+    "color_drawer_overlay": "#202020",
+    "color_drawer_overlay_opacity": 35,
+    "color_footer_default": "#bbe4e1",
+    "color_footer_primary": "#398e82",
+    "color_footer_secondary": "#398e82",
+    "color_footer_sales_price": "#398e82",
+    "color_overlay": "#252525",
+    "color_transparent_nav_text": "#f7f7f7",
+    "opacity_overlay": 16,
+    "favicon": "shopify:\/\/shop_images\/Favicon.png",
+    "social_facebook_link": "https:\/\/www.facebook.com\/anodyne.dk",
+    "social_instagram_link": "https:\/\/www.instagram.com\/anodyne.dk",
+    "header_family": "poppins_n4",
+    "header_font_size": 32,
+    "header_font_size_big": 50,
+    "header_spacing": 0.1,
+    "accent_spacing": 0.1,
+    "button_uppercase": true,
+    "base_family": "avenir_next_n4",
+    "base_font_size": 15,
+    "custom_quantity_breaks": true,
+    "dbtfy_back_in_stock": true,
+    "dbtfy_cart_countdown": false,
+    "dbtfy_cart_favicon": false,
+    "dbtfy_collection_addtocart": false,
+    "dbtfy_collection_filters": false,
+    "dbtfy_color_swatches": true,
+    "dbtfy_cookie_box": false,
+    "dbtfy_custom_currencies": false,
+    "dbtfy_delivery_time": false,
+    "dbtfy_inactive_tab_message": false,
+    "dbtfy_instagram_feed": false,
+    "dbtfy_inventory_quantity": false,
+    "dbtfy_live_view": false,
+    "dbtfy_mega_menu": true,
+    "dbtfy_newsletter_popup": false,
+    "dbtfy_order_feedback": false,
+    "dbtfy_order_tracking": false,
+    "dbtfy_product_tabs": true,
+    "dbtfy_quantity_breaks": false,
+    "dbtfy_quick_view": false,
+    "dbtfy_recently_viewed": false,
+    "dbtfy_sales_countdown": false,
+    "dbtfy_sales_pop": false,
+    "dbtfy_shop_protect": false,
+    "dbtfy_skip_cart": false,
+    "dbtfy_size_chart": false,
+    "dbtfy_sticky_addtocart": false,
+    "synced_variant_image": false,
+    "dbtfy_wish_list": false,
+    "dbtfy_addtocart_animation_type": "pulse",
+    "dbtfy_back_in_stock_richtext": "<p>Laat me weten wanneer dit product op voorraad is:<\/p>",
+    "dbtfy_back_in_stock_btn": "Hou mij op hoogte",
+    "dbtfy_back_in_stock_btn_animation": true,
+    "dbtfy_back_in_stock_success": "<p>Wij zullen u op de hoogte brengen zodra het artikel op voorraad is!<\/p>",
+    "dbtfy_cart_discount_label": "Kortingscode",
+    "dbtfy_cart_discount_placeholder": "Vul hier je kortingscode in",
+    "dbtfy_cart_discount_apply_button_label": "Gebruik kortingscode",
+    "nlify_cart_notification": "Heeft u de maattabel gecontroleerd voor de juiste maat?",
+    "dbtfy_cart_goal_before_text": "Nog",
+    "dbtfy_cart_goal_amount": "0",
+    "dbtfy_cart_goal_after_text": "te gaan tot GRATIS verzending!",
+    "dbtfy_cart_goal_reached_text": "Gratis verzending!",
+    "dbtfy_cart_discount_savings_label": "Totale besparing",
+    "dbtfy_inactive_tab_message_text_first": "👕 up to 50% off",
+    "dbtfy_inactive_tab_message_text_second": "👕 Anodyne discounts",
+    "dbtfy_infinite_scroll_loading_text": "Meer laden",
+    "dbtfy_inventory_quantity_threshold": 20,
+    "dbtfy_menu_bar_link_list": "main-menu",
+    "dbtfy_menu_bar_mobile": false,
+    "dbtfy_menu_bar_desktop": false,
+    "dbtfy_newsletter_floating_bar": false,
+    "dbtfy_floating_bar_text": "",
+    "dbtfy_newsletter_popup_title": "ONTVANG EEN CODE VOOR 10% KORTING",
+    "dbtfy_newsletter_popup_text": "<p>Meld je aan voor onze nieuwsbrief en ontvang een code voor <strong>10% korting <\/strong>op al onze producten!<\/p>",
+    "dbtfy_newsletter_popup_close": "Nee, dank je",
+    "dbtfy_newsletter_popup_title_success": "Dankjewel!",
+    "dbtfy_newsletter_popup_text_success": "<p>Vul de code in, in de winkelwagen en ontvang 10% korting op ALLE producten.<\/p>",
+    "dbtfy_newsletter_popup_reward_button": "Gebruik de code",
+    "dbtfy_newsletter_popup_discount_name": "R6QG32",
+    "dbtfy_newsletter_popup_discount_amount": "10",
+    "dbtfy_order_feedback_select_title": "Hoe heeft u ons gevonden?",
+    "dbtfy_order_feedback_default_options": "Maak een keuze",
+    "dbtfy_order_feedback_select_options": "Fysiotherapeut, Social Media, Google",
+    "dbtfy_order_feedback_error_message": "Gelieve hieronder een optie te kiezen",
+    "dbtfy_order_feedback_other_option": "Anders",
+    "dbtfy_order_feedback_other_placeholder": "Anders, namelijk",
+    "dbtfy_order_feedback_error_message_other": "Gelieve het onderstaande tekstveld in te vullen",
+    "dbtfy_order_feedback_title": "Hoe heeft u ons gevonden?",
+    "dbtfy_order_feedback_other_title": "Hoe heeft u ons gevonden? (anders)",
+    "dbtfy_recently_viewed_title": "Recent bekeken",
+    "dbtfy_smart_search_products": "Producten",
+    "dbtfy_smart_search_collections": "Collecties",
+    "dbtfy_smart_search_articles": "Artikelen",
+    "dbtfy_smart_search_pages": "Pagina's",
+    "dbtfy_smart_search_all": "Laat alle resultaten zien",
+    "dbtfy_social_discount_link": "Deel en krijg 10% korting!",
+    "dbtfy_social_discount_popup_title": "Deel en krijg 10% korting!",
+    "dbtfy_social_discount_popup_text": "Deel dit met je vrienden en krijg 10% korting!",
+    "dbtfy_social_discount_reward_title": "Bedankt voor het delen!",
+    "dbtfy_social_discount_reward_text": "<p>Kopieer de kortingscode hieronder en plak hem in je mandje om je korting te krijgen!<\/p>",
+    "dbtfy_social_discount_reward_button": "Gebruik kortingscode",
+    "dbtfy_social_discount_reward_code": "20GWS15",
+    "dbtfy_social_discount_reward_amount": "10",
+    "dbtfy_trust_badge_image": "shopify:\/\/shop_images\/BE_payment.jpg",
+    "dbtfy_trust_badge_text": "Gegarandeerd veilig & betrouwbaar afrekenen",
+    "dbtfy_wish_list_add_text": "Voeg toe aan verlanglijstje",
+    "dbtfy_wish_list_remove_text": "Verwijder van verlanglijst",
+    "dbtfy_wish_list_empty_text": "Je verlanglijstje is op dit moment leeg.",
+    "dbtfy_wish_list_share_label": "Deel verlanglijstje",
+    "checkout_logo_image": "shopify:\/\/shop_images\/anLOGOF.png",
+    "checkout_accent_color": "#83d0bd",
+    "checkout_button_color": "#83d0bd",
+    "custom_inventory_quantity": true,
+    "sections": {
+      "dbtfy-upsell-popup": {
+        "type": "dbtfy-upsell-popup",
+        "blocks": {
+          "c33e0f5d-9a99-4b9a-84dd-0c337660855d": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verleng de levensduur van uw BH voor slechts €4",
+              "dbtfy_upsell_popup_text": "<p>Voeg een waszakje toe en verleng de levensduur van uw Anodyne® BH !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "anodyne-bh",
+              "dbtfy_upsell_popup_product_offer": "waszakje-bh",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Aan winkelwagen toevoegen – €4",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "50e55a3d-d677-4fab-8f02-8a97c345cab0": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verleng de levensduur van uw Posture Shirt® voor slechts €4",
+              "dbtfy_upsell_popup_text": "<p>Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-wit",
+              "dbtfy_upsell_popup_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Aan winkelwagen toevoegen – €4",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "fb11145f-a6c5-4e35-998f-59908e1d4ca1": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verleng de levensduur van uw Posture Shirt® voor slechts €4",
+              "dbtfy_upsell_popup_text": "<p>Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-zwart",
+              "dbtfy_upsell_popup_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Aan winkelwagen toevoegen – €4",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "df1d319d-3187-457b-ba25-e393ed516797": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verleng de levensduur van uw Posture Shirt® voor slechts €4",
+              "dbtfy_upsell_popup_text": "<p>Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-zipper-wit",
+              "dbtfy_upsell_popup_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Aan winkelwagen toevoegen – €4",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "c0a51560-0422-44f1-9b0e-90e2ed60d37b": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verleng de levensduur van uw Posture Shirt® voor slechts €4",
+              "dbtfy_upsell_popup_text": "<p>Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-zipper-zwart",
+              "dbtfy_upsell_popup_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Aan winkelwagen toevoegen – €4",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "d74037ea-8b5e-4176-9820-52c55d9d49b7": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verleng de levensduur van uw Posture Shirt® voor slechts €4",
+              "dbtfy_upsell_popup_text": "<p>Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-nude",
+              "dbtfy_upsell_popup_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Aan winkelwagen toevoegen – €4",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "1f808a0a-b704-4536-ba5c-e06fc54c5225": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verleng de levensduur van uw Posture Shirt® voor slechts €4",
+              "dbtfy_upsell_popup_text": "<p>Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-wit",
+              "dbtfy_upsell_popup_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Aan winkelwagen toevoegen – €4",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "5c1f83d4-39da-4269-99ed-5fe05bceb77e": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verleng de levensduur van uw Posture Shirt® voor slechts €4",
+              "dbtfy_upsell_popup_text": "<p>Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zwart",
+              "dbtfy_upsell_popup_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Aan winkelwagen toevoegen – €4",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "d5fafc05-e1eb-418f-a887-a9cba0e28970": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verleng de levensduur van uw Posture Shirt® voor slechts €4",
+              "dbtfy_upsell_popup_text": "<p>Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-nude",
+              "dbtfy_upsell_popup_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Aan winkelwagen toevoegen – €4",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "02bf9ef4-754c-468e-b722-b7ee265a99c3": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verleng de levensduur van uw Posture Shirt® voor slechts €4",
+              "dbtfy_upsell_popup_text": "<p>Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-wit",
+              "dbtfy_upsell_popup_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Aan winkelwagen toevoegen – €4",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "c22a513d-0724-4d6a-9968-09979cde196e": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verleng de levensduur van uw Posture Shirt® voor slechts €4",
+              "dbtfy_upsell_popup_text": "<p>Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-zwart",
+              "dbtfy_upsell_popup_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Aan winkelwagen toevoegen – €4",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          }
+        },
+        "block_order": [
+          "c33e0f5d-9a99-4b9a-84dd-0c337660855d",
+          "50e55a3d-d677-4fab-8f02-8a97c345cab0",
+          "fb11145f-a6c5-4e35-998f-59908e1d4ca1",
+          "df1d319d-3187-457b-ba25-e393ed516797",
+          "c0a51560-0422-44f1-9b0e-90e2ed60d37b",
+          "d74037ea-8b5e-4176-9820-52c55d9d49b7",
+          "1f808a0a-b704-4536-ba5c-e06fc54c5225",
+          "5c1f83d4-39da-4269-99ed-5fe05bceb77e",
+          "d5fafc05-e1eb-418f-a887-a9cba0e28970",
+          "02bf9ef4-754c-468e-b722-b7ee265a99c3",
+          "c22a513d-0724-4d6a-9968-09979cde196e"
+        ],
+        "settings": {
+          "dbtfy_upsell_popup_width": "",
+          "dbtfy_upsell_popup_description": "See product details",
+          "dbtfy_upsell_popup_cart": "Nee bedankt",
+          "dbtfy_upsell_popup_checkout": "Ga naar de kassa →",
+          "text_alignment": "text-center",
+          "dbtfy_upsell_popup_range": 75
+        }
+      },
+      "dbtfy-quantity-breaks": {
+        "type": "dbtfy-quantity-breaks",
+        "blocks": {
+          "3ecae9fd-6b11-4a20-84b1-0e99e2faaaa2": {
+            "type": "product-break",
+            "settings": {
+              "product_break_show_on_product_page": true,
+              "product_break_visibility": "collection",
+              "product_break_collection": "posture-shirt",
+              "product_break_types": "",
+              "product_break_tags": "",
+              "product_break_product": "",
+              "product_break_range_1": 2,
+              "product_break_discount_code_1": "Test2",
+              "product_break_discount_amount_1": "10",
+              "product_break_discount_type_1": "$",
+              "product_break_range_2": 3,
+              "product_break_discount_code_2": "Test3",
+              "product_break_discount_amount_2": "12",
+              "product_break_discount_type_2": "$",
+              "product_break_range_3": 2,
+              "product_break_discount_code_3": "",
+              "product_break_discount_amount_3": "",
+              "product_break_discount_type_3": "%",
+              "product_break_range_4": 2,
+              "product_break_discount_code_4": "",
+              "product_break_discount_amount_4": "",
+              "product_break_discount_type_4": "%",
+              "product_break_range_5": 2,
+              "product_break_discount_code_5": "",
+              "product_break_discount_amount_5": "",
+              "product_break_discount_type_5": "%"
+            }
+          },
+          "8893dfdd-3b93-46ae-af01-1c25d217f5fc": {
+            "type": "cart-break",
+            "settings": {
+              "cart_break_range": 2,
+              "cart_break_discount_code": "",
+              "cart_break_discount_amount": "",
+              "cart_break_discount_type": "%"
+            }
+          }
+        },
+        "block_order": [
+          "3ecae9fd-6b11-4a20-84b1-0e99e2faaaa2",
+          "8893dfdd-3b93-46ae-af01-1c25d217f5fc"
+        ],
+        "settings": {
+          "dbtfy_quantity_breaks_text": "test",
+          "dbtfy_quantity_breaks_single_text": "Buy _COUNT_: _PRICE_ _SAVED_AMOUNT_",
+          "dbtfy_quantity_breaks_price_type": "total_price",
+          "dbtfy_quantity_breaks_more_discount_text_before": "Add",
+          "dbtfy_quantity_breaks_more_discount_text_after": "more item to unlock",
+          "dbtfy_quantity_breaks_more_discount_text_after_percentage": "off",
+          "dbtfy_quantity_breaks_highest_discount_text": "Highest discount applied!"
+        }
+      },
+      "dbtfy-cart-upsell": {
+        "type": "dbtfy-cart-upsell",
+        "settings": {
+          "dbtfy_cart_upsell_button_style": "btn--primary"
+        }
+      },
+      "dbtfy-color-swatches": {
+        "type": "dbtfy-color-swatches",
+        "settings": {}
+      },
+      "dbtfy-bullet-points": {
+        "type": "dbtfy-bullet-points",
+        "settings": {
+          "dbtfy_bullet_points_position": "under-addtocart-button"
+        }
+      },
+      "dbtfy-sales-countdown": {
+        "type": "dbtfy-sales-countdown",
+        "settings": {
+          "dbtfy_sales_countdown_icons": "local_fire_department",
+          "dbtfy_sales_countdown_prefix": "Sale ends in",
+          "dbtfy_sales_countdown_suffix": "",
+          "dbtfy_sales_countdown_d": "d",
+          "dbtfy_sales_countdown_h": "h",
+          "dbtfy_sales_countdown_m": "m",
+          "dbtfy_sales_countdown_s": "s"
+        }
+      },
+      "dbtfy-delivery-time": {
+        "type": "dbtfy-delivery-time",
+        "settings": {
+          "dbtfy_delivery_time_position": "under-addtocart-button"
+        }
+      },
+      "dbtfy-size-chart": {
+        "type": "dbtfy-size-chart",
+        "settings": {
+          "dbtfy_size_chart_icon": "straighten",
+          "dbtfy_size_chart_title": "Size chart",
+          "dbtfy_size_chart_width": "large"
+        }
+      },
+      "drawer-menu": {
+        "type": "drawer-menu",
+        "settings": {
+          "drawer_link_toggle": true,
+          "email": true,
+          "phone": true,
+          "show_social_medias": true,
+          "title": "Menu",
+          "drawer_top_link_list": "drawer-menu-mobile",
+          "drawer_bottom_link_list": "drawer-menu-customerservice"
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "blocks": {
+          "announcement-0": {
+            "type": "message",
+            "settings": {
+              "announcement_text": "<p>30 dagen retourrecht & gratis retourneren en ruilen  <\/p>",
+              "announcement_text_fr": "",
+              "announcement_counter": "",
+              "announcemen_link": "",
+              "announcement_end_text": "",
+              "announcement_end_text_fr": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-0"
+        ],
+        "settings": {
+          "show_announcement": true,
+          "show_social": false,
+          "email": true,
+          "phone": true,
+          "left_message": "",
+          "right_message": "<p><a href=\"\/pages\/contact\" target=\"_blank\" title=\"Contact\">Contact<\/a><\/p>",
+          "announcement_autoplayspeed": 5
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "main_menu_link_list": "main-menu",
+          "navigation_type": "right",
+          "header_font_size": 12,
+          "logo_link": true,
+          "default_logo": "shopify:\/\/shop_images\/Anodyne_black_medium_d43070bd-9b38-46d2-b042-e8a0a373b2c5.png",
+          "mobile_logo": "shopify:\/\/shop_images\/Anodyne_black_medium_d43070bd-9b38-46d2-b042-e8a0a373b2c5.png",
+          "default_logo_svg": "",
+          "inverted_logo_svg": "",
+          "mobile_logo_svg": "",
+          "logo_width": 150,
+          "logo_mobile_width": 120
+        }
+      },
+      "dbtfy-instagram-feed": {
+        "type": "dbtfy-instagram-feed",
+        "settings": {
+          "dbtfy_instagram_feed_icon": false,
+          "dbtfy_instagram_feed_access_token": "",
+          "dbtfy_instagram_feed_resolution": "low_resolution",
+          "dbtfy_instagram_feed_full_width": false,
+          "title": "From our Instagram",
+          "subtitle": "",
+          "dbtfy_instagram_feed_section_style": "section-border",
+          "dbtfy_instagram_feed_rows": "1",
+          "dbtfy_instagram_feed_desktop_grid": "6",
+          "dbtfy_instagram_feed_mobile_grid": "3"
+        }
+      },
+      "guarantee": {
+        "type": "guarantee",
+        "blocks": {
+          "guarantee-0": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Returns.png",
+              "guarantee_icon": "loyalty",
+              "title": "",
+              "text": "<p>Gratis retourneren en ruilen<\/p>",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "guarantee-1": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Truck.png",
+              "guarantee_icon": "loyalty",
+              "title": "",
+              "text": "<p>Gratis verzending<\/p>",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "guarantee-2": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Smile2.png",
+              "guarantee_icon": "loyalty",
+              "title": "",
+              "text": "<p>30 dagen volledig retourrecht<\/p>",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "bb764f80-013b-4d19-89ae-5e332eb782cf": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Customerservice_copy.png",
+              "guarantee_icon": "loyalty",
+              "title": "",
+              "text": "<p>Neem contact met ons op<\/p>",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "guarantee-0",
+          "guarantee-1",
+          "guarantee-2",
+          "bb764f80-013b-4d19-89ae-5e332eb782cf"
+        ],
+        "settings": {
+          "show_guarantee": true,
+          "guarantee_size": "lg",
+          "section_style": "section-default"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-1": {
+            "type": "link_list",
+            "settings": {
+              "column_width": 1,
+              "title": "Categorieën",
+              "subtitle": "",
+              "footer_link_list": "footer-categories"
+            }
+          },
+          "0bf661af-2d67-4ed7-9f1e-750e2c09c74e": {
+            "type": "link_list",
+            "settings": {
+              "column_width": 1,
+              "title": "Anodyne",
+              "subtitle": "",
+              "footer_link_list": "footer-policies"
+            }
+          },
+          "045bae48-bfff-4e04-a080-14a99dbf2e0c": {
+            "type": "text",
+            "settings": {
+              "column_width": 1,
+              "svg": "",
+              "img_url": "",
+              "logo_width": 150,
+              "title": "Contact",
+              "subtitle": "",
+              "text": "<p>Anodyne.be<\/p><p>Ma. - do: 10:00 - 16:00<br\/>Vrijdag: 10:00 - 15:00<\/p>",
+              "email": true,
+              "phone": true
+            }
+          },
+          "38aab7d5-4020-4b5d-aa34-5f065cd7a210": {
+            "type": "html",
+            "settings": {
+              "column_width": 1,
+              "title": "Socials",
+              "subtitle": "",
+              "facebook_link": "https:\/\/www.facebook.com\/anodyne.be\/",
+              "youtube_link": "https:\/\/www.youtube.com\/channel\/UCFLDlWEPVUrvsuNjVt6sXJg",
+              "insta_link": "https:\/\/www.instagram.com\/anodyne.be\/"
+            }
+          }
+        },
+        "block_order": [
+          "footer-1",
+          "0bf661af-2d67-4ed7-9f1e-750e2c09c74e",
+          "045bae48-bfff-4e04-a080-14a99dbf2e0c",
+          "38aab7d5-4020-4b5d-aa34-5f065cd7a210"
+        ],
+        "settings": {
+          "show_social_media": false,
+          "social_title": "Follow-us on social media!",
+          "show_payment_icons": true,
+          "show_shopify_footer": false,
+          "show_debutify_footer": false,
+          "custom_credential": "<p>P.O. Pedersens Vej 9, 8200 Aarhus N, Denemarken - BTW nummer: BE0669621781<\/p>"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "blocks": {
+          "3c1ba0f4-31bf-4023-8ec5-df5daa908bb7": {
+            "type": "description",
+            "settings": {
+              "dbtfy_product_tabs_open": false,
+              "dbtfy_product_tabs_icons": "",
+              "dbtfy_product_tabs_title": "Details"
+            }
+          },
+          "72f69c35-ef4e-4428-a23a-b0994d0d2632": {
+            "type": "reviews",
+            "settings": {
+              "dbtfy_product_tabs_open": false,
+              "dbtfy_product_tabs_review": true,
+              "dbtfy_product_tabs_icons": "v",
+              "dbtfy_product_tabs_title": "Reviews"
+            }
+          },
+          "cace2e1c-86d2-4ecc-ba91-65c6898cbd62": {
+            "type": "text",
+            "settings": {
+              "dbtfy_product_tabs_open": false,
+              "text_alignment": "text-center",
+              "dbtfy_product_tabs_icons": "",
+              "dbtfy_product_tabs_title": "Rich text",
+              "dbtfy_product_tabs_text": "<p>asdfasdfa<\/p>",
+              "dbtfy_product_tabs_html": "asdfasdf",
+              "dbtfy_product_tabs_type": "",
+              "dbtfy_product_tabs_tag": "",
+              "dbtfy_product_tabs_product": "mens-posture-shirt-zipper-zwart",
+              "dbtfy_product_tabs_collection": ""
+            }
+          },
+          "f3ce1113-dc04-4af9-8f90-c4d8b5b4cca7": {
+            "type": "text",
+            "settings": {
+              "dbtfy_product_tabs_open": false,
+              "text_alignment": "text-center",
+              "dbtfy_product_tabs_icons": "",
+              "dbtfy_product_tabs_title": "Rich text",
+              "dbtfy_product_tabs_text": "",
+              "dbtfy_product_tabs_html": "wefsdfasdfasdfa",
+              "dbtfy_product_tabs_type": "",
+              "dbtfy_product_tabs_tag": "",
+              "dbtfy_product_tabs_product": "mens-posture-shirt-wit",
+              "dbtfy_product_tabs_collection": ""
+            }
+          },
+          "9b2470fb-ace6-451d-a928-3e222f90efc9": {
+            "type": "text",
+            "settings": {
+              "dbtfy_product_tabs_open": false,
+              "text_alignment": "text-center",
+              "dbtfy_product_tabs_icons": "",
+              "dbtfy_product_tabs_title": "wwwww",
+              "dbtfy_product_tabs_text": "<p>wewewewewewew<\/p>",
+              "dbtfy_product_tabs_html": "wesewewewewewewwewwewewwewewewewewewew",
+              "dbtfy_product_tabs_type": "",
+              "dbtfy_product_tabs_tag": "",
+              "dbtfy_product_tabs_product": "womens-posture-shirt-wit",
+              "dbtfy_product_tabs_collection": ""
+            }
+          }
+        },
+        "block_order": [
+          "3c1ba0f4-31bf-4023-8ec5-df5daa908bb7",
+          "72f69c35-ef4e-4428-a23a-b0994d0d2632",
+          "cace2e1c-86d2-4ecc-ba91-65c6898cbd62",
+          "f3ce1113-dc04-4af9-8f90-c4d8b5b4cca7",
+          "9b2470fb-ace6-451d-a928-3e222f90efc9"
+        ],
+        "settings": {
+          "dbtfy_product_tabs_position": "separate_section",
+          "show_product_vendor": false,
+          "show_product_type": true,
+          "show_product_sku": false,
+          "product_title_large": false,
+          "show_product_tags": true,
+          "show_sharing_icons": true,
+          "show_product_collections": true,
+          "enable_image_zoom": true,
+          "enable_video_looping": true,
+          "media_layout": "thumbnails",
+          "image_size": "medium",
+          "quantity_enabled": true,
+          "product_selector": "radio",
+          "show_product_description": true,
+          "enable_split_description": false,
+          "description_full": false,
+          "dbtfy_product_description_position": "separate_section",
+          "description_style": "section-border",
+          "text_alignment": "text-center",
+          "text_alignment_mobile": "small--text-center"
+        }
+      },
+      "dbtfy-upsell-bundles": {
+        "type": "dbtfy-upsell-bundles",
+        "settings": {
+          "dbtfy_upsell_bundles_title": "Frequently bought together",
+          "dbtfy_upsell_bundles_subtitle": "",
+          "dbtfy_upsell_bundles_total": "Total price:",
+          "dbtfy_upsell_bundles_cart": "Add selected items",
+          "dbtfy_upsell_bundles_icons": "library_add_check",
+          "dbtfy_upsell_bundles_current": "This item:",
+          "section_style": "section-border",
+          "dbtfy_upsell_bundles_reviews": false,
+          "dbtfy_upsell_bundles_limit": "2",
+          "dbtfy_upsell_bundles_position": "product"
+        }
+      },
+      "dbtfy-product-page-builder": {
+        "type": "dbtfy-product-page-builder",
+        "settings": {
+          "show_page_title": true
+        }
+      },
+      "product-row": {
+        "type": "product-row",
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "dbtfy-pricing-table": {
+        "type": "dbtfy-pricing-table",
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "Pricing table",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "dbtfy_button_position": "middle"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "title": "",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "rows": "2",
+          "desktop_grid": "4",
+          "mobile_grid": "2",
+          "slider_related_products": true,
+          "arrows": true,
+          "dots": true,
+          "autoplay": false,
+          "autoplayspeed": 5
+        }
+      },
+      "dbtfy-faq-section": {
+        "type": "dbtfy-faq-section",
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "FAQ",
+          "subtitle": "",
+          "section_style": "section-border",
+          "dbtfy_faq_searchbox": true,
+          "dbtfy_faq_search_placeholder": "Search questions...",
+          "dbtfy_faq_bannerbox": true,
+          "dbtfy_faq_banner_icon": "live_help",
+          "dbtfy_faq_banner_text": "Didn't find your answer?",
+          "dbtfy_faq_banner_subtitle": "Our customer service will be happy to help you.",
+          "dbtfy_faq_btn": "Get in Touch",
+          "dbtfy_faq_link": ""
+        }
+      },
+      "related-products": {
+        "type": "related-products",
+        "settings": {
+          "show_related_products": false,
+          "related_collection": true,
+          "same_vendor": false,
+          "same_type": false,
+          "never_empty": true,
+          "title": "You may also like",
+          "subtitle": "",
+          "section_style": "section-border",
+          "rows": "1",
+          "desktop_grid": "4",
+          "mobile_grid": "2",
+          "slider_related_products": true,
+          "arrows": true,
+          "dots": true,
+          "autoplay": false,
+          "autoplayspeed": 5
+        }
+      },
+      "quotes": {
+        "type": "quotes",
+        "settings": {
+          "show_on_desktop": false,
+          "show_on_mobile": false,
+          "title": "Testimonials",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "quote_width": "60",
+          "arrows": true,
+          "dots": true,
+          "autoplay": true,
+          "autoplayspeed": 5
+        }
+      },
+      "16300631015589eb65": {
+        "type": "video-background",
+        "settings": {
+          "page_width": "full_width",
+          "height": "medium",
+          "newvideo_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0596\/7842\/5237\/files\/Cover.mp4?v=1637326801",
+          "show_overlay": false,
+          "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
+          "image_position": "center center",
+          "video_title": "<span class=\"first\">Anodyne®<\/span>",
+          "text_size": "medium",
+          "text_description": "<p><strong>Verbeter je houding en verminder je rugpijn! <\/strong><\/p>",
+          "text_description_size": "medium",
+          "button_label": "Vrouwen",
+          "button_link": "shopify:\/\/collections\/vrouwen",
+          "second_button_label": "Mannen",
+          "second_button_link": "shopify:\/\/collections\/mannen",
+          "button_label__fr": "Femme",
+          "button_link__fr": "shopify:\/\/collections\/vrouwen",
+          "second_button_label__fr": "Homme",
+          "second_button_link__fr": "shopify:\/\/collections\/mannen",
+          "show_scrolldown": true
+        }
+      },
+      "1630063768bdfa2f5f": {
+        "type": "featured-services",
+        "blocks": {
+          "1630063768bdfa2f5f-0": {
+            "type": "service",
+            "settings": {
+              "title": "Gratis verzending",
+              "description": "Op alle producten",
+              "icon": "shopify:\/\/shop_images\/Truck.png",
+              "uspLinkUrl": "shopify:\/\/pages\/verzending-en-retour"
+            }
+          },
+          "1630063768bdfa2f5f-1": {
+            "type": "service",
+            "settings": {
+              "title": "Gratis retourneren en ruilen",
+              "description": "Wij zorgen voor een retourlabel",
+              "icon": "shopify:\/\/shop_images\/Returns.png",
+              "uspLinkUrl": ""
+            }
+          },
+          "66c69b66-4ba2-424e-a46c-68c81d83d5c4": {
+            "type": "service",
+            "settings": {
+              "title": "100% Tevredenheidsgarantie",
+              "description": "100% tevreden of je volledige aankoopbedrag terug",
+              "icon": "shopify:\/\/shop_images\/Smile2.png",
+              "uspLinkUrl": ""
+            }
+          },
+          "3011a919-3be7-41c5-aa09-25734c19504d": {
+            "type": "service",
+            "settings": {
+              "title": "30 dagen volledig retourrecht",
+              "description": "Genoeg tijd om een beslissing te maken",
+              "icon": "shopify:\/\/shop_images\/Checkmark.png",
+              "uspLinkUrl": ""
+            }
+          }
+        },
+        "block_order": [
+          "1630063768bdfa2f5f-0",
+          "1630063768bdfa2f5f-1",
+          "66c69b66-4ba2-424e-a46c-68c81d83d5c4",
+          "3011a919-3be7-41c5-aa09-25734c19504d"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "1630070175c6ebb320": {
+        "type": "featured-collections",
+        "blocks": {
+          "1630070175c6ebb320-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "posture-shirt",
+              "btn__shopnow": "shop"
+            }
+          },
+          "1630070175c6ebb320-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "rugsteun",
+              "btn__shopnow": "shop"
+            }
+          },
+          "1630070175c6ebb320-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "andere-producten",
+              "btn__shopnow": "Shop"
+            }
+          }
+        },
+        "block_order": [
+          "1630070175c6ebb320-2",
+          "1630070175c6ebb320-1",
+          "1630070175c6ebb320-0"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "full_width": false,
+          "title": "",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "section_height": "small",
+          "show_view_all": false,
+          "button_label": "View all",
+          "button_link": "shopify:\/\/collections",
+          "button_style": "btn--primary",
+          "slider_featured_collections": false,
+          "arrows": false,
+          "dots": false
+        }
+      },
+      "163032369225153039": {
+        "type": "mission",
+        "blocks": {
+          "b1098b0a-da6e-4795-8ddc-230d0010ed64": {
+            "type": "html",
+            "settings": {
+              "mission_title": "Wij zijn gespecialiseerd in houdingcorrectie en verlichting van pijn",
+              "mission_description": "Al 7 jaar streven wij ernaar toegang te verschaffen tot gemakkelijke en effectieve <a href=\"\/collections\/alle-producten\"><u>producten voor houdingscorrectie<\/u><\/a>, <a href=\"\/collections\/rugsteun\"><u>rugsteun<\/u><\/a> en pijnverlichting. Onze belangrijkste filosofie is dat we geen producten verkopen die we zelf niet zouden gebruiken. Sinds 2014 hebben we meer dan 300.000 tevreden klanten in Europa en we zijn van plan om er in de toekomst nog veel meer te hebben.",
+              "column_width": 12,
+              "column_width_mobile": 12,
+              "text_alignment": "text-center",
+              "btn_text": "",
+              "btn_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "b1098b0a-da6e-4795-8ddc-230d0010ed64"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "margin__bottom": 0,
+          "section_style": "section-blank",
+          "wrapper_size": "-small"
+        }
+      },
+      "163032806406e9f003": {
+        "type": "quotes",
+        "blocks": {
+          "163032806406e9f003-0": {
+            "type": "quote",
+            "settings": {
+              "quote_image": "shopify:\/\/shop_images\/Quotationmarks.png",
+              "icon": "format_quote",
+              "quote": "<p>Alweer top en snelle service voor een uitstekend product..<\/p>",
+              "stars_pic": "shopify:\/\/shop_images\/images.png",
+              "quotes_link": "https:\/\/nl-be.trustpilot.com\/review\/anodyne.be?stars=5",
+              "author": "Gathier R."
+            }
+          },
+          "163032806406e9f003-1": {
+            "type": "quote",
+            "settings": {
+              "quote_image": "shopify:\/\/shop_images\/Quotationmarks.png",
+              "icon": "format_quote",
+              "quote": "<p>Super tevreden over de t-shirts. Ik voel het verschil bij het dragen. Ik loop rechter hierdoor en heb geen nek- en hoofdpijn meer.<\/p>",
+              "stars_pic": "shopify:\/\/shop_images\/images.png",
+              "quotes_link": "https:\/\/nl-be.trustpilot.com\/review\/anodyne.be?stars=5",
+              "author": "Nancy"
+            }
+          },
+          "163032806406e9f003-2": {
+            "type": "quote",
+            "settings": {
+              "quote_image": "shopify:\/\/shop_images\/Quotationmarks.png",
+              "icon": "format_quote",
+              "quote": "<p>Dit materiaal is echt goed. Ik ben na 3 operaties nog steeds in revalidatie en als je deze t-shirts aan hebt is dat meer dan goed.<\/p>",
+              "stars_pic": "shopify:\/\/shop_images\/images.png",
+              "quotes_link": "https:\/\/nl-be.trustpilot.com\/review\/anodyne.be?stars=5",
+              "author": "Johan B."
+            }
+          }
+        },
+        "block_order": [
+          "163032806406e9f003-0",
+          "163032806406e9f003-1",
+          "163032806406e9f003-2"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "trustpilot_imagetitle": "shopify:\/\/shop_images\/Trustpilot_logo.png",
+          "title": "",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "quote_width": "60",
+          "arrows": true,
+          "dots": true,
+          "autoplay": true,
+          "autoplayspeed": 7
+        }
+      },
+      "1630331223d20499c6": {
+        "type": "featured-products",
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "Meest verkochte producten",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "home_featured_products": "alle-producten",
+          "rows": "1",
+          "desktop_grid": "4",
+          "mobile_grid": "2",
+          "show_view_all": true,
+          "button_label": "Bekijk alle",
+          "button_link": "shopify:\/\/collections",
+          "button_style": "btn--primary",
+          "slider_related_products": false,
+          "arrows": false,
+          "dots": false,
+          "autoplay": false,
+          "autoplayspeed": 5
+        }
+      },
+      "1630404145a76c9e4d": {
+        "type": "featured-video",
+        "blocks": {
+          "1630404145a76c9e4d-0": {
+            "type": "video",
+            "settings": {
+              "video_cover_image": "shopify:\/\/shop_images\/Thumbnail_Anodyne-min-min.jpg",
+              "video_cover_image_fr": "shopify:\/\/shop_images\/Thumbnail_Anodyne-min-min.jpg",
+              "video_url": "https:\/\/www.youtube.com\/watch?v=aUOn534ScWc",
+              "video_url_fr": "https:\/\/www.youtube.com\/watch?v=ttlT7yb1u9I",
+              "animated_button": true
+            }
+          }
+        },
+        "block_order": [
+          "1630404145a76c9e4d-0"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "full_width": false,
+          "title": "Over Anodyne",
+          "subtitle": "Bekijk onze presentatievideo",
+          "section_style": "section-default"
+        }
+      },
+      "1630409395746d29de": {
+        "type": "featured-accordions",
+        "blocks": {
+          "1630409395746d29de-0": {
+            "type": "Accordion",
+            "settings": {
+              "accordion_title": "Waarom de houdingcorrigerende kleding van Anodyne?",
+              "accordion__inner-title": "",
+              "accordion__description": "Met de houdingcorrigerende kleding van Anodyne® kun je eenvoudig en moeiteloos een betere houding krijgen, waardoor pijn en spanning in de nek en schouders worden verminderd. De houdingcorrigerende kleding van Anodyne® helpt je om je continu bewust te zijn van je houding. Of je nu stilzittend of actief werk doet, reist of sport. Anodyne® is een Europese producent en distributeur van houdingcorrigerende kleding met technologie ontwikkeld door de Amerikaanse AlignMed – de enige producent ter wereld van houdingcorrigerende kleding die geregistreerd staat bij de Amerikaanse FDA. De houdingcorrigerende kleding van Anodyne® is de enige in Europa die zowel FDA-goedgekeurd is als voorzien is van een CE-markering voor medische hulpmiddelen (Klasse I). De CE-markering is dus je garantie dat onze producten voldoen aan de eisen die aan medische hulpmiddelen worden gesteld.",
+              "accordion__buttontext": "Zie selectie",
+              "accordion__LinkUrl": "shopify:\/\/collections\/alle-producten"
+            }
+          },
+          "1630409395746d29de-1": {
+            "type": "Accordion",
+            "settings": {
+              "accordion_title": "Gepatenteerde NeuroBand™-technologie in de houdingcorrigerende kleding van Anodyne",
+              "accordion__inner-title": "",
+              "accordion__description": "De houdingcorrigerende kleding van Anodyne® is gemaakt van een unieke mix van spandex, nylon en polyester, die zorgt voor een slijtvast en ademend product, dat zijn rekbaarheid behoudt en lekker zit. Het ontwerp maakt gebruik van de gepatenteerde NeuroBand™-technologie, die geïnspireerd is door kinesiotape en gebaseerd op wetenschappelijk onderzoek in de menselijke fysiologie. De kleding is ontworpen om de aanspannende en ontspannende eigenschappen van de spieren te weerspiegelen en daardoor een rechte houding te bevorderen.",
+              "accordion__buttontext": "Koop Posture Shirt",
+              "accordion__LinkUrl": "shopify:\/\/collections\/posture-shirt"
+            }
+          },
+          "f87df513-1488-4240-a91d-ed8f2bb41077": {
+            "type": "Accordion",
+            "settings": {
+              "accordion_title": "Houdingcorrigerende kleding aan de hand van je behoeften",
+              "accordion__inner-title": "",
+              "accordion__description": "De houdingcorrigerende kleding van Anodyne® kan door iedereen worden gedragen. We verkopen houdingcorrigerende T-shirts, bh’s en vesten, die allemaal ontworpen zijn om de spieren en bloedsomloop te activeren, waardoor het lichaam eraan wordt herinnerd om een rechte houding aan te nemen. Je kunt de houdingcorrigerende truien en bh's van Anodyne® op elk moment dragen – tijdens het sporten, winkelen, wandelen, schoonmaken of bij andere activiteiten. Om zoveel mogelijk aan je houdingcorrigerende kleding te hebben, raden we je aan om de bijgevoegde gebruiksaanwijzing goed door te lezen.",
+              "accordion__buttontext": "",
+              "accordion__LinkUrl": ""
+            }
+          },
+          "225005a5-c60f-4ff1-be6b-7f7256b16ac7": {
+            "type": "Accordion",
+            "settings": {
+              "accordion_title": "Ook voor jou, als je blessures hebt",
+              "accordion__inner-title": "",
+              "accordion__description": "Als je te maken hebt met een blessure of als je bijvoorbeeld een hernia, scoliose,artritis of iets dergelijks hebt, kun je onze houdingcorrigerende kleding prima gebruiken. Als het letsel nieuw is, raden we je aan dit eerst te bespreken met bijvoorbeeld je arts, fysiotherapeut of chiropractor. In sommige gevallen kan het houdingcorrigerende vest (MyLign of SpinalQ Pro) het beste zijn, omdat dat het meeste steun biedt. Het is belangrijk dat je de juiste maat houdingcorrigerende kleding bestelt, anders bereik je niet het optimale effect. Het beste is om naar de matentabel op onze productpagina's te kijken en bij twijfel contact op te nemen met onze klantenservice. Zij beantwoorden graag je vragen over onze producten en helpen je om de juiste maat te vinden.",
+              "accordion__buttontext": "Zie producten voor rugsteun",
+              "accordion__LinkUrl": "shopify:\/\/collections\/rugsteun"
+            }
+          }
+        },
+        "block_order": [
+          "1630409395746d29de-0",
+          "1630409395746d29de-1",
+          "f87df513-1488-4240-a91d-ed8f2bb41077",
+          "225005a5-c60f-4ff1-be6b-7f7256b16ac7"
+        ],
+        "settings": {
+          "title": "Houdingcorrigerende kleding van Anodyne®",
+          "section_style": "section-blank"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "collection_tags_enable": false,
+          "collection_tags_count": false,
+          "collection_multiple_tags_filtering_enable": false,
+          "collection_sort_enable": false,
+          "tag_selector": "button",
+          "rows": "4",
+          "desktop_grid": "4",
+          "mobile_grid": "2",
+          "collection_banner": "shopify:\/\/shop_images\/December-offers_NL.jpg",
+          "collection_banner_mobile": "shopify:\/\/shop_images\/December-offers_mobile_NL.jpg",
+          "collection_banner_postureshirt": "shopify:\/\/shop_images\/Desktop_NL_654968a4-518b-49a7-8751-03b0d16902c1.jpg",
+          "collection_banner_mobile_postureshirt": "shopify:\/\/shop_images\/Mobile_NL.jpg"
+        }
+      },
+      "dbtfy-collection-filters": {
+        "type": "dbtfy-collection-filters",
+        "settings": {
+          "clear_label": "Clear",
+          "clear_all_label": "Clear All",
+          "hide_unavailable_options": false,
+          "show_tags_count": true,
+          "visibility_tags_count": "all"
+        }
+      },
+      "product-tabs-template": {
+        "type": "product-tabs-template",
+        "settings": {
+          "dbtfy_product_tabs_position": "under_description",
+          "show_product_vendor": false,
+          "show_product_type": false,
+          "show_product_sku": false,
+          "product_title_large": false,
+          "show_product_tags": false,
+          "show_sharing_icons": true,
+          "product_banner": "shopify:\/\/shop_images\/December-offers_NL.jpg",
+          "product_banner_mobile": "shopify:\/\/shop_images\/December-offers_mobile_NL.jpg",
+          "product_banner_postureshirt": "shopify:\/\/shop_images\/Desktop_NL_c9f7e699-ef99-4674-ac88-178fa908f22d.jpg",
+          "product_banner_mobile_postureshirt": "shopify:\/\/shop_images\/Mobile_NL_ed06e136-37a1-40b3-8dae-c71ac92430c9.jpg",
+          "show_product_collections": false,
+          "enable_image_zoom": true,
+          "enable_video_looping": true,
+          "media_layout": "thumbnails",
+          "image_size": "medium",
+          "quantity_enabled": true,
+          "product_selector": "radio",
+          "show_product_description": false,
+          "show_product_description_in_tabs": true,
+          "enable_split_description": false,
+          "description_full": false,
+          "dbtfy_product_description_position": "separate_section",
+          "description_style": "section-border",
+          "text_alignment": "text-center",
+          "text_alignment_mobile": "small--text-center"
+        }
+      },
+      "product-cards": {
+        "type": "product-cards",
+        "blocks": {
+          "fe32e93f-234c-450d-8d07-e2efbc25f40e": {
+            "type": "row",
+            "settings": {
+              "card__icon": "shopify:\/\/shop_images\/Customerservice_copy.png",
+              "title": "Klantenservice",
+              "text": "<p>Neem contact met ons op via telefoon <a href=\"tel:+31 (0) 20-26 22 008\"><strong>+31 (0) 20-26 22 008<\/strong><\/a> of <a href=\"mailto:info@anodyne.be\" title=\"mailto:info@anodyne.be\"><strong>info@anodyne.be<\/strong><\/a> als je vragen hebt over maten, prijzen of iets anders.<\/p>",
+              "card__alignement": "center",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "1c9774d2-047f-45d4-8645-84edb4bf51cd": {
+            "type": "row",
+            "settings": {
+              "card__icon": "shopify:\/\/shop_images\/Truck.png",
+              "title": "Gratis verzending",
+              "text": "<p>Momenteel hanteren wij levertijden van 1-3 werkdagen (ma. - za.).<\/p>",
+              "card__alignement": "center",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "86e60ed0-4f89-453b-bb6d-998997ba5497": {
+            "type": "row",
+            "settings": {
+              "card__icon": "shopify:\/\/shop_images\/Returns.png",
+              "title": "Gratis retourneren en ruilen",
+              "text": "<p>Wij zorgen voor een retourlabel<\/p>",
+              "card__alignement": "center",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "cb8805d6-2cd1-4b82-aa5e-bcd50bd85ebc": {
+            "type": "row",
+            "settings": {
+              "card__icon": "shopify:\/\/shop_images\/Smile2.png",
+              "title": "100% Tevredenheidsgarantie",
+              "text": "<p>30 dagen volledig retourrecht<\/p>",
+              "card__alignement": "center",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "fe32e93f-234c-450d-8d07-e2efbc25f40e",
+          "1c9774d2-047f-45d4-8645-84edb4bf51cd",
+          "86e60ed0-4f89-453b-bb6d-998997ba5497",
+          "cb8805d6-2cd1-4b82-aa5e-bcd50bd85ebc"
+        ],
+        "settings": {
+          "show_product_card": true
+        }
+      },
+      "dbtfy-faq-page": {
+        "type": "dbtfy-faq-page",
+        "blocks": {
+          "0b305f44-574b-4f02-bb8e-e45a0074daea": {
+            "type": "category_block",
+            "settings": {
+              "dbtfy_faq_category": "Productadvies",
+              "dbtfy_faq_icons": "support"
+            }
+          },
+          "9377fd71-367b-47af-a161-190cf62e3aff": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Wat is een houdingcorrigerend shirt van Anodyne® en hoe werkt het?",
+              "text": "<p>Houdingcorrigerende kleding van Anodyne® is ontworpen om het spiergeheugen te stimuleren en de houdingsbewustheid te verbeteren. Afhankelijk van het specifieke huidgedeelte zitten er tussen de 20.000 en 80.000 zenuwreceptoren in een vierkante centimeter huid. Deze receptoren zorgen voor gevoel en reacties op aanraking, druk en temperatuur. De zenuwuiteinden sturen signalen naar de hersenen, waardoor gespannen spieren zich ontspannen, terwijl de meer inactieve spieren zich aanspannen. De houdingcorrigerende kleding van Anodyne® draagt bij aan het creëren van een constante stroom informatie die heen en weer loopt tussen de zenuwreceptoren in de huid en de hersenen. Het resultaat is dat de spieren door de hersenen worden gestimuleerd om actief te worden waardoor je zelf je houding gaat verbeteren. Door het activeren van de juiste spieren ga je de verkrampte spieren leren ontspannen. Op deze manier bescherm je kwetsbare spieren, terwijl het prestatievermogen van degene die de kleding draagt wordt vergroot, letsel wordt verminderd en genezing wordt bevorderd. Het is belangrijk om te onderstrepen dat houdingcorrigerende kleding een aanvulling is op training en fysiotherapie en niet een product dat op zichzelf kan worden gebruikt voor het behandelen of voorkomen van letsel.<\/p>"
+            }
+          },
+          "0375225b-0ac9-445e-8105-9d6ad4a7583c": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Wat is het verschil tussen producten van Anodyne® en dat van haar concurrenten?",
+              "text": "<p>Daarnaast zijn er ook verschillende kopie producten op de markt die op de onze lijken, maar geen (of zelfs een klachtenverhogend) effect hebben. Ook zijn er producten die de spierfunctie over kunnen nemen, waardoor het lichaam op termijn zwakker wordt, waar de Anodyne producten spieren juist stimuleert en activeert.<\/p><p><br\/><a href=\"https:\/\/www.accessdata.fda.gov\/scripts\/cdrh\/cfdocs\/cfRL\/rl.cfm?lid=446140&lpcd=IQI\" target=\"_blank\">Bekijk hier de FDA registratie<\/a><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0596\/7842\/5237\/files\/Alignmed---Certificate-of-CE-Registration.pdf?v=1633520798\" target=\"_blank\" title=\"CE-registratie\">Bekijk hier de CE-markering<\/a><br\/><\/p>"
+            }
+          },
+          "5442a247-e1ec-4ce3-bef5-88db002cffe2": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Krijg ik gegarandeerd minder pijn of een betere houding?",
+              "text": "<p>Om het juiste effect te kunnen ervaren is het erg belangrijk dat u het juiste product in de juiste maat bestelt. Voor eventuele vragen over de maat kunt u meer informatie vinden in de FAQ, of contact opnemen met de klantenservice.<\/p><p>Omdat ieder mens verschillend is, kunnen we verder niet garanderen dat houdingcorrigerende producten het gewenste effect op u hebben. Maar een overgrote meerderheid van de mensen die de producten gebruikt, merkt een duidelijke verbetering. Daarom geldt altijd een volledig retourrecht van 60 dagen als u winkelt op Anodyne.be. We hebben een retourpercentage van minder dan 5%, wat overeenkomt met 1 op de 20 gebruikers.<\/p><p><\/p><p>Om de kans op succes te vergroten is het ook noodzakelijk dat u de producten uitsluitend volgens de voorschriften gebruikt. Te frequent gebruik van houdingcorrigerende kleding kan ook bijwerkingen hebben, zoals hoofdpijn, kaakpijn, rugpijn of gevoeligheid van de nek en schouders, maar dat is heel individueel. Het is daarom belangrijk dat u de meegeleverde gebruiksaanwijzing grondig doorleest en bedenkt dat het lichaam rustig moet wennen aan een nieuwe houding, zoals we beschrijven in de vraag \"Hoe kan ik het gebruik van mijn Anodyne® product het best opbouwen?\"<\/p><p>Als u vragen heeft over het gebruik van houdingcorrigerende kleding, kunt u altijd contact opnemen met de Anodyne klantenservice.<\/p>"
+            }
+          },
+          "09b8bf08-8969-466e-9a8b-1641716a7a1a": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hoe lang gaat mijn Anodyne® product mee?",
+              "text": "<p>De levensduur van uw Anodyne product hangt af van hoe u het verzorgt en hoe vaak en hoe lang u het draagt. Zoals alle andere kleding zal ook deze kleding tekenen van slijtage gaan vertonen, afhankelijk van hoe vaak u de kleding draagt.<\/p><p>De levensduur hangt met name af van of u de kleding NIET IN DE DROGER droogt of op meer dan 30 graden in de wasmachine wast. Voor een zo lang mogelijke levensduur van de producten raden wij handwas aan. Wij raden verder aan om GEEN WASVERZACHTER te gebruiken, omdat dit ten koste gaat van de werking van de NeuroBands®.<\/p>"
+            }
+          },
+          "64f3cdad-ec83-434e-951d-1db6546ee6f2": {
+            "type": "category_block",
+            "settings": {
+              "dbtfy_faq_category": "Pasvorm",
+              "dbtfy_faq_icons": "support"
+            }
+          },
+          "ee6e4e8f-b41f-4ca6-a2eb-b28f71370e62": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Welke maat moet ik kiezen?",
+              "text": "<p>Om het gewenste effect te kunnen ervaren is een juiste maat zeer belangrijk. De producten kunnen goed aansluiten aan de voorzijde en tóch te groot zijn omdat de NeuroBands niet nauw op de huid zitten. Een maat kleiner zal dan aan de voorzijde hetzelfde aanvoelen, maar vanwege het beter aansluiten van de NeuroBands op de huid wél het gewenste effect bieden.<\/p><p>Het kan voorkomen dat de maat van uw Anodyne product niet overeenkomt met de maat van andere shirts of bh's die u in uw bezit heeft.<\/p><p>Om zo zeker mogelijk te zijn van de juiste maat, raden wij aan om de maattabellen op de productpagina te raadplegen. Als u tussen twee maten in zit, dient u voor het Posture Shirt® in het algemeen de kleinste maat kiezen. Als u bij InterActive Bra, SpinalQ of MyLign Pro tussen twee maten in zit, moet u in het algemeen de grootste maat kiezen. Bij twijfel kunt u contact met ons opnemen.<br\/><\/p>"
+            }
+          },
+          "fd099d87-5ed8-45db-b484-79381febd04b": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hoe kan ik zien of ik de juiste maat heb?",
+              "text": "<p>De shirts dienen strak te zitten voor het juiste effect. U kunt alleen bepalen of een shirt te groot of te klein is door te kijken naar de NeuroBands (de speciale banden aan de achterzijde) rond de schouders. De voorzijde is elastisch, en zal altijd nauw op de huid aansluiten, ook bij een te grote maat.<\/p><p>Vertonen de NeuroBands in uw shirt vouwen? Dan raden wij u aan om uw Posture Shirt om te ruilen voor een kleinere maat zodat u het gewenste effect zult kunnen ervaren. Rond de oksels en op andere plaatsen mag het shirt wel (kleine) vouwen vertonen. Indien u twijfelt over de maat,  neem dan gerust contact op met de klantenservice.<\/p>"
+            }
+          },
+          "887515eb-9def-4dc2-909b-76ddb585b625": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Mijn Anodyne® Posture Shirt zit (erg) strak, is het te klein?",
+              "text": "<p>De Posture Shirts van Anodyne dienen strak te zitten voor het juiste effect. Je kunt alleen bepalen of een shirt te groot of te klein is door te kijken naar de speciale banden op de achterzijde rond de schouders. De voorzijde is elastisch, en zal altijd nauw op de huid aansluiten, ook bij een te grote maat. Wanneer de NeuroBands (de speciale banden aan de achterzijde) nauw aansluiten op de huid en je een lichte ”trekwerking” rond de schouders voelt, heb je de juiste maat. De meeste mensen moeten wennen aan een strak shirt, gebruik daarom de 60 dagen proefperiode zodat je goed kunt testen of je aan het shirt kunt wennen.<\/p><p>Kun je het effect goed merken, maar heb je moeite met het aan- en uittrekken van je product? Overweeg dan om je Anodyne® Posture Shirt om te ruilen voor een Posture Shirt Zipper. Het effect van het shirt is hetzelfde, maar door de rits is dit shirt makkelijker om aan en uit te trekken. Neem bij twijfel gerust contact op met de klantenservice. Wanneer u een foto van je rug stuurt terwijl je het shirt aan hebt, kunnen zij direct zien of u de juiste maat draagt.<br\/><\/p>"
+            }
+          },
+          "3fe9b653-4494-4c5f-94fa-735d75fe3361": {
+            "type": "category_block",
+            "settings": {
+              "dbtfy_faq_category": "Gebruik",
+              "dbtfy_faq_icons": "support"
+            }
+          },
+          "94a14ee6-ec1c-44eb-bda3-36df48b2fae1": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hoe kan ik het gebruik van mijn Anodyne® product het beste opbouwen?",
+              "text": "<p>Zoals altijd, is het ook bij het gebruiken van het Posture Shirt® belangrijk dat u naar uw lichaam luistert. Het activeren van spieren om uw houding te verbeteren kan voor spierpijn zorgen; u gaat namelijk andere spieren gebruiken dan degene die we vaak (onbewust) verkrampen. Anodyne raadt u aan om het Posture Shirt de eerste dag ongeveer twee uur te dragen. Mocht u binnen twee uur al vermoeidheid merken, trek het shirt dan uit. Indien u de volgende dag spierpijn ervaart, hou het dan bij een tot twee uur per dag tot dit niet meer het geval is.<\/p><p>Wanneer u geen spierpijn ervaart, kunt u het de volgende dag steeds wat langer dragen. Bijvoorbeeld zowel in de ochtend als in de avond. Omdat u het maar kort gebruikt hoeft het shirt niet steeds de was in. Uiteraard mag het ook op werk en tijdens het sporten gedragen worden; gebruik het Posture Shirt daar waar u het meeste baat heeft bij een verbetering van uw houding. Door het opbouwen van uw spiergeheugen zult u ook op andere momenten profijt hebben van het Posture Shirt.Indien u helemaal niets merkt, kan het zijn dat u een verkeerde maat heeft. Neem in dit geval contact op met de klantenservice, zodat u geholpen kunt worden bij een eventuele omruiling. Wanneer u het gebruik langzaam maar zeker opbouwt, zal het al snel mogelijk zijn om uw houdingcorrigerende product van Anodyne® bijvoorbeeld een hele werkdag te dragen. Wij raden vanaf dat moment aan om uw Anodyne product 3 á 4 keer per week te gebruiken.<\/p>"
+            }
+          },
+          "e6bbc08e-749f-43c3-a082-b4ead9c4ba56": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Zijn er mensen die de Anodyne® producten niet mogen gebruiken?",
+              "text": "<p>Indien u specifieke klachten, ernstige ziektes of fysiologische beperkingen heeft, raden wij altijd aan om eerst een fysiotherapeut te raadplegen. Wij werken in verschillende landen met vele medische specialisten samen, maar mocht uw fysio of andere specialist ons nog niet kennen, laat hem\/of haar dan gerust contact met ons opnemen.<\/p><p>Als u recentelijk bent geopereerd, dient u met een arts of fysiotherapeut bespreken of het nog niet te vroeg is om aan uw lichaamshouding te gaan werken. Bij mobiliteitsproblemen rond de schouders raden wij in ieder geval aan om voor het Posture Shirt Zipper te kiezen, omdat deze veel makkelijker aan en uit te krijgen is.<\/p><p>In het algemeen raden wij ook kinderen en jongeren onder de 17 jaar af om de producten te gebruiken zonder voorafgaand advies van een arts of fysiotherapeut.<\/p>"
+            }
+          },
+          "489e0dba-5416-43ca-a1ad-20e6e35b749f": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hoe kan ik mijn Anodyne® producten het beste verzorgen?",
+              "text": "<p>De Anodyne® producten kunnen met een handwas worden gewassen, of in de wasmachine op 30 graden. NIET IN DE DROGER drogen! Het shirt droogt na een machine was makkelijk in een nacht wanneer het vrij kan hangen.Het is belangrijk dat bij het wassen van de producten GEEN WASVERZACHTER te gebruiken. Hierdoor zal de rek in de NeuroBands verminderen waardoor het effect van de producten zal verdwijnen.Bij eventuele nare geurtjes door zweet raden wij aan om een sportwasmiddel te gebruiken om de producten te wassen. Het is ook mogelijk om de producten in een azijnbad te laten weken voor het de was ingaat, zodat nare geurtjes tegen kunnen worden gegaan.<\/p>"
+            }
+          },
+          "c906914a-e11e-4155-85c4-420ce65fda17": {
+            "type": "category_block",
+            "settings": {
+              "dbtfy_faq_category": "Bezorging",
+              "dbtfy_faq_icons": "support"
+            }
+          },
+          "57c7a813-95aa-4a4a-929e-cfa6ab706cb4": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Ik heb mijn pakje (nog) niet ontvangen. Wat nu?",
+              "text": "<p>De bezorging via bpost bevat een Track&Trace die u per mail ontvangt, zodat u het pakje zelf kunt volgen. Via bpost duurt de levering tussen de 1 en 3 werkdagen.<\/p><p>Het kan zijn dat bpost u een e-mail heeft gestuurd met het bericht dat uw pakje al af te halen is, maar dat het in de ongewenste post terecht is gekomen. Indien u vragen heeft over de levering van uw bestelling, wacht dan niet en neem contact op met onze klantenservice.<br\/><\/p>"
+            }
+          },
+          "7c7a712f-ead4-4908-aab0-b22a712000c1": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hoe lang duurt de levering?",
+              "text": "<p>De bezorging via bpost bevat een Track&Trace die u per mail ontvangt, zodat u het pakje zelf kunt volgen. Via bpost duurt de levering tussen de 2 en 4 werkdagen.<\/p><p>Anodyne doet er alles aan om binnen de beloofde levertijd te bezorgen. Uiteraard houden wij u per e-mail op de hoogte over de voortgang van uw bestelling. Ook nemen wij, indien mogelijk, contact met u op indien er zich bijzonderheden voordoen die de levertijd van je bestelling beïnvloeden. Hierin zijn wij afhankelijk van informatie die wij van onze vervoerders ontvangen.<\/p><p>Helaas duurt het op piekmomenten zoals tijdens een sale of rond feestdagen en in andere uitzonderlijke gevallen wel eens wat langer. Mocht dit het geval zijn, dan kunt u van ons verwachten dat we er alles aan doen om uw bestelling zo snel mogelijk bij u thuis te krijgen. Indien u vragen of opmerkingen heeft, neem dan gerust contact op met de Anodyne klantenservice.<br\/><\/p>"
+            }
+          },
+          "fe3da385-8b3b-444b-bb33-8f0c416d4561": {
+            "type": "category_block",
+            "settings": {
+              "dbtfy_faq_category": "Bestelling & Betaling",
+              "dbtfy_faq_icons": "support"
+            }
+          },
+          "ab020fcb-0978-4eb6-90e7-84aaae88495e": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hoe kan ik mijn bestelling bij Anodyne® betalen?",
+              "text": "<p>Wij bieden verschillende betaalmogelijkheden aan, die je kunt kiezen bij het afronden van je bestelling.<br\/><br\/><strong>PayPal<\/strong><br\/>Met PayPal bieden wij een online betalingsmethode waarbij je e-mailadres is gekoppeld aan uw bankrekening. U logt simpel in, in het betaalscherm en rond de betaling af. Anodyne kan hierdoor direct de order klaarmaken voor verzending. Betalingen via PayPal worden vanuit PayPal verzekerd.<br\/><br\/><strong>Creditcard<\/strong><br\/>Nederlandse en Belgische creditcards van Visa en Mastercard zijn bij ons meer dan welkom. Zodra de bestelling is geplaatst ontvangt u een bevestigingsmail en versturen wij de bestelling zo snel mogelijk op. Het bedrag wordt pas na verzending afgeschreven.<br\/>Waarom kiezen voor betalen met creditcard? Geen bijkomende kosten bij betaling met creditcard; Uw gegevens worden beveiligd verstuurd; Het bedrag wordt pas na verzending afgeschreven. Uw betalingen zijn via uw bank verzekerd.<\/p>"
+            }
+          },
+          "5d3fa7a0-856f-4796-a226-ffd708759b98": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Kan ik mijn bestelling nog wijzigen?",
+              "text": "<p>In bepaalde gevallen is het na het plaatsen van je bestelling nog mogelijk om bepaalde wijzigingen aan te brengen. Wij raden je dan ook aan om zo snel mogelijk contact met ons op te nemen. Wij kunnen u telefonisch vertellen of het nog mogelijk is de gewenste wijziging aan te brengen. Onze klantenservice is van maandag tot en met donderdag van 11:00 tot 16:00 bereikbaar. Op vrijdagen van 11:00 tot 15:30. Indien je bestelling nog niet is verzonden is het hoogstwaarschijnlijk mogelijk om deze nog te wijzigen en\/of annuleren.<\/p>"
+            }
+          },
+          "2babc3c1-8e24-41fe-a87b-c881054a6272": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Kan ik mijn gemaakte bestelling nog annuleren?",
+              "text": "<p>Indien uw bestelling nog niet is verzonden, kunt u contact opnemen met de klantenservice, die u hierbij graag helpen. Als uw pakje al is verzonden kunt u deze retourneren. Zodra wij het pakje in ons magazijn retour ontvangen, verwerken wij deze zo snel mogelijk. Ook wanneer u het pakje direct retourneert willen wij u verzoeken om contact met onze klantenservice op te nemen. Als wij weten dat het pakje op weg naar ons magazijn is voor een retour, kunnen wij deze sneller behandelen.<\/p>"
+            }
+          },
+          "bb0be18a-5fe2-405c-b206-35f4bda2b733": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Ik heb een verkeerd product ontvangen. Wat nu?",
+              "text": "<p>Binnen Anodyne® doen wij ons best om de bestelling zo goed mogelijk te verwerken. Mocht er aan onze zijde toch een fout zijn gemaakt en u heeft een verkeerd product ontvangen, neem dan zo snel mogelijk contact op met de klantenservice. Zij zullen u dan zo snel en zo goed mogelijk proberen te helpen.<\/p>"
+            }
+          },
+          "e129c782-f3e7-4745-934d-ba95dfbca016": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "(Hoe lang) Heb ik garantie op mijn Anodyne® producten?",
+              "text": "<p>De wettelijke garantie houdt in dat een product datgene is of moet doen wat je er als consument in alle redelijkheid van mag verwachten. Hiervoor staat geen garantietermijn in Nederland. Bij normaal gebruik en bij het volgen van de wasinstructies (Zie \"Hoe verzorg ik mijn Anodyne producten?\") zouden de Anodyne producten minimaal twee jaar mee moeten gaan. Indien het product niet deugt, heeft u recht op gratis reparatie, een nieuw product of teruggave van uw aankoopbedrag.<\/p><p>Is het probleem met het product uw eigen schuld? Dan heeft u geen recht op gratis reparatie, een nieuw product of teruggave van uw geld. Bijvoorbeeld wanneer u uw shirt wast met wasverzachter of in de droogtrommel droogt. Heeft u het product normaal gebruikt maar is het gewoon versleten? Ook dan heeft u geen recht op gratis reparatie. Ook als u bijvoorbeeld een te grote maat besteld heeft en hier pas na de proefperiode van 60 dagen achter komt, heeft u geen recht op gratis omruiling.<\/p>"
+            }
+          },
+          "0af6b5a3-fe94-48b2-a81a-1601a8538a2b": {
+            "type": "category_block",
+            "settings": {
+              "dbtfy_faq_category": "Omruilen en gebruik",
+              "dbtfy_faq_icons": "support"
+            }
+          },
+          "52bbac9b-4258-49c4-9865-952944f88632": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Wat houdt Anodyne's 30 dagen proefperiode precies in?",
+              "text": "<p>30 dagen proberen betekent bij Anodyne® letterlijk 30 dagen de mogelijkheid om zelf uw gekozen product te testen.<\/p><p>Bij Anodyne® krijgt u 30 dagen om zelf uw Posture Shirt of AlignMe InterActive Bra te testen. Met testen bedoelen wij het ervaren of u het product zult gaan gebruiken; vind u het lekker zitten, blijft het goed zitten tijdens het werken en\/of sporten, geneert het niet, etc.<\/p><p>Anodyne® vindt dat iemand dit alleen kunt testen wanneer het shirt écht gedragen kan worden. Daarom mag het labeltje er af worden gehaald, u mag met het shirt sporten, het mag gedragen worden tijdens het werken, het mag de was in, etc.<\/p><p>Indien u om wat voor reden dan ook niet tevreden bent met uw Anodyne® product, kunt u het binnen 30 dagen na ontvangst gratis retourneren met de meegeleverde retourlabel. Indien u het product wilt omruilen voor een ander product of maat, krijgt u uiteraard opnieuw 30 dagen de tijd om het te testen. Wanneer u de bestelling binnen 30 dagen na ontvangst retourneert krijgt u het volledige aankoopbedrag terug, ook als het gebruikt is zoals hierboven beschreven!<\/p><p>Het product dient in goede staat worden geretourneerd aan Anodyne®, zonder een sterke geur van bijvoorbeeld parfum of rook, met de bijbehorende originele verpakking en alle waslabels intact en de productlabels bijgevoegd. U mag het product binnen de periode van 30 dagen met retourrecht dragen en wassen met een wasmiddel zonder parfum of wasverzachter, maar als het product op enig moment in de wasdroger is gedroogd of met wasverzachter is gewassen voordat het wordt geretourneerd, kunnen wij weigeren het betaalde bedrag terug te betalen omdat het product hierdoor beschadigd raakt.<\/p>"
+            }
+          },
+          "69da553c-79eb-4b40-b57f-d1cab57f36b4": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Kan ik mijn bestelde product(en) omruilen?",
+              "text": "<p>Ja, indien u nog in uw proefperiode van 30 dagen na ontvangst zit. U kunt op het retourformulier invullen dat u een andere maat of ander product wilt, waarna wij dit zo snel mogelijk verwerken nadat wij het pakje terug hebben gekregen. Lees onder \"Hoe kan ik mijn bestelling retourneren\" hoe u uw bestelling het beste kunt terugsturen. Uiteraard krijgt u opnieuw 30 dagen om uw nieuwe product te proberen.<br\/><br\/>Het is ook mogelijk om de order te retourneren en in de tussentijd een nieuwe order te maken op de website. Op deze manier hoeft u niet eerst te wachten tot wij de order retour hebben ontvangen.<br\/><\/p>"
+            }
+          },
+          "0ccbee6e-6053-4e8e-821f-a37d78cc83e8": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Mag ik mijn artikelen retourneren?",
+              "text": "<p>Vanaf het moment van ontvangst heeft u 30 dagen volledig retourrecht. Zo lang u binnen deze 30 dagen zit, mag u gebruik maken van de meegeleverde retourlabel voor gratis retour. Lees voor meer informatie onder de vraag \"Wat houdt de 30 dagen proefperiode precies in?\".<\/p>"
+            }
+          },
+          "68088497-023b-4bf6-b261-6fe63f13eb87": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Moet ik betalen wanneer ik iets wil omruilen?",
+              "text": "<p>Indien u een product in dezelfde prijsklasse bestelt, hoeft u niets extra’s te betalen. Ook hoeft u geen retourkosten te betalen. Indien u een duurder product wilt bestellen is het beter om de order te annuleren zodat u uw aankoopbedrag terug krijgt, en een nieuwe order te plaatsen.<br\/><\/p>"
+            }
+          },
+          "10a94e6f-3dbd-42fd-aa32-e372ed25ebe7": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hoe kan ik mijn bestelling omruilen of retourneren?",
+              "text": "<p>In het door jou ontvangen pakketje zit altijd een retourformulier met retourlabel. Vul het retourformulier in (wil je jouw item omruilen - zo ja, voor wat? of liever retourneren?) en maak het pakketje klaar. <\/p><p>Indien je bij het bestellen hebt gekozen voor thuislevering of een afhaalpunt via bpost: Gebruik het label en lever de doos in bij een bpost punt naar keuze.<\/p>"
+            }
+          },
+          "c1a1fdb0-0ab9-44b8-afc9-bd90ba42272c": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Moet ik retourkosten betalen bij Anodyne®?",
+              "text": "<p>Nee. Wanneer u gebruik maakt van de meegeleverde retourlabel en het pakje bij een bpost punt inlevert is de retour volledig gratis. Indien u uw op een andere manier of via een andere leverancier wilt retourneren, zijn de kosten voor uzelf. Wij raden u daarom aan om gebruik te maken van de retourlabel en deze in te leveren bij een bpost punt naar keuze.<\/p>"
+            }
+          },
+          "08e5d2d0-8944-4544-8a9f-f7d497a1bed3": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Mijn nieuw ontvangen product is beschadigd of kapot. Wat nu?",
+              "text": "<p>Binnen Anodyne® doen wij ons best om ervoor te zorgen dat alle producten in goede staat worden geleverd. Een fabrieksfout kan echter altijd gebeuren. Mocht u een beschadigd of kapot product ontvangen, neem dan zo snel mogelijk, maar binnen de 30 dagen proefperiode, contact op met de klantenservice. Zij zullen u dan zo snel en zo goed mogelijk proberen te helpen.<\/p>"
+            }
+          },
+          "27c61a4d-34d9-42eb-8e72-8e44932c286b": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hoe snel heb ik mijn aankoopbedrag terug?",
+              "text": "<p>Wij ontvangen uw pakje normaal gesproken na 2-4 werkdagen retour in ons magazijn. Wij proberen de binnen gekomen pakjes nog op dezelfde werkdag te verwerken. Bij drukte kan dit twee tot vier werkdagen duren. Zodra wij de order hebben verwerkt, krediteren wij direct het volledige aankoopbedrag. Hoe lang het duurt voordat u dit bedrag terug heeft, is afhankelijk van de door u gebruikte betaalmethode:<\/p><p>Wanneer u via PayPal heeft betaald wordt bij een retour het aankoopbedrag via hetzelfde betaalsysteem teruggestort. Dit kan 1 á 2 werkdagen duren.<\/p><p>Wanneer u via CreditCard heeft besteld, is het afhankelijk van uw creditcardmaatschappij en uw bank wanneer u uw aankoopbedrag terug heeft op uw rekening. Bij een VISA-creditcard duurt het 2-3 werkdagen voordat onze betaling is verwerkt en terug te zien is op uw rekening. Mastercard verwerkt alle betalingen eenmalig per maand. Het kan hierdoor tot 30 dagen duren voordat het bedrag op uw rekening wordt teruggestort. Let erop dat u de rekening controleert die aan uw creditcard is gekoppeld.<br\/><\/p>"
+            }
+          },
+          "f076f8c6-c1e1-4368-b2a7-940a7c08102e": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Ik heb een Anodyne® product cadeau gekregen. Kan ik het aankoopbedrag op mijn eigen rekening teruggestort krijgen?",
+              "text": "<p>Het is voor ons helaas niet mogelijk om het aankoopbedrag naar een andere rekening over te maken. Als er via PayPal betaald is, wordt het bedrag naar het gebruikte bankrekening teruggestort. Bij betaling met een CreditCard wordt het aankoopbedrag naar de gebruikte kaart gecrediteerd.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "0b305f44-574b-4f02-bb8e-e45a0074daea",
+          "9377fd71-367b-47af-a161-190cf62e3aff",
+          "0375225b-0ac9-445e-8105-9d6ad4a7583c",
+          "5442a247-e1ec-4ce3-bef5-88db002cffe2",
+          "09b8bf08-8969-466e-9a8b-1641716a7a1a",
+          "64f3cdad-ec83-434e-951d-1db6546ee6f2",
+          "ee6e4e8f-b41f-4ca6-a2eb-b28f71370e62",
+          "fd099d87-5ed8-45db-b484-79381febd04b",
+          "887515eb-9def-4dc2-909b-76ddb585b625",
+          "3fe9b653-4494-4c5f-94fa-735d75fe3361",
+          "94a14ee6-ec1c-44eb-bda3-36df48b2fae1",
+          "e6bbc08e-749f-43c3-a082-b4ead9c4ba56",
+          "489e0dba-5416-43ca-a1ad-20e6e35b749f",
+          "c906914a-e11e-4155-85c4-420ce65fda17",
+          "57c7a813-95aa-4a4a-929e-cfa6ab706cb4",
+          "7c7a712f-ead4-4908-aab0-b22a712000c1",
+          "fe3da385-8b3b-444b-bb33-8f0c416d4561",
+          "ab020fcb-0978-4eb6-90e7-84aaae88495e",
+          "5d3fa7a0-856f-4796-a226-ffd708759b98",
+          "2babc3c1-8e24-41fe-a87b-c881054a6272",
+          "bb0be18a-5fe2-405c-b206-35f4bda2b733",
+          "e129c782-f3e7-4745-934d-ba95dfbca016",
+          "0af6b5a3-fe94-48b2-a81a-1601a8538a2b",
+          "52bbac9b-4258-49c4-9865-952944f88632",
+          "69da553c-79eb-4b40-b57f-d1cab57f36b4",
+          "0ccbee6e-6053-4e8e-821f-a37d78cc83e8",
+          "68088497-023b-4bf6-b261-6fe63f13eb87",
+          "10a94e6f-3dbd-42fd-aa32-e372ed25ebe7",
+          "c1a1fdb0-0ab9-44b8-afc9-bd90ba42272c",
+          "08e5d2d0-8944-4544-8a9f-f7d497a1bed3",
+          "27c61a4d-34d9-42eb-8e72-8e44932c286b",
+          "f076f8c6-c1e1-4368-b2a7-940a7c08102e"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "dbtfy_faq_searchbox": false,
+          "dbtfy_faq_search_placeholder": "Search questions...",
+          "dbtfy_faq_bannerbox": true,
+          "dbtfy_faq_banner_icon": "live_help",
+          "dbtfy_faq_banner_text": "Je vraag niet kunnen vinden?",
+          "dbtfy_faq_banner_subtitle": "Onze klantenservice helpt je graag verder!",
+          "dbtfy_faq_btn": "Neem contact op",
+          "dbtfy_faq_link": "shopify:\/\/pages\/contact"
+        }
+      },
+      "map": {
+        "type": "map",
+        "settings": {
+          "show_on_desktop": false,
+          "show_on_mobile": false,
+          "hide_section": true,
+          "heading": "Our store",
+          "address": "<p>123 Fake St.<br\/>Toronto, Canada<\/p><p>Mon - Fri, 10am - 9pm<br\/>Saturday, 11am - 9pm<br\/>Sunday, 11am - 5pm<\/p>",
+          "map_address": "490 Rue De La Gauchetière O, Montréal",
+          "button_text": "Get directions",
+          "map_icon": "location_on",
+          "api_key": "",
+          "image_position": "center center"
+        }
+      },
+      "16334438724209f0d0": {
+        "type": "newsletter",
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "",
+          "subtitle": "Altijd op de hoogte van onze laatste aanbiedingen en acties! Mis niks! Schrijf je nu in en ontvang de Anodyne® nieuwsbrief",
+          "section_style": "section-default"
+        }
+      },
+      "16391231557623f834": {
+        "type": "featured-icons-columns",
+        "blocks": {
+          "16391231557623f834-0": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Checkmark.png",
+              "icon": "",
+              "title": "De originele houdingcorrigerende kleding",
+              "text": "<p>De originele <a href=\"https:\/\/anodyne-be.myshopify.com\/collections\/alle-producten\" title=\"Alle producten\"><span style=\"text-decoration:underline\">houdingcorrigerende kleding <\/span><\/a>van Anodyne® kan alleen hier worden gekocht: op <a href=\"https:\/\/www.anodyne.be\/\" title=\"https:\/\/www.anodyne.be\/\"><span style=\"text-decoration:underline\">www.anodyne.be<\/span><\/a> of bij een van onze goedgekeurde resellers. Houd er rekening mee dat er veel namaakproducten in omloop zijn. Slechts één van deze soorten houdingcorrigerende kleding is zowel geregistreerd als medisch hulpmiddel als FDA-geregistreerd, namelijk de producten van Anodyne®. Let dus goed op wanneer je online iets bestelt.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "16391231557623f834-1": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Smile2.png",
+              "icon": "",
+              "title": "Houdingcorrigerende kleding met 100% tevredenheidsgarantie",
+              "text": "<p>Bij Anodyne® bieden we altijd gratis verzending, 100% tevredenheidsgarantie, 30 dagen retourrecht en gratis ruilen of retourneren. Dit betekent dat je je product 30 dagen vrijblijvend kunt testen en kijken of het aan je verwachtingen voldoet. We voegen een gratis retourlabel toe aan alle verzendingen, zodat je het pakket eenvoudig terug kunt sturen om je artikelen te ruilen of retourneren. Het is de bedoeling dat je 100% tevreden bent – net als onze meer dan 300.000 klanten, die de afgelopen 7 jaar een origineel Anodyne®-product hebben gekocht. Minder dan 1 op de 20 klanten retourneert daadwerkelijk hun product.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "16391231557623f834-2": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Kinesio.png",
+              "icon": "",
+              "title": "Van kinesiotape tot houdingcorrigerende kleding",
+              "text": "<p>Het <a href=\"https:\/\/anodyne-be.myshopify.com\/collections\/posture-shirt\" title=\"Posture Shirt™\"><span style=\"text-decoration:underline\">houdingsshirt<\/span> <\/a>activeert de rugspieren, schouders en schouderbladen, zonder je spieren of gewrichten vast te zetten. De technologie achter de houdingcorrigerende kleding is geïnspireerd door kinesiotape - een behandelingsmethode die vaak door fysiotherapeuten en chiropractors wordt gebruikt om pijn en spanning in de nek, schouders en rug te behandelen. Kinesiotaping wordt ook vaak gebruikt door professionele sporters om specifieke spiergroepen te stimuleren en de houding te verbeteren.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "16391231557623f834-0",
+          "16391231557623f834-1",
+          "16391231557623f834-2"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "",
+          "subtitle": "",
+          "section_style": "section-default",
+          "text_align": ""
+        }
+      }
+    },
+    "content_for_index": [
+      "16300631015589eb65",
+      "1630063768bdfa2f5f",
+      "1630070175c6ebb320",
+      "163032369225153039",
+      "163032806406e9f003",
+      "1630331223d20499c6",
+      "16391231557623f834",
+      "1630404145a76c9e4d",
+      "1630409395746d29de",
+      "16334438724209f0d0"
+    ]
+  }
+}

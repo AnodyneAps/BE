@@ -1,0 +1,40 @@
+{%- if settings.hero_header -%}
+<style class="hero-header-style">
+  .header-container, .menu-bar__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .dbtfy-menu_bar .menu-bar__inner {
+   top: {{ settings.height_header }}px;
+  }
+
+  .site-header .site-nav__link, .site-header .site-header__logo-link, .dbtfy-menu_bar .menu-bar__link {
+    color: {{ settings.color_transparent_nav_text }};
+  }
+
+  .cart-link__bubble--visible {
+    border-color: {{ settings.color_transparent_nav_text }};
+  }
+
+  .site-header .default-logo {
+    display: none;
+  }
+
+  .site-header .inverted-logo {
+    display: block;
+  }
+
+  @media screen and (min-width: 769.1px) {
+    .transparent-header .dbtfy-menu_bar .menu-bar__item {
+      border-color: {{ settings.color_nav_border }};
+    }
+
+    .site-header, .dbtfy-menu_bar, .dbtfy-menu_bar .menu-bar__link {
+      background-color: transparent;
+    }
+  }
+</style>
+{%- endif -%}

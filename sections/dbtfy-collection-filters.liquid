@@ -1,0 +1,348 @@
+{%- if content_for_header contains 'debutify' and settings.dbtfy_collection_filters -%}
+  {%- assign current_collection = collection -%}
+  {%- assign current_tags = current_tags | handleize -%}
+
+  <div id="dbtfyCollectionFilter" class="drawer drawer--left overlay-content" data-section-id="{{ section.id }}" data-section-type="drawer-filters-section" aria-hidden="true" tabindex="-1">
+    <div class="drawer__header">
+      <div class="drawer__title">
+        <span class="{{ settings.icon }}" aria-hidden="true">{{ settings.dbtfy_collection_filters_button_icon }}</span>
+        <span class="spacer-left-xs">
+          {%- if settings.dbtfy_collection_filters_button_title != blank -%}
+            {{ settings.dbtfy_collection_filters_button_title }}
+          {%- else -%}
+            {{ 'general.drawers.navigation' | t }}
+          {%- endif -%}
+        </span>
+      </div>
+
+      <div class="drawer__close">
+        <button type="button" class="btn btn-square-small drawer__close-button js-drawer-close"  aria-label="{{ 'general.drawers.close_menu' | t }}" title="{{ 'general.drawers.close_menu' | t }}">
+          <span class="{{ settings.icon }}" aria-hidden="true">close</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="drawer__inner drawer-left__inner">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when "collections" -%}
+            {%- assign is_to_show_section = true -%}
+
+            {%- if block.settings.visibility_type == "few" and block.settings.list_categories == blank -%}
+              {%- assign is_to_show_section = false -%}
+            {%- endif -%}
+
+            {%- if section.settings.hide_unavailable_options -%}
+              {%- assign not_empty_collections_count = 0 -%}
+
+              {%- if block.settings.visibility_type == "all" -%}
+                {%- if collection.products_count > 0 -%}
+                  {%- assign not_empty_collections_count = not_empty_collections_count | plus: 1 -%}
+                {%- endif -%}
+              {%- else -%}
+                {%- assign featured_collections = block.settings.list_categories | split: "," | strip | downcase -%}
+
+                {%- for collection in collections -%}
+                  {%- assign collection_title = collection.title | downcase -%}
+
+                  {%- if featured_collections contains collection_title -%}
+                    {%- if collection.products_count > 0 -%}
+                      {%- assign not_empty_collections_count = not_empty_collections_count | plus: 1 -%}
+                    {%- endif -%}
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- endif -%}
+
+              {%- if not_empty_collections_count <= 0 -%}
+                {%- assign is_to_show_section = false -%}
+              {%- endif -%}
+            {%- endif -%}
+
+            {%- if is_to_show_section -%}
+              <div class="drawer__inner-section">
+                <div class="dbtfy-filter-group">
+                  {%- if block.settings.title != blank -%}
+                    <div class="filter-group-header spacer-bottom">
+                      <h6 class="spacer-bottom-none">{{ block.settings.title }}</h6>
+                    </div>
+                  {%- endif -%}
+
+                  <div class="filter-group-body">
+                    <ul class="dbtfy-filter-list-links">
+                      {%- assign all_collection = collections.all -%}
+
+                      <li {% if current_collection.handle == all_collection.handle %}class="active"{% endif %}>
+                        <a href="{{ all_collection.url }}" class="flex justify-between">
+                          <span>{{ 'collections.general.all_of_collection' | t }}</span>
+
+                          {%- if section.settings.show_tags_count -%}
+                            <span class="spacer-left-xs">({{ all_collection.products_count }})</span>
+                          {%- endif -%}
+                        </a>
+                      </li>
+
+                      {%- if block.settings.visibility_type == "all" -%}
+                        {%- for collection in collections -%}
+                          {%- assign is_to_show_collection = true -%}
+
+                          {%- if section.settings.hide_unavailable_options and collection.products_count <= 0 -%}
+                            {%- assign is_to_show_collection = false -%}
+                          {%- endif -%}
+
+                          {%- if is_to_show_collection -%}
+                            <li {% if collection.handle == current_collection.handle %}class="active"{% endif %}>
+                              <a href="{{ collection.url }}" class="flex justify-between">
+                                <span>{{ collection.title }}</span>
+
+                                {%- if section.settings.show_tags_count -%}
+                                  <span class="spacer-left-xs">({{ collection.products_count }})</span>
+                                {%- endif -%}
+                              </a>
+                            </li>
+                          {%- endif -%}
+                        {%- endfor -%}
+                      {%- else -%}
+                        {%- assign featured_collections = block.settings.list_categories | split: "," | strip | downcase -%}
+
+                        {%- for collection in collections -%}
+                          {%- assign collection_title = collection.title | downcase -%}
+
+                          {%- if featured_collections contains collection_title -%}
+                            {%- assign is_to_show_collection = true -%}
+
+                            {%- if section.settings.hide_unavailable_options and collection.products_count <= 0 -%}
+                              {%- assign is_to_show_collection = false -%}
+                            {%- endif -%}
+
+                            {%- if is_to_show_collection -%}
+                              <li {% if collection.handle == current_collection.handle %}class="active"{% endif %}>
+                                <a href="{{ collection.url }}" class="flex justify-between">
+                                  <span>{{ collection.title }}</span>
+
+                                  {%- if section.settings.show_tags_count -%}
+                                    <span class="spacer-left-xs">({{ collection.products_count }})</span>
+                                  {%- endif -%}
+                                </a>
+                              </li>
+                            {%- endif -%}
+                          {%- endif -%}
+                        {%- endfor -%}
+                      {%- endif -%}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            {%- endif -%}
+          {%- when "filter_group" -%}
+            {%- assign tags = block.settings.tags | split: ',' -%}
+            {%- assign count_disabled = tags.size -%}
+            {%- assign showGroup = true -%}
+
+            {%- for tag in tags -%}
+              {%- assign tag_name = tag | lstrip | handleize -%}
+              {%- assign disabledVariant = true -%}
+
+              {%- for collection_tag in current_collection.tags -%}
+                {%- assign collection_tag_h = collection_tag | handleize -%}
+
+                {%- if collection_tag_h == tag_name -%}
+                  {%- assign count_disabled = count_disabled | minus: 1 -%}
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endfor -%}
+
+            {% if section.settings.hide_unavailable_options and count_disabled == tags.size %}
+              {%- assign showGroup = false -%}
+            {% endif %}
+
+            {% if showGroup %}
+            <div class="drawer__inner-section" {{ block.shopify_attributes }}>
+              <div class="dbtfy-filter-group dbtfy-filter-tags-group">
+                {%- if block.settings.title != blank -%}
+                <div class="filter-group-header spacer-bottom flex flex-wrap align-center justify-between">
+                  <h6 class="spacer-bottom-none">{{ block.settings.title }}</h6>
+                  <button type="button" class="filter-clear text-small fadeIn" hidden>
+                    <span>{{ section.settings.clear_label }}</span>
+                  </button>
+                </div>
+                {%- endif -%}
+
+                <div class="filter-group-body">
+                  <ul>
+                    {%- for tag in tags -%}
+                      {%- assign tag_name = tag | lstrip | handleize -%}
+                      {%- assign group_id = block.type | append: '_' | append: block.id | append: forloop.index -%}
+                      {%- assign countProductsWithTag = 0 -%}
+
+                      {%- for product in current_collection.products -%}
+                        {%- assign product_tags = product.tags -%}
+
+                        {% for product_tag in product.tags %}
+                          {% assign product_tag_h = product_tag | handleize %}
+
+                          {%- if product_tag_h == tag_name -%}
+                            {%- assign countProductsWithTag = countProductsWithTag | plus: 1 -%}
+                          {%- endif -%}
+                        {% endfor %}
+                      {%- endfor -%}
+
+                      {%- if countProductsWithTag > 0 -%}
+                        <li class="filter-card-item flex justify-between align-center">
+                          <div class="checkbox">
+                            <input id="{{ group_id }}" type="checkbox" value="{{ tag_name }}" name="{{ tag_name }}" {% if current_tags contains tag_name %}checked{% endif %}>
+                            <label for="{{ group_id }}">{{ tag }}</label>
+                          </div>
+
+                          {%- if section.settings.show_tags_count -%}
+                            <span class="spacer-left-xs">({{ countProductsWithTag }})</span>
+                          {%- endif -%}
+                        </li>
+                      {%- elsif section.settings.hide_unavailable_options == false -%}
+                        <li class="filter-card-item flex justify-between align-center">
+                          <div class="checkbox disabled">
+                            <input id="{{ group_id }}" type="checkbox" value="{{ tag_name }}" name="{{ tag_name }}" {% if current_tags contains tag_name %}checked{% endif %} disabled>
+                            <label for="{{ group_id }}" class="disabled">{{ tag }}</label>
+                          </div>
+                          {%- if section.settings.show_tags_count and section.settings.visibility_tags_count == "all" -%}
+                          <span class="disabled">({{ countProductsWithTag }})</span>
+                          {%- endif -%}
+                        </li>
+                      {%- endif -%}
+                    {%- endfor -%}
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {%- endif -%}
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+
+    <div class="drawer__footer">
+      <button type="button" class="btn btn--full filter-clear-all" hidden>
+        {{ section.settings.clear_all_label }}
+      </button>
+    </div>
+  </div>
+
+  <div class="overlay-backdrop overlay-drawer"></div>
+{%- endif -%}
+
+{% schema %}
+  {
+    "name": "⚡ Collection filters",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Help Center"
+      },
+      {
+        "type": "paragraph",
+        "content": "[Follow our step-by-step tutorial](https:\/\/help.debutify.com\/en\/articles/5290641-how-to-enable-the-collection-filters-add-on-in-debutify-3-0-shopify-theme)"
+      },
+      {
+        "type": "paragraph",
+        "content": "To enable/disable this add-on, go to Theme settings > Debutify Add-ons."
+      },
+      {
+        "type": "header",
+        "content": "Settings"
+      },
+      {
+        "type": "text",
+        "id": "clear_label",
+        "label": "Clear label",
+        "default": "Clear"
+      },
+      {
+        "type": "text",
+        "id": "clear_all_label",
+        "label": "Clear all label",
+        "default": "Clear All"
+      },
+      {
+        "type": "checkbox",
+        "id": "hide_unavailable_options",
+        "label": "Hide unavailable options",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "Tags Count"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_tags_count",
+        "label": "Show count",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "visibility_tags_count",
+        "options": [
+          {
+            "value": "all",
+            "label": "For all tags"
+          },
+          {
+            "value": "available",
+            "label": "Only for available tags"
+          }
+        ],
+        "label": "Visibility tags count"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "filter_group",
+        "name": "Filter group",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "tags",
+            "label": "Tags",
+            "info": "Tags separated by commas. e.g. sneakers,men"
+          }
+        ]
+      },
+      {
+        "type": "collections",
+        "name": "Collections",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Collections"
+          },
+          {
+            "type": "radio",
+            "id": "visibility_type",
+            "options": [
+              {
+                "value": "all",
+                "label": "All"
+              },
+              {
+                "value": "few",
+                "label": "Only a few categories"
+              }
+            ],
+            "label": "Visibility Type"
+          },
+          {
+            "type": "textarea",
+            "id": "list_categories",
+            "label": "Collections list",
+            "info": "Collection names, separated by commas. e.g. sneakers,men"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

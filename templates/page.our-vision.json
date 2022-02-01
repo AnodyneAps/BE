@@ -1,0 +1,265 @@
+{
+  "sections": {
+    "16377498892cd080f4": {
+      "type": "featured-image",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Vision.jpg",
+        "section_style": "section-blank",
+        "wrapper__height": 400,
+        "image_title": "<p><strong>Onze visie<\/strong><\/p>",
+        "image_title_fr": "<p><strong>NOTRE VISION<\/strong><\/p>",
+        "image_subtitle": "",
+        "image_subtitle_fr": "",
+        "image_btntext": "",
+        "image_btntext_fr": "",
+        "image_link": "",
+        "image_link_fr": "",
+        "show_on_image_scrolldown": false
+      }
+    },
+    "1635768531cb520ba5": {
+      "type": "mission",
+      "blocks": {
+        "1635768531cb520ba5-0": {
+          "type": "html",
+          "settings": {
+            "mission_title": "<div style=\"padding-top:20px\"><h1>We willen een verschil maken<\/h1><\/div>",
+            "mission_description": "<div style=\"margin-bottom:-20px\">Voor velen kan een betere lichaamshouding de weg zijn naar een beter leven. Of u nu af en toe last heeft van spanning of van chronische pijn, een gezonde lichaamshouding kan het dagelijkse ongemak verlichten. Daarom nemen wij de situatie van onze klanten serieus en werken wij hard om hen te helpen hun houding te verbeteren.<\/div>",
+            "column_width": 12,
+            "column_width_mobile": 12,
+            "text_alignment": "text-center",
+            "btn_text": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1635768531cb520ba5-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "margin__bottom": 0,
+        "section_style": "section-blank",
+        "wrapper_size": ""
+      }
+    },
+    "163713422430979eb7": {
+      "type": "HTML-columns",
+      "blocks": {
+        "1637134224eb039823-0": {
+          "type": "HTML_column",
+          "settings": {
+            "wrapper_size": "",
+            "html_area_1": "<div style=\"padding-left:55px;padding-right:55px\">\n<img src=\"https:\/\/i.ibb.co\/n1XdwZ4\/Purpose2.gif\" alt=\"Objectif\" style=\"max-width:100px;width:100%\"><h2>Doel<\/h2>\n<p>Wij bestaan om de lichaamshouding te verbeteren, pijn te verlichten en de levenskwaliteit van onze klanten te verhogen.<\/p>\n<\/div>",
+            "column_width_1": 6,
+            "column_width_mobile_1": 12,
+            "text_alignment_1": "text-center",
+            "html_area_2": "<div style=\"padding-left:55px;padding-right:55px\">\n<img src=\"https:\/\/i.ibb.co\/FgjcrpD\/Ambition2.gif\" alt=\"ambitions\" style=\"max-width:100px;width:100%\"><h2>Ambitie<\/h2>\n<p>Wij willen de meest betrouwbare en geprefereerde leverancier zijn van effectieve houdingscorrigerende kleding in heel Europa.<\/p>\n<\/div>",
+            "column_width_2": 6,
+            "column_width_mobile_2": 12,
+            "text_alignment_2": "text-center",
+            "html_area_3": "",
+            "column_width_3": 4,
+            "column_width_mobile_3": 12,
+            "text_alignment_3": "text-center",
+            "html_area_4": "",
+            "column_width_4": 4,
+            "column_width_mobile_4": 12,
+            "text_alignment_4": "text-center",
+            "html_area_5": "",
+            "column_width_5": 4,
+            "column_width_mobile_5": 12,
+            "text_alignment_5": "text-center",
+            "html_area_6": "",
+            "column_width_6": 4,
+            "column_width_mobile_6": 12,
+            "text_alignment_6": "text-center",
+            "html_area_7": "",
+            "column_width_7": 4,
+            "column_width_mobile_7": 12,
+            "text_alignment_7": "text-center",
+            "html_area_8": "",
+            "column_width_8": 4,
+            "column_width_mobile_8": 12,
+            "text_alignment_8": "text-center",
+            "html_area_9": "",
+            "column_width_9": 4,
+            "column_width_mobile_9": 12,
+            "text_alignment_9": "text-center",
+            "html_area_10": "",
+            "column_width_10": 4,
+            "column_width_mobile_10": 12,
+            "text_alignment_10": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "1637134224eb039823-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "<div style=\"margin-top:-100px\"><\/div>",
+        "subtitle": "",
+        "section_style": "section-blank"
+      }
+    },
+    "16371342272edbe58c": {
+      "type": "mission",
+      "blocks": {
+        "1637134227279c8f51-0": {
+          "type": "html",
+          "settings": {
+            "mission_title": "<div style=\"padding-top:60px\"><h2 class=\"h1\">Onze waarden<\/h2><\/div>",
+            "mission_description": "<div style=\"margin-bottom:0px\">Bij Anodyne® hebben we vier kernwaarden die de basis vormen van al onze beslissingen en ervoor zorgen dat we altijd dezelfde geweldige service leveren.<\/div>",
+            "column_width": 12,
+            "column_width_mobile": 12,
+            "text_alignment": "text-center",
+            "btn_text": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1637134227279c8f51-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "margin__bottom": 42,
+        "section_style": "section-default",
+        "wrapper_size": ""
+      }
+    },
+    "163671324894c3c82e": {
+      "type": "featured-icons-columns",
+      "blocks": {
+        "163671324894c3c82e-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Integrity.png",
+            "icon": "",
+            "title": "Integriteit behouden",
+            "text": "<p>Wij zijn respectvol en eerlijk tegen onze klanten.<\/p>",
+            "button_style": "btn--primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "163671324894c3c82e-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Quality.png",
+            "icon": "",
+            "title": "Focus op kwaliteit",
+            "text": "<p>Onze producten werken en gaan jaren mee.<\/p>",
+            "button_style": "btn--primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "163671324894c3c82e-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Target.png",
+            "icon": "",
+            "title": "Maak het eenvoudig",
+            "text": "<p>Wij maken het makkelijk om precies het juiste product te vinden.<\/p>",
+            "button_style": "btn--primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "fec68125-762f-44cd-9f33-3514fc57db83": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Feedback.png",
+            "icon": "",
+            "title": "Luisteren naar de klant",
+            "text": "<p>Wij passen ons aan de markt aan en luisteren naar de feedback van de klanten.<\/p>",
+            "button_style": "btn--primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163671324894c3c82e-2",
+        "163671324894c3c82e-1",
+        "163671324894c3c82e-0",
+        "fec68125-762f-44cd-9f33-3514fc57db83"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "",
+        "subtitle": "",
+        "section_style": "section-default",
+        "text_align": "text-center"
+      }
+    },
+    "16376680807c58f8ff": {
+      "type": "mission",
+      "blocks": {
+        "16376680803b28d2d6-0": {
+          "type": "html",
+          "settings": {
+            "mission_title": "<div style=\"padding-top:30px\"><h2>Nieuwsgierig naar wie we zijn?<\/h2><\/div>",
+            "mission_description": "<div style=\"margin-top:0px\"><a class=\"btn btn--small btn-outline-primary\" href=\"https:\/\/www.anodyne.be\/pages\/over-ons\">Ons verhaal<\/a><\/div>",
+            "column_width": 12,
+            "column_width_mobile": 12,
+            "text_alignment": "text-center",
+            "btn_text": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16376680803b28d2d6-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "margin__bottom": 80,
+        "section_style": "section-blank",
+        "wrapper_size": ""
+      }
+    },
+    "163576830859681535": {
+      "type": "featured-products",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Bestsellers",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "home_featured_products": "alle-producten",
+        "rows": "2",
+        "desktop_grid": "4",
+        "mobile_grid": "2",
+        "show_view_all": false,
+        "button_label": "View all",
+        "button_link": "",
+        "button_style": "btn-outline-primary",
+        "slider_related_products": true,
+        "arrows": true,
+        "dots": true,
+        "autoplay": false,
+        "autoplayspeed": 5
+      }
+    }
+  },
+  "order": [
+    "16377498892cd080f4",
+    "1635768531cb520ba5",
+    "163713422430979eb7",
+    "16371342272edbe58c",
+    "163671324894c3c82e",
+    "16376680807c58f8ff",
+    "163576830859681535"
+  ]
+}

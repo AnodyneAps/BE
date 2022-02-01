@@ -1,0 +1,81 @@
+{%- if content_for_header contains 'debutify' and settings.dbtfy_back_in_stock -%}
+  <div class="dbtfy dbtfy-back_in_stock notify_form notify-form-{{ product.id }} spacer-bottom"
+       id="notify-form-{{ product.id }}">
+
+    {%- capture product_url -%}
+      {% if request.page_type == "product" %}
+        {{ canonical_url }}{% unless current_variant.available %}?variant={{ current_variant.id }}{% endunless %}
+      {% else %}
+        {{ shop.url }}{{ product.url }}{% unless current_variant.available %}?variant={{ current_variant.id }}{% endunless %}
+      {% endif %}
+    {%- endcapture -%}
+
+    {%- capture body_message -%}
+      {{ settings.dbtfy_back_in_stock_body_prefix }} {{ product.title }} {{ settings.dbtfy_back_in_stock_body_suffix }}
+    {%- endcapture-%}
+
+    {%- form "contact", class: "form-vertical", id: "notify-form" -%}
+      {%- assign is_to_show_success_form = false -%}
+
+      {%- if form.posted_successfully? and settings.dbtfy_back_in_stock_success -%}
+        {%- assign is_to_show_success_form = true -%}
+      {%- endif -%}
+
+      {%- if is_to_show_success_form -%}
+        <div class="note form-success notify_form__success">
+          {{ settings.dbtfy_back_in_stock_success }}
+        </div>
+      {%- endif -%}
+
+      {%- if form.errors -%}
+        {{ form.errors | default_errors }}
+      {%- else -%}
+        <div class="notify_form__inputs{% if customer %} customer--true{% endif %}"
+            {%- if is_to_show_success_form or current_variant.available -%}hidden{%- endif -%}
+
+            {% if request.page_type == "product" %}
+              data-url="{{ canonical_url }}"
+            {% else %}
+              data-url="{{ shop.url }}{{ product.url }}"
+            {% endif %}
+             data-body-message="{{ body_message }}">
+
+            <label for="BackInStockInput" class="notify_form__label" hidden>
+            {%- if settings.dbtfy_back_in_stock_richtext != blank -%}
+              {%- unless is_to_show_success_form -%}
+                {{ settings.dbtfy_back_in_stock_richtext }}
+              {%- endunless -%}
+            {%- endif -%}
+          </label>
+    
+
+          <input type="email"
+                 id="BackInStockInput"
+                 class="input--small newsletter__input{% if form.errors contains 'email' %} input-error{% endif %}"
+                 name="contact[email]"
+                 placeholder="{{ 'general.newsletter_form.newsletter_placeholder' | t }}"
+                 aria-label="{{ 'general.newsletter_form.newsletter_placeholder' | t }}"
+                 autocorrect="off"
+                 autocapitalize="off"
+                 required="required"
+                 aria-required="true"
+                 value="{%- if form.email -%}{{ form.email }}{%- elsif customer -%}{{ customer.email }}{%- endif -%}"
+              {%- if form.errors contains 'email' -%}
+            aria-invalid="true"
+              {%- endif -%}>
+
+          <input type="hidden" name="challenge" value="false" />
+          <input type="hidden" name="contact[body]" class="notify_form_message"
+                 data-body="{{- body_message -}}{{- product_url -}}" value="{{- body_message -}}{{- product_url -}}" />
+
+          <button class="btn btn--primary full action_button{% if settings.dbtfy_back_in_stock_btn_animation %} btn--addtocart_animation{% endif %}" type="submit" name="commit">
+            <span class="btn__text">
+              <span class="{{ settings.icon }}" aria-hidden="true">{{ settings.dbtfy_back_in_stock_icon }}</span>
+              <span class="submit_btn_text">{{ settings.dbtfy_back_in_stock_btn }}</span>
+            </span>
+          </button>
+        </div>
+      {%- endif -%}
+    {%- endform -%}
+  </div>
+{%- endif -%}

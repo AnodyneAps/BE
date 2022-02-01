@@ -1,0 +1,366 @@
+{
+  "sections": {
+    "1637325960a723ac8f": {
+      "type": "featured-image",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Smertelindring_hero.jpg",
+        "section_style": "section-blank",
+        "wrapper__height": 360,
+        "image_title": "<p><strong>Pijnverlichting en goede lichaamshouding<\/strong><\/p>",
+        "image_title_fr": "<p><strong>SOULAGEMENTDE LA DOULEUR ET POSTURE SAINE<\/strong><\/p>",
+        "image_subtitle": "",
+        "image_subtitle_fr": "",
+        "image_btntext": "",
+        "image_btntext_fr": "",
+        "image_link": "",
+        "image_link_fr": "",
+        "show_on_image_scrolldown": false
+      }
+    },
+    "163577518155d0cfa9": {
+      "type": "HTML-columns",
+      "blocks": {
+        "163577518155d0cfa9-0": {
+          "type": "HTML_column",
+          "settings": {
+            "wrapper_size": "",
+            "html_area_1": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/TPGrXrV\/Ease.png\" alt=\"Ease\" style=\"max-width:50px;width:100%\"><h2>Verlicht pijn\n<\/h2>\n<p>Een goede houding kan spanning en pijn in uw rug, schouders en nek verlichten.<\/p>\n<\/div>",
+            "column_width_1": 4,
+            "column_width_mobile_1": 12,
+            "text_alignment_1": "text-center",
+            "html_area_2": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/t8q4kDW\/Prevents.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Voorkomt blessures<\/h2>\n<p>Helpt pijn en klachten te voorkomen in de toekomst.<\/p>\n<\/div>",
+            "column_width_2": 4,
+            "column_width_mobile_2": 12,
+            "text_alignment_2": "text-center",
+            "html_area_3": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/BCR1Fg3\/Alleviate.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Ontlast het lichaam<\/h2>\n<p>Ontspant gespannen spiergroepen en verlicht de spanning in de schouders, nek en onderrug.<\/p>\n<\/div>",
+            "column_width_3": 4,
+            "column_width_mobile_3": 12,
+            "text_alignment_3": "text-center",
+            "html_area_4": "",
+            "column_width_4": 4,
+            "column_width_mobile_4": 12,
+            "text_alignment_4": "text-center",
+            "html_area_5": "",
+            "column_width_5": 4,
+            "column_width_mobile_5": 12,
+            "text_alignment_5": "text-center",
+            "html_area_6": "",
+            "column_width_6": 4,
+            "column_width_mobile_6": 12,
+            "text_alignment_6": "text-center",
+            "html_area_7": "",
+            "column_width_7": 4,
+            "column_width_mobile_7": 12,
+            "text_alignment_7": "text-center",
+            "html_area_8": "",
+            "column_width_8": 4,
+            "column_width_mobile_8": 12,
+            "text_alignment_8": "text-center",
+            "html_area_9": "",
+            "column_width_9": 4,
+            "column_width_mobile_9": 12,
+            "text_alignment_9": "text-center",
+            "html_area_10": "",
+            "column_width_10": 4,
+            "column_width_mobile_10": 12,
+            "text_alignment_10": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "163577518155d0cfa9-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "<div style=\"margin-bottom:-50px\"><\/div>",
+        "subtitle": "",
+        "section_style": "section-default"
+      }
+    },
+    "16358413676827deec": {
+      "type": "mission",
+      "blocks": {
+        "16358413676827deec-0": {
+          "type": "html",
+          "settings": {
+            "mission_title": "<div style=\"margin-top:30px\"><h2>Pijnverlichting met houdingscorrigerende kleding<\/h2><\/div>",
+            "mission_description": "<div style=\"margin-bottom:0px\"><p>Wij doen er alles aan om de doeltreffendheid van onze producten te bewijzen. Daarom hebben wij een onafhankelijk onderzoek laten uitvoeren dat de reacties van 1.039 van onze klanten heeft verzameld. Het onderzoek concludeert dat ons Posture Shirt™ een positief effect heeft op de lichaamshouding en gebruikt kan worden als een extra hulpmiddel voor pijnverlichting in het hoofd, de nek, schouders en rug.<\/p><\/div>",
+            "column_width": 12,
+            "column_width_mobile": 12,
+            "text_alignment": "text-center",
+            "btn_text": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16358413676827deec-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "margin__bottom": 30,
+        "section_style": "section-blank",
+        "wrapper_size": ""
+      }
+    },
+    "1635839832c61f83f2": {
+      "type": "featured-html-columns",
+      "blocks": {
+        "1635839832c61f83f2-0": {
+          "type": "HTML_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shoulders.jpg",
+            "title": "",
+            "text": "<strong>73% <\/strong>ervaart een vermindering in de frequentie van hun rug- en schouderpijn.",
+            "button_style": "btn--primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1635839832c61f83f2-1": {
+          "type": "HTML_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Neck.jpg",
+            "title": "",
+            "text": "<strong>70% <\/strong>ervaart een vermindering in de frequentie van hun nekpijn.<br><br>",
+            "button_style": "btn--primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1635839832c61f83f2-2": {
+          "type": "HTML_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lumbar2.jpg",
+            "title": "",
+            "text": "<strong>65% <\/strong>vindt dat de intensiteit van hun lage rugpijn is verminderd.",
+            "button_style": "btn--primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "256f7a0f-dd55-4e3e-8d8b-d17f7fe33ca9": {
+          "type": "HTML_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Headache.jpg",
+            "title": "",
+            "text": "<strong>77% <\/strong>heeft het gevoel dat de intensiteit van hun hoofdpijn is verminderd.",
+            "button_style": "btn--primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1635839832c61f83f2-0",
+        "1635839832c61f83f2-1",
+        "1635839832c61f83f2-2",
+        "256f7a0f-dd55-4e3e-8d8b-d17f7fe33ca9"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "text_align": "text-center"
+      }
+    },
+    "16358466932eca0b65": {
+      "type": "HTML-columns",
+      "disabled": true,
+      "blocks": {
+        "16358466932eca0b65-0": {
+          "type": "HTML_column",
+          "settings": {
+            "wrapper_size": "",
+            "html_area_1": "<div style=\"margin-top:-100px; margin-bottom:-90px\"><a class=\"btn btn--small btn-outline-primary\" href=\"https:\/\/www.anodyne.nl\">Lees meer over het onderzoek<\/a><\/div>",
+            "column_width_1": 12,
+            "column_width_mobile_1": 12,
+            "text_alignment_1": "text-center",
+            "html_area_2": "",
+            "column_width_2": 4,
+            "column_width_mobile_2": 12,
+            "text_alignment_2": "text-center",
+            "html_area_3": "",
+            "column_width_3": 4,
+            "column_width_mobile_3": 12,
+            "text_alignment_3": "text-center",
+            "html_area_4": "",
+            "column_width_4": 4,
+            "column_width_mobile_4": 12,
+            "text_alignment_4": "text-center",
+            "html_area_5": "",
+            "column_width_5": 4,
+            "column_width_mobile_5": 12,
+            "text_alignment_5": "text-center",
+            "html_area_6": "",
+            "column_width_6": 4,
+            "column_width_mobile_6": 12,
+            "text_alignment_6": "text-center",
+            "html_area_7": "",
+            "column_width_7": 4,
+            "column_width_mobile_7": 12,
+            "text_alignment_7": "text-center",
+            "html_area_8": "",
+            "column_width_8": 4,
+            "column_width_mobile_8": 12,
+            "text_alignment_8": "text-center",
+            "html_area_9": "",
+            "column_width_9": 4,
+            "column_width_mobile_9": 12,
+            "text_alignment_9": "text-center",
+            "html_area_10": "",
+            "column_width_10": 4,
+            "column_width_mobile_10": 12,
+            "text_alignment_10": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "16358466932eca0b65-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "",
+        "subtitle": "",
+        "section_style": "section-blank"
+      }
+    },
+    "16358488013c1aad95": {
+      "type": "HTML-columns",
+      "blocks": {
+        "16358488013c1aad95-0": {
+          "type": "HTML_column",
+          "settings": {
+            "wrapper_size": "",
+            "html_area_1": "<div style=\"margin-top:-40px; margin-bottom:0px\">\n<h2>Onze producten zijn medisch geregistreerd<\/h2>\n<img src=\"https:\/\/i.ibb.co\/rF0hmhY\/Registrering2.png\">\n<p>Anodyne® is de enige verkoper van houdingscorrigerende kleding in Europa waarvan de producten zowel FDA-geregistreerd als CE-gemarkeerd zijn als medische hulpmiddelen.\nDit betekent dat onze producten voldoen aan een aantal strenge milieu-, veiligheids-, kwaliteits-, en prestatie-eisen.<br>\nDeze registratie is van toepassing op zowel ons Posture Shirt™, SpinalQ Pro en MyLign Pro. \n<\/p>\n<\/div>\n<a class=\"btn btn--small btn-outline\" href=\"https:\/\/www.anodyne.be\/collections\/posture-shirt\">Bekijk aanbod<\/a>",
+            "column_width_1": 12,
+            "column_width_mobile_1": 12,
+            "text_alignment_1": "text-center",
+            "html_area_2": "",
+            "column_width_2": 4,
+            "column_width_mobile_2": 12,
+            "text_alignment_2": "text-center",
+            "html_area_3": "",
+            "column_width_3": 4,
+            "column_width_mobile_3": 12,
+            "text_alignment_3": "text-center",
+            "html_area_4": "",
+            "column_width_4": 4,
+            "column_width_mobile_4": 12,
+            "text_alignment_4": "text-center",
+            "html_area_5": "",
+            "column_width_5": 4,
+            "column_width_mobile_5": 12,
+            "text_alignment_5": "text-center",
+            "html_area_6": "",
+            "column_width_6": 4,
+            "column_width_mobile_6": 12,
+            "text_alignment_6": "text-center",
+            "html_area_7": "",
+            "column_width_7": 4,
+            "column_width_mobile_7": 12,
+            "text_alignment_7": "text-center",
+            "html_area_8": "",
+            "column_width_8": 4,
+            "column_width_mobile_8": 12,
+            "text_alignment_8": "text-center",
+            "html_area_9": "",
+            "column_width_9": 4,
+            "column_width_mobile_9": 12,
+            "text_alignment_9": "text-center",
+            "html_area_10": "",
+            "column_width_10": 4,
+            "column_width_mobile_10": 12,
+            "text_alignment_10": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "16358488013c1aad95-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "",
+        "subtitle": "",
+        "section_style": "section-default"
+      }
+    },
+    "1635847349cfc999cc": {
+      "type": "featured-row",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "image": "shopify:\/\/shop_images\/Kinesotape_to_posture_shirt.jpg",
+        "section_style": "section-blank",
+        "text_size": "large",
+        "image_alignement": "left",
+        "text_alignment": "",
+        "title": "Geïnspireerd door kinesiotape",
+        "text": "<p>Het Posture Shirt™ is het originele houding corrigerende t-shirt op de markt. Het T-shirt werd ontwikkeld op basis van wetenschappelijke studies van de menselijke fysiologie en geïnspireerd door het gebruik van kinesiotape als een fysiotherapeutische behandeling van pijn.<\/p><p>De kinesiotape is geïntegreerd in ons Posture Shirt™ met de zogenaamde NeuroBands™ op de rug - steunbanden die geplaatst worden op de plaats waar normaal kinesiotape wordt aangebracht. Deze NeuroBands™ zijn essentieel voor het vermogen van het t-shirt om een betere houding te stimuleren door de schouders iets naar achteren te trekken. Deze trek herinnert het lichaam eraan zich recht te trekken en een goede lichaamshouding aan te nemen.<br\/><\/p>",
+        "button_style": "btn-outline-primary",
+        "button_label": "Lees meer",
+        "button_link": "shopify:\/\/collections\/posture-shirt"
+      }
+    },
+    "16358473897202a471": {
+      "type": "featured-row",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "image": "shopify:\/\/shop_images\/MK2.jpg",
+        "section_style": "section-default",
+        "text_size": "large",
+        "image_alignement": "right",
+        "text_alignment": "",
+        "title": "Pijnverlichting is een deel van ons DNA",
+        "text": "<p>Anodyne® werd opgericht omdat de CEO, Kenneth, zelf jarenlang pijn leed. Na talloze fysiotherapiebehandelingen en een lange zoektocht vond hij een houdingscorrigerend t-shirt uit de Verenigde Staten dat hem hielp zijn houding te corrigeren. Het effect was voor hem onmiskenbaar en hij wist meteen dat dit t-shirt gewoon gedeeld moest worden met anderen die ook pijn lijden. Dus in 2014 richtte hij samen met zijn vrouw Mia Anodyne® op en begon met de distributie van het Posture Shirt™ in Europa. Sindsdien is het assortiment uitgebreid en bieden we nu een breed scala aan producten om de houding te verbeteren en pijn te helpen verlichten.<\/p>",
+        "button_style": "btn-outline-primary",
+        "button_label": "Over ons",
+        "button_link": "shopify:\/\/pages\/over-ons"
+      }
+    },
+    "163584739511c70230": {
+      "type": "featured-products",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Bestsellers",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "home_featured_products": "alle-producten",
+        "rows": "2",
+        "desktop_grid": "4",
+        "mobile_grid": "2",
+        "show_view_all": false,
+        "button_label": "View all",
+        "button_link": "",
+        "button_style": "btn-outline-primary",
+        "slider_related_products": true,
+        "arrows": true,
+        "dots": true,
+        "autoplay": false,
+        "autoplayspeed": 5
+      }
+    }
+  },
+  "order": [
+    "1637325960a723ac8f",
+    "163577518155d0cfa9",
+    "16358413676827deec",
+    "1635839832c61f83f2",
+    "16358466932eca0b65",
+    "16358488013c1aad95",
+    "1635847349cfc999cc",
+    "16358473897202a471",
+    "163584739511c70230"
+  ]
+}

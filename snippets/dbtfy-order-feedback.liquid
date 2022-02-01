@@ -1,0 +1,59 @@
+{%- if content_for_header contains 'debutify' and settings.dbtfy_order_feedback -%}
+{%- if position == 'cart_drawer' -%}
+<div class="drawer__inner-section">
+{%- endif-%}
+<div class="dbtfy dbtfy-order_feedback{% unless position == 'cart_drawer' %} spacer-top{% endunless %}" data-select-required="{{ settings.dbtfy_order_feedback_required }}">
+    <div class="card form-vertical">
+        <div class="card-body">
+            <label class="of-label spacer-bottom-sm" for="order-feedback">{{ settings.dbtfy_order_feedback_select_title }}</label>
+
+            <p class="of-error errors spacer-bottom-sm" hidden>{{ settings.dbtfy_order_feedback_error_message }}</p>
+
+            {%- assign other_field = settings.dbtfy_order_feedback_other_option -%}
+
+            <select id="order-feedback" class="order-feedback select--small spacer-top-xs" name="attributes[{{settings.dbtfy_order_feedback_title}}]"
+                    {% if settings.dbtfy_order_feedback_required %} required{% endif %}
+                    data-select-required="{{settings.dbtfy_order_feedback_required}}"
+                    data-other-field = "{{other_field}}">
+                {%- if settings.dbtfy_order_feedback_default_options != blank -%}
+                    <option value=""{% if cart.attributes[settings.dbtfy_order_feedback_title] == "" %} selected{% endif %}>{{settings.dbtfy_order_feedback_default_options}}</option>
+                {%- endif -%}
+                {%- assign optionsArray = settings.dbtfy_order_feedback_select_options | split: ',' -%}
+                {%- for feedback in optionsArray -%}
+                    {%- assign option = feedback | strip -%}
+                    <option value="{{ option }}"{% if cart.attributes[settings.dbtfy_order_feedback_title] == option %} selected{% endif %}>
+                        {{ option }}
+                    </option>
+                {%- endfor -%}
+
+                {%- if other_field != blank -%}
+                  <option data-is-other-option
+                          {% if settings.dbtfy_order_feedback_other_title != blank %}data-name="attributes[{{settings.dbtfy_order_feedback_other_title}}]"{% endif%}
+                          value="{{ other_field }}"
+                          {% if cart.attributes[settings.dbtfy_order_feedback_title] == other_field %} selected{% endif %}>
+                      {{ other_field }}
+                  </option>
+
+                {%- endif -%}
+            </select>
+
+            {%- if other_field != blank -%}
+              <div class="other-form-wrapper spacer-top"{% unless cart.attributes[settings.dbtfy_order_feedback_title] == other_field %} hidden{% endunless %}>
+                  <label class="of-other-label" for="order-feedback-other">{{other_field}}</label>
+
+                  <p class="of-other-error errors" hidden>{{ settings.dbtfy_order_feedback_error_message_other }}</p>
+
+                  <input id="order-feedback-other" class="order-feedback-other input--small" type="text"
+                         {% if settings.dbtfy_order_feedback_other_title != blank %}name="attributes[{{settings.dbtfy_order_feedback_other_title}}]"{% endif %}
+                          value="{{ cart.attributes[settings.dbtfy_order_feedback_other_title] }}"
+                          placeholder="{{settings.dbtfy_order_feedback_other_placeholder}}"
+                          data-select-required="{{settings.dbtfy_order_feedback_required}}">
+              </div>
+            {%- endif -%}
+        </div>
+    </div>
+</div>
+{%- if position == 'cart_drawer' -%}
+</div>
+{%- endif-%}
+{%- endif -%}

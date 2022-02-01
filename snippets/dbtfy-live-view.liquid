@@ -1,0 +1,29 @@
+{%- if content_for_header contains 'debutify' and settings.dbtfy_live_view -%}
+  <div class="dbtfy dbtfy-live_view" data-position="{{ settings.dbtfy_live_view_position }}">
+    <div id="LiveView">
+      <div class="container-live_view">
+        <div class="text-wrapper-live_view flex">
+          {%- unless settings.dbtfy_live_view_icons == blank -%}
+            <span class="{{ settings.icon }} icon-width spacer-right-sm">{{ settings.dbtfy_live_view_icons }}</span>
+          {%- endunless -%}
+
+          <p class="flex-fill spacer-bottom-none">
+            {%- unless settings.dbtfy_live_view_prefix == blank -%}
+            <span>{{ settings.dbtfy_live_view_prefix }}</span>
+            {% endunless %}
+
+            <strong class="number-live_view">{{ settings.dbtfy_live_view_min }}</strong>
+
+            {% unless settings.dbtfy_live_view_people == blank %}
+              <strong>{{ settings.dbtfy_live_view_people }}</strong>
+            {% endunless %}
+
+            {%- unless settings.dbtfy_live_view_suffix == blank -%}
+              <span class="text-live_view">{{ settings.dbtfy_live_view_suffix }}</span>
+            {%- endunless -%}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endif -%}

@@ -1,0 +1,66 @@
+{%- if content_for_header contains 'debutify' and settings.dbtfy_inventory_quantity -%}
+<div class="dbtfy dbtfy-inventory_quantity{% if sticky_variant %} sticky_inventory_quantity{% endif %}"
+     hidden
+     data-min="{{ settings.dbtfy_inventory_quantity_min }}"
+     data-max="{{ settings.dbtfy_inventory_quantity_max }}"
+     {%- if settings.dbtfy_inventory_quantity_show_random -%}
+      data-show-random-values
+     {%- endif -%}
+>
+
+    {%- unless settings.dbtfy_inventory_quantity_icons == blank -%}
+      <span class="{{ settings.icon }}">
+        {{ settings.dbtfy_inventory_quantity_icons }}
+      </span>
+    {%- endunless -%}
+
+    {%- if settings.dbtfy_inventory_quantity_show_random -%}
+      {%- unless settings.dbtfy_inventory_quantity_prefix == blank -%}
+        <span>
+          {{ settings.dbtfy_inventory_quantity_prefix }}
+        </span>
+      {%- endunless -%}
+
+      <strong class="random-inventory_quantity"></strong>
+
+      {%- unless settings.dbtfy_inventory_quantity_suffix == blank -%}
+        <span>
+          {{ settings.dbtfy_inventory_quantity_suffix }}
+        </span>
+      {%- endunless -%}
+    {%- else -%}
+      {%- assign threshold_qty = settings.dbtfy_inventory_quantity_threshold -%}
+
+      {%- for variant in product.variants -%}
+        {%- if variant.inventory_quantity > 0 and variant.inventory_management == "shopify" -%}
+          <span class="quantity-item-inventory_quantity quantity-item-{{ variant.id }}-inventory_quantity"
+                data-threshold-qty="{{ threshold_qty }}"
+                data-origin-quantity="{{ variant.inventory_quantity }}"
+                hidden>
+            <span class="quantity-item-less-threshold-inventory_quantity">
+              {%- unless settings.dbtfy_inventory_quantity_prefix == blank -%}
+                <span>
+                  {{ settings.dbtfy_inventory_quantity_prefix }}
+                </span>
+              {%- endunless -%}
+
+              <strong class="quantity-item-value-inventory_quantity">{{ variant.inventory_quantity }}</strong>
+
+              {%- unless settings.dbtfy_inventory_quantity_suffix == blank -%}
+                <span>
+                  {{ settings.dbtfy_inventory_quantity_suffix }}
+                </span>
+              {%- endunless -%}
+            </span>
+
+            {%- if settings.dbtfy_threshold_text != blank -%}
+              <span class="quantity-item-more-threshold-inventory_quantity">
+                {{ settings.dbtfy_threshold_text }}
+              </span>
+            {%- endif -%}
+          </span>
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  </div>
+{%- endif -%}

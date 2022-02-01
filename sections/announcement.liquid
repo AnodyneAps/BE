@@ -1,0 +1,199 @@
+{%- if section.settings.show_announcement -%}
+<div id="announcement" data-section-id="{{ section.id }}" data-section-type="announcement-section" data-template="{{ template.name }}">
+  <div class="wrapper">
+    <div class="grid grid-small flex-nowrap align-center announcement-grid whitespace-nowrap fadeIn">
+      <div class="grid__item three-twelfths flex announcement-item announcement-left overflow-hidden small--hide align-center">
+        {%- if section.settings.show_social -%}
+          {%- render "social-medias" -%}
+        {%- endif -%}
+        {%- if section.settings.left_message -%}
+          <span class="announcement-left-message rte">{{- section.settings.left_message -}}</span>
+        {%- endif -%}
+      </div>
+
+      <div class="grid__item large-six-twelfths medium--six-twelfths announcement-item overflow-hidden text-center{% if section.blocks.size > 1 %} slick slick-announcement{% endif %}"
+        data-autoplayspeed="{{ section.settings.announcement_autoplayspeed | times: 1000 }}" >
+        {%- for block in section.blocks -%}
+
+        {%- unless block.settings.announcement_end_text == blank -%}
+        <div class="announcement-end-text hide"> 
+        {{ block.settings.announcement_end_text }}
+      </div>
+      {%- endunless -%} 
+      {%- unless block.settings.announcement_end_text_fr == blank -%}
+      <div class="announcement-end-text_fr hide"> 
+      {{ block.settings.announcement_end_text_fr }}
+    </div>
+    {%- endunless -%} 
+
+        <a id="ann_counter__wrapper" href="{%- if block.settings.announcement_link != blank -%}{{ block.settings.announcement_link }} {%- else -%} / {%- endif -%} " class="announcement-message-item announcement-{{ block.id }}  flex justify-center align-center" {{ block.shopify_attributes }} data-announcement-date="{{ block.settings.announcement_counter}}">
+      
+            {%- if block.settings.announcement_text or block.settings.announcement_text_fr != blank -%}
+                {%- if shop.locale == 'nl'-%}
+                <div class="announcement-message"> 
+                  {{ block.settings.announcement_text }}
+                </div>
+              {%- else -%}
+              <div class="announcement-message_fr"> 
+                {{ block.settings.announcement_text_fr }}
+              </div>
+              {%- endif -%}
+            {%- endif -%}
+
+            {%- unless block.settings.announcement_counter == blank -%}
+                  {% if shop.locale == 'nl' %}
+                <div id="announcement_counter_nl" class="announcement_counter  flex justify-start align-center">
+                  <!-- <div class="announcement_number"><span class="digit">10</span><span class="announcement_text">D<span class="hide-small">ays</span></span></div>
+                  <div class="announcement_number"><span class="digit">23</span><span class="announcement_text">H<span class="hide-small">ours</span></span></div>
+                  <div class="announcement_number"><span class="digit">03</span><span class="announcement_text">M<span class="hide-small">inuttes</span></span></div>
+                  <div class="announcement_number"><span class="digit">45</span><span class="announcement_text">S<span class="hide-small">econds</span></span></div> -->
+                </div>
+                {% else %}
+                <div id="announcement_counter_fr" class="announcement_counter  flex justify-start align-center">
+                  <!-- <div class="announcement_number"><span class="digit">10</span><span class="announcement_text">D<span class="hide-small">ays</span></span></div>
+                  <div class="announcement_number"><span class="digit">23</span><span class="announcement_text">H<span class="hide-small">ours</span></span></div>
+                  <div class="announcement_number"><span class="digit">03</span><span class="announcement_text">M<span class="hide-small">inuttes</span></span></div>
+                  <div class="announcement_number"><span class="digit">45</span><span class="announcement_text">S<span class="hide-small">econds</span></span></div> -->
+                </div>
+                {% endif %} 
+            {%- endunless-%}
+        </a>
+        {%- endfor -%}
+      </div>
+
+      <div class="grid__item three-twelfths flex justify-end announcement-item announcement-right overflow-hidden small--hide align-center">
+        {%- if section.settings.right_message -%}
+          <span class="announcement-right-message rte">{{- section.settings.right_message -}}</span>
+        {%- endif -%}
+        <ul class="inline-list">
+          {%- if section.settings.phone -%}
+          <li>
+            <a href="tel:{{ shop.phone | remove: '-' | replace: ' ', '' }}" title="{{ shop.phone }}" aria-label="{{ shop.phone }}">
+              <span class="{{settings.icon}}" aria-hidden="true">phone</span>
+            </a>
+          </li>
+          {%- endif -%}
+          {%- if section.settings.email -%}
+          <li>
+            <a href="mailto:{{ shop.email | escape }}" title="{{ shop.email }}" aria-label="{{ shop.email }}">
+              <span class="{{settings.icon}}" aria-hidden="true">email</span>
+            </a>
+          </li>
+          {%- endif -%}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{%- endif -%}
+
+{% schema %}
+  {
+    "name": "Announcement",
+	  "class": "announcement-section",
+    "max_blocks": 5,
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_announcement",
+        "label": "Enable announcement bar",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_social",
+        "label": "Show social medias",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "email",
+        "label":"Show email address",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "phone",
+        "label":"Show phone number",
+        "default": true
+      },
+      {
+        "type": "richtext",
+        "id": "left_message",
+        "label": "Left message",
+        "default": "<p>Follow us!</p>"
+      },
+      {
+        "type": "richtext",
+        "id": "right_message",
+        "label": "Right message",
+        "default": "<p>Get in touch with us</p>"
+      },
+      {
+        "type": "header",
+        "content": "Carousel options",
+        "info": "Add more than one message to enable the carousel"
+      },
+      {
+        "type": "range",
+        "id": "announcement_autoplayspeed",
+        "label": "Rotation speed",
+        "min": 3,
+        "max": 10,
+        "step": 1,
+        "unit": "s",
+        "default": 5
+      }
+    ],
+	  "blocks": [
+	    {
+        "type": "message",
+        "name": "Message",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "announcement_text",
+            "label": "Text",
+            "default": "<p>Free shipping worldwide | 30-Day free returns</p>"
+          },
+          {
+            "type": "richtext",
+            "id": "announcement_text_fr",
+            "label": "Text for FR",
+            "default": "<p>Free shipping worldwide | 30-Day free returns</p>"
+          },
+          {
+            "type": "text",
+            "id": "announcement_counter",
+            "label": "Add counter date",
+            "default": "Nov 20, 2021 23:59:59"
+          },
+          {
+            "type": "url",
+            "id": "announcemen_link",
+            "label": "Add an internal link to announcement bar"
+          },
+          {
+            "type": "richtext",
+            "id": "announcement_end_text",
+            "label": "Add text when counter ends",
+            "default": "<p>Enjoy our crazy discounts on <strong>Black Days</strong></p>"
+          },
+          {
+            "type": "richtext",
+            "id": "announcement_end_text_fr",
+            "label": "Add text when counter ends for FR",
+            "default": "<p>Enjoy our crazy discounts on <strong>Black Days</strong></p>"
+          }
+        ]
+      }
+    ],
+    "default": {
+      "blocks": [
+        {
+          "type": "message"
+        }
+      ]
+    }
+  }
+{% endschema %}

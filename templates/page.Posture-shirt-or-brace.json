@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "16371463083c195029": {
+      "type": "HTML-columns",
+      "blocks": {
+        "1637146308aef33c77-0": {
+          "type": "HTML_column",
+          "settings": {
+            "wrapper_size": "",
+            "html_area_1": "",
+            "column_width_1": 12,
+            "column_width_mobile_1": 12,
+            "text_alignment_1": "text-center",
+            "html_area_2": "",
+            "column_width_2": 4,
+            "column_width_mobile_2": 12,
+            "text_alignment_2": "text-center",
+            "html_area_3": "",
+            "column_width_3": 4,
+            "column_width_mobile_3": 12,
+            "text_alignment_3": "text-center",
+            "html_area_4": "",
+            "column_width_4": 4,
+            "column_width_mobile_4": 12,
+            "text_alignment_4": "text-center",
+            "html_area_5": "",
+            "column_width_5": 4,
+            "column_width_mobile_5": 12,
+            "text_alignment_5": "text-center",
+            "html_area_6": "",
+            "column_width_6": 4,
+            "column_width_mobile_6": 12,
+            "text_alignment_6": "text-center",
+            "html_area_7": "",
+            "column_width_7": 4,
+            "column_width_mobile_7": 12,
+            "text_alignment_7": "text-center",
+            "html_area_8": "",
+            "column_width_8": 4,
+            "column_width_mobile_8": 12,
+            "text_alignment_8": "text-center",
+            "html_area_9": "",
+            "column_width_9": 4,
+            "column_width_mobile_9": 12,
+            "text_alignment_9": "text-center",
+            "html_area_10": "",
+            "column_width_10": 4,
+            "column_width_mobile_10": 12,
+            "text_alignment_10": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "1637146308aef33c77-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "<br><h1>Posture Shirt of Houding Corrector?<\/h1>",
+        "subtitle": "<div style=\"margin-bottom:-60px\">Lees hier meer over de verschillen en overeenkomsten tussen de producten.<\/div>",
+        "section_style": "section-blank"
+      }
+    },
+    "16358542128541f953": {
+      "type": "featured-row",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "image": "shopify:\/\/shop_images\/Posture_shirt.jpg",
+        "section_style": "section-default",
+        "text_size": "large",
+        "image_alignement": "left",
+        "text_alignment": "",
+        "title": "Waarom kiezen voor een Posture Shirt™?",
+        "text": "<p>Kies voor een Posture Shirt™ als je een product van hoge kwaliteit wilt dat de hele dag ondersteuning biedt.<\/p><p><\/p><p>• Verbetert de houding<br\/>• Stimuleert een betere houdingsbewustzijn<br\/>• Activeert de spieren<br\/>• Geeft volledige bewegingsvrijheid<br\/>• Gedocumenteerd om pijn en spanning te verlichten<\/p><p><strong>De hele dag<\/strong> te gebruiken (geleidelijke gewenning):<\/p><p>• Zittend<br\/>• Staand<br\/>• Door fysieke activiteit<\/p>",
+        "button_style": "btn--primary",
+        "button_label": "Bekijk selectie",
+        "button_link": "shopify:\/\/collections\/posture-shirt"
+      }
+    },
+    "16358545190198e666": {
+      "type": "featured-row",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "image": "shopify:\/\/shop_images\/Brace.jpg",
+        "section_style": "section-blank",
+        "text_size": "large",
+        "image_alignement": "right",
+        "text_alignment": "",
+        "title": "Waarom kiezen voor een Rugbrace?",
+        "text": "<p>Kies voor een Rugbrace als je een product wilt dat je overdag voor kortere periodes kunt gebruiken.<\/p><p>• Corrigeert de houding<br\/>• Stabiliseert en verlichts<br\/>• Kan pijn en spanning verlichten<\/p><p>Kan <strong>30-60 min.<\/strong> gebruikt worden wanneer nodig:<\/p><p>• Zittend<br\/>• Staand<\/p>",
+        "button_style": "btn--primary",
+        "button_label": "Bekijk selectie",
+        "button_link": "shopify:\/\/collections\/rugsteun"
+      }
+    },
+    "1638778123f4e88ad5": {
+      "type": "featured-content",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Vergelijking",
+        "text": "<p>Beide producten helpen bij het verbeteren van je lichaamshouding, maar hebben beide een andere werking op je spieren. Het Posture Shirt™, met zijn unieke NeuroBand™-technologie, activeert en stimuleert je spieren in je rug en schouders terwijl het jouw houdingsbewustzijn vergroot. Op deze manier wordt je lichaam geleidelijk sterker en helpt het je om je houding uit te lijnen, ook zonder shirt. Een Houding Corrector stabiliseert en ontlast, maar alleen tijdens de periode dat jij hem draagt.<\/p><p>Over het algemeen raden we je aan om een Posture Shirt™ te kiezen als je een product wilt dat jou de hele dag door ondersteunt. Een Houding Corrector kan een voordelig keuze zijn als je alleen ondersteuning wilt voor kortere periodes gedurende de dag.<\/p>",
+        "section_style": "section-blank",
+        "text_size": "large",
+        "text_alignment": "text-center",
+        "button_style": "btn--primary",
+        "button_label": "",
+        "button_link": ""
+      }
+    }
+  },
+  "order": [
+    "16371463083c195029",
+    "16358542128541f953",
+    "16358545190198e666",
+    "1638778123f4e88ad5"
+  ]
+}

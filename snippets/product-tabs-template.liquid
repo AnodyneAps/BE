@@ -585,6 +585,10 @@
                               {%- render "a4-premium-brace-radios" -%}
                               {%- elsif  product.handle == "rugbrace" -%}
                               {%- render "a5-backbrace-radios" -%}
+                              {% comment %}
+                              {%- elsif  product.handle == "anodyne-bh" -%}
+                              {%- render "a6-bh-radios" -%}
+                              {% endcomment%}
                               {%- endif -%}
                          <!-- manual Qb check end  -->
 
@@ -603,6 +607,10 @@
                                             {%- assign hide_quantity_box = false -%}
                                     {%- elsif  product.handle == "rugbrace" -%}
                                             {%- assign hide_quantity_box = false -%}
+                                            {% comment %}
+                                    {%- elsif  product.handle == "anodyne-bh" -%}
+                                            {%- assign hide_quantity_box = false -%}
+                                            {% endcomment%}
                                     {%- else -%}
                                         {%- render "quantity-selector", type: "product", id: quantity_id -%}
                                 {%- endif -%}

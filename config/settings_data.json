@@ -242,7 +242,7 @@
           "1c8bdd4e-9c81-4d5f-ab15-a4dc318ef811": {
             "type": "cart-upsell",
             "settings": {
-              "dbtfy_cart_general_upsell_title": "Speciale aanbieding! Het rugkussen is een goede keuze als u veel uren van de dag achter uw bureau doorbrengt. Normale prijs €59,00",
+              "dbtfy_cart_general_upsell_title": "Deal van de week! Het rugkussen is een goede keuze als u veel uren van de dag achter uw bureau doorbrengt. Normale prijs €59,00",
               "dbtfy_cart_general_upsell_product_offer": "ergonomisch-rugkussen",
               "dbtfy_cart_general_upsell_btn_title": "Ja, graag"
             }
@@ -356,6 +356,26 @@
               "dbtfy_cart_specific_upsell_product_offer": "copy-of-waszakje-bh",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
+          },
+          "de4d6db8-aa99-49f1-9f2c-a6dbd748f029": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-blauw",
+              "dbtfy_cart_specific_upsell_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
+            }
+          },
+          "7e796973-6d13-4f38-bc06-c4417327584e": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-blauw",
+              "dbtfy_cart_specific_upsell_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
+            }
           }
         },
         "block_order": [
@@ -370,7 +390,9 @@
           "0d05debe-b5bb-4c88-9edd-1911d51b485d",
           "a54498a7-ab7c-4508-9bd5-ceb6c09b620d",
           "589f18c6-2b61-4e92-8895-2fab749ef95a",
-          "6feca2f8-7623-4587-94bd-6aaf3684c048"
+          "6feca2f8-7623-4587-94bd-6aaf3684c048",
+          "de4d6db8-aa99-49f1-9f2c-a6dbd748f029",
+          "7e796973-6d13-4f38-bc06-c4417327584e"
         ],
         "settings": {
           "dbtfy_cart_upsell_button_style": "btn--primary"
@@ -430,9 +452,9 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.nl\/pages\/anodyne-korting\" title=\"https:\/\/www.anodyne.nl\/pages\/anodyne-korting\">Wilt u een kortingscode ontvangen? <strong>- Klik hier<\/strong><\/a><\/p>",
+              "announcement_text": "<p>Deal van de week eindigt in: <\/p>",
               "announcement_text_fr": "",
-              "announcement_counter": "",
+              "announcement_counter": "Mar 7, 2022 23:59:59",
               "announcemen_link": "",
               "announcement_end_text": "",
               "announcement_end_text_fr": ""

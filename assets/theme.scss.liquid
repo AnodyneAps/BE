@@ -5952,7 +5952,7 @@ cite {
   overflow: hidden;
   top: 0;
   bottom: 0;
-  z-index: $zindexDrawer;
+  z-index: $zindexDrawer * 1000;
   display: none;
   @include flex-direction(column);
   @include transition($transitionDrawers);
@@ -6104,8 +6104,8 @@ cite {
 
 // Drawer inner
 .drawer__inner {
-  overflow-y: auto;
-  overflow-x: hidden;
+  // overflow-y: auto;
+  overflow: hidden;
   -webkit-overflow-scrolling: touch;
   position: relative;
   @include flex(auto);
@@ -6794,7 +6794,7 @@ margin: 0 0.3rem;
 
 /*================ _Cart_ajax ================*/
 #CartDrawer {
-  @include flex-direction(row);
+  @include flex-direction(column);
 }
 
 .ajaxcart-loading {
@@ -6802,7 +6802,7 @@ margin: 0 0.3rem;
   @include display-flexbox();
   @include align-items(center);
   @include justify-content(center);
-
+  height: 100vh;
   .ajaxcart--is-loaded & {
     display: none;
   }
@@ -6813,7 +6813,9 @@ margin: 0 0.3rem;
     display: none;
   }
 }
-
+.flex-full__overflowy--auto{
+  overflow-y: auto !important;
+}
 .ajaxcart_row {
   @include transition($transitions);
 

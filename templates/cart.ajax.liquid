@@ -202,9 +202,7 @@
           </div>
         {%- endfor -%}
       </div>
-
-      {%- render "dbtfy-cart-discount", position: "cart_drawer" -%}
-
+<!-- dicsount code  -->
       <div class="drawer__inner-section">
         {%- if cart.cart_level_discount_applications != blank -%}
           {%- for discount_application in cart.cart_level_discount_applications -%}
@@ -266,6 +264,17 @@
       {%- endif -%}
     {%- endif -%}
   </div>
+  <!--custom info box and discount code moved -->
+  {%- if cart.item_count > 0 -%}
+    {%- if settings.nlify_cart_notification != blank -%}
+    <div class="nlify_custom_text text-center">
+      <p class="small">{%- if settings.nlify_custom_drawer_icon != blank -%}<span class="custom_icon {{ settings.icon }} icon-width">
+        {{ settings.nlify_custom_drawer_icon}} </span> {%- endif-%} {{settings.nlify_cart_notification}}</p>
+    </div>
+   {%- endif -%}
+   {%- render "dbtfy-cart-discount", position: "cart_drawer" -%}
+  {%- endif -%}
+    <!--custom info box and discount code moved -->
 
   <div class="drawer__footer">
     {%- if cart.item_count == 0 -%}

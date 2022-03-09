@@ -69,7 +69,7 @@
     "base_font_size": 15,
     "custom_quantity_breaks": true,
     "dbtfy_back_in_stock": true,
-    "dbtfy_cart_countdown": false,
+    "dbtfy_cart_countdown": true,
     "dbtfy_cart_favicon": false,
     "dbtfy_cart_discount": true,
     "dbtfy_collection_addtocart": false,
@@ -104,6 +104,11 @@
     "dbtfy_back_in_stock_btn": "Hou mij op hoogte",
     "dbtfy_back_in_stock_btn_animation": true,
     "dbtfy_back_in_stock_success": "<p>Wij zullen u op de hoogte brengen zodra het artikel op voorraad is!<\/p>",
+    "dbtfy_cart_countdown_time_mins": 20,
+    "dbtfy_cart_countdown_icons": "update",
+    "dbtfy_cart_countdown_prefix": "Uw producten zijn gereserveerd voor",
+    "dbtfy_cart_countdown_icon_over": "update",
+    "dbtfy_cart_countdown_msg_over": "Bestel voordat uw producten uitverkocht zijn",
     "dbtfy_cart_discount_label": "Kortingscode",
     "dbtfy_cart_discount_placeholder": "Vul hier je kortingscode in",
     "dbtfy_cart_discount_apply_button_label": "Gebruik kortingscode",
@@ -242,8 +247,8 @@
           "1c8bdd4e-9c81-4d5f-ab15-a4dc318ef811": {
             "type": "cart-upsell",
             "settings": {
-              "dbtfy_cart_general_upsell_title": "Deal van de week! Het rugkussen is een goede keuze als u veel uren van de dag achter uw bureau doorbrengt. Normale prijs €59,00",
-              "dbtfy_cart_general_upsell_product_offer": "ergonomisch-rugkussen",
+              "dbtfy_cart_general_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw shirt of BH",
+              "dbtfy_cart_general_upsell_product_offer": "copy-of-waszakje-bh",
               "dbtfy_cart_general_upsell_btn_title": "Ja, graag"
             }
           },
@@ -251,9 +256,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw BH.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "anodyne-bh",
-              "dbtfy_cart_specific_upsell_product_offer": "waszakje-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -261,9 +266,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zwart",
-              "dbtfy_cart_specific_upsell_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -271,9 +276,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zwart",
-              "dbtfy_cart_specific_upsell_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -281,9 +286,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-wit",
-              "dbtfy_cart_specific_upsell_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -291,9 +296,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-wit",
-              "dbtfy_cart_specific_upsell_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -301,9 +306,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-zwart",
-              "dbtfy_cart_specific_upsell_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -311,9 +316,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-zwart",
-              "dbtfy_cart_specific_upsell_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -321,9 +326,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-wit",
-              "dbtfy_cart_specific_upsell_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -331,9 +336,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-wit",
-              "dbtfy_cart_specific_upsell_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -341,9 +346,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-nude",
-              "dbtfy_cart_specific_upsell_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -351,9 +356,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-nude",
-              "dbtfy_cart_specific_upsell_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -361,9 +366,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-blauw",
-              "dbtfy_cart_specific_upsell_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
             }
           },
@@ -371,9 +376,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-blauw",
-              "dbtfy_cart_specific_upsell_product_offer": "copy-of-waszakje-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
             }
           }
@@ -454,7 +459,7 @@
             "settings": {
               "announcement_text": "<p>Deal van de week eindigt in: <\/p>",
               "announcement_text_fr": "",
-              "announcement_counter": "Mar 7, 2022 23:59:59",
+              "announcement_counter": "Mar 13, 2022 23:59:59",
               "announcemen_link": "",
               "announcement_end_text": "",
               "announcement_end_text_fr": ""
@@ -870,7 +875,7 @@
               "title": "Snelle levering",
               "description": "Gratis verzending voor aankopen boven €59,00",
               "icon": "shopify:\/\/shop_images\/Truck.png",
-              "uspLinkUrl": "shopify:\/\/pages\/verzending-en-retour"
+              "uspLinkUrl": "shopify:\/\/pages\/verzending-en-levering"
             }
           },
           "1630063768bdfa2f5f-1": {
@@ -1475,7 +1480,7 @@
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
               "title": "Wat houdt Anodyne's 30 dagen proefperiode precies in?",
-              "text": "<p>30 dagen proberen betekent bij Anodyne® letterlijk 30 dagen de mogelijkheid om zelf uw gekozen product te testen.<\/p><p>Bij Anodyne® krijgt u 30 dagen om zelf uw Posture Shirt of AlignMe InterActive Bra te testen. Met testen bedoelen wij het ervaren of u het product zult gaan gebruiken; vind u het lekker zitten, blijft het goed zitten tijdens het werken en\/of sporten, geneert het niet, etc.<\/p><p>Anodyne® vindt dat iemand dit alleen kunt testen wanneer het shirt écht gedragen kan worden. Daarom mag het labeltje er af worden gehaald, u mag met het shirt sporten, het mag gedragen worden tijdens het werken, het mag de was in, etc.<\/p><p>Indien u om wat voor reden dan ook niet tevreden bent met uw Anodyne® product, kunt u het binnen 30 dagen na ontvangst gratis retourneren met de meegeleverde retourlabel. Indien u het product wilt omruilen voor een ander product of maat, krijgt u uiteraard opnieuw 30 dagen de tijd om het te testen. Wanneer u de bestelling binnen 30 dagen na ontvangst retourneert krijgt u het volledige aankoopbedrag terug, ook als het gebruikt is zoals hierboven beschreven!<\/p><p>Het product dient in goede staat worden geretourneerd aan Anodyne®, zonder een sterke geur van bijvoorbeeld parfum of rook, met de bijbehorende originele verpakking en alle waslabels intact en de productlabels bijgevoegd. U mag het product binnen de periode van 30 dagen met retourrecht dragen en wassen met een wasmiddel zonder parfum of wasverzachter, maar als het product op enig moment in de wasdroger is gedroogd of met wasverzachter is gewassen voordat het wordt geretourneerd, kunnen wij weigeren het betaalde bedrag terug te betalen omdat het product hierdoor beschadigd raakt.<\/p>"
+              "text": "<p>30 dagen proberen betekent bij Anodyne® letterlijk 30 dagen de mogelijkheid om zelf uw gekozen product te testen.<\/p><p>Bij Anodyne® krijgt u 30 dagen om zelf uw Posture Shirt of AlignMe InterActive Bra te testen. Met testen bedoelen wij het ervaren of u het product zult gaan gebruiken; vind u het lekker zitten, blijft het goed zitten tijdens het werken en\/of sporten, geneert het niet, etc.<\/p><p>Anodyne® vindt dat iemand dit alleen kunt testen wanneer het shirt écht gedragen kan worden. Daarom mag het labeltje er af worden gehaald, u mag met het shirt sporten, het mag gedragen worden tijdens het werken, het mag de was in, etc.<\/p><p>Indien u om wat voor reden dan ook niet tevreden bent met uw Anodyne® product, kunt u het binnen 30 dagen. Indien u het product wilt omruilen voor een ander product of maat, krijgt u uiteraard opnieuw 30 dagen de tijd om het te testen. Wanneer u de bestelling binnen 30 dagen na ontvangst retourneert krijgt u het volledige aankoopbedrag terug, ook als het gebruikt is zoals hierboven beschreven!<\/p><p>Het product dient in goede staat worden geretourneerd aan Anodyne®, zonder een sterke geur van bijvoorbeeld parfum of rook, met de bijbehorende originele verpakking en alle waslabels intact en de productlabels bijgevoegd. U mag het product binnen de periode van 30 dagen met retourrecht dragen en wassen met een wasmiddel zonder parfum of wasverzachter, maar als het product op enig moment in de wasdroger is gedroogd of met wasverzachter is gewassen voordat het wordt geretourneerd, kunnen wij weigeren het betaalde bedrag terug te betalen omdat het product hierdoor beschadigd raakt.<\/p>"
             }
           },
           "69da553c-79eb-4b40-b57f-d1cab57f36b4": {
@@ -1493,7 +1498,7 @@
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
               "title": "Mag ik mijn artikelen retourneren?",
-              "text": "<p>Vanaf het moment van ontvangst heeft u 30 dagen volledig retourrecht. Zo lang u binnen deze 30 dagen zit, mag u gebruik maken van de meegeleverde retourlabel voor gratis retour. Lees voor meer informatie onder de vraag \"Wat houdt de 30 dagen proefperiode precies in?\".<\/p>"
+              "text": "<p>Vanaf het moment van ontvangst heeft u 30 dagen volledig retourrecht. Lees voor meer informatie onder de vraag \"Wat houdt de 30 dagen proefperiode precies in?\".<\/p>"
             }
           },
           "68088497-023b-4bf6-b261-6fe63f13eb87": {
@@ -1511,7 +1516,7 @@
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
               "title": "Hoe kan ik mijn bestelling omruilen of retourneren?",
-              "text": "<p>In het door jou ontvangen pakketje zit altijd een retourformulier met retourlabel. Vul het retourformulier in (wil je jouw item omruilen - zo ja, voor wat? of liever retourneren?) en maak het pakketje klaar. <\/p><p>Indien je bij het bestellen hebt gekozen voor thuislevering of een afhaalpunt via bpost: Gebruik het label en lever de doos in bij een bpost punt naar keuze.<\/p>"
+              "text": "<p>Vul de informatie in het <a href=\"https:\/\/www.anodyne.be\/pages\/ruil-en-retourportall\" title=\"https:\/\/www.anodyne.be\/pages\/ruil-en-retourportall\">retourportall<\/a>. <\/p>"
             }
           },
           "c1a1fdb0-0ab9-44b8-afc9-bd90ba42272c": {
@@ -1520,7 +1525,7 @@
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
               "title": "Moet ik retourkosten betalen bij Anodyne®?",
-              "text": "<p>Nee. Wanneer u gebruik maakt van de meegeleverde retourlabel en het pakje bij een bpost punt inlevert is de retour volledig gratis. Indien u uw op een andere manier of via een andere leverancier wilt retourneren, zijn de kosten voor uzelf. Wij raden u daarom aan om gebruik te maken van de retourlabel en deze in te leveren bij een bpost punt naar keuze.<\/p>"
+              "text": "<p>Nee. De retour volledig gratis. Vul de informatie in het <a href=\"https:\/\/www.anodyne.be\/pages\/ruil-en-retourportall\" title=\"https:\/\/www.anodyne.be\/pages\/ruil-en-retourportall\">retourportall<\/a>. <\/p>"
             }
           },
           "08e5d2d0-8944-4544-8a9f-f7d497a1bed3": {
@@ -1644,7 +1649,7 @@
               "image": "shopify:\/\/shop_images\/Smile2.png",
               "icon": "",
               "title": "Houdingcorrigerende kleding met 100% tevredenheidsgarantie",
-              "text": "<p>Bij Anodyne® bieden we altijd 100% tevredenheidsgarantie, 30 dagen retourrecht en gratis ruilen of retourneren. Dit betekent dat je je product 30 dagen vrijblijvend kunt testen en kijken of het aan je verwachtingen voldoet. We voegen een gratis retourlabel toe aan alle verzendingen, zodat je het pakket eenvoudig terug kunt sturen om je artikelen te ruilen of retourneren. Het is de bedoeling dat je 100% tevreden bent – net als onze meer dan 300.000 klanten, die de afgelopen 7 jaar een origineel Anodyne®-product hebben gekocht. Minder dan 1 op de 20 klanten retourneert daadwerkelijk hun product.<\/p>",
+              "text": "<p>Bij Anodyne® bieden we altijd 100% tevredenheidsgarantie, 30 dagen retourrecht en gratis ruilen of retourneren. Dit betekent dat je je product 30 dagen vrijblijvend kunt testen en kijken of het aan je verwachtingen voldoet. Het is de bedoeling dat je 100% tevreden bent – net als onze meer dan 300.000 klanten, die de afgelopen 7 jaar een origineel Anodyne®-product hebben gekocht. Minder dan 1 op de 20 klanten retourneert daadwerkelijk hun product.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "button_link": ""

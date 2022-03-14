@@ -12,6 +12,7 @@
     "collection_grid_animation": true,
     "collection_grid_button_style": "",
     "word_count": 33,
+    "show_locale_selector": false,
     "show_currency_selector": false,
     "localization_position": "header",
     "newsletter_name": false,
@@ -459,7 +460,7 @@
             "settings": {
               "announcement_text": "<p>Deal van de week eindigt in: <\/p>",
               "announcement_text_fr": "",
-              "announcement_counter": "Mar 13, 2022 23:59:59",
+              "announcement_counter": "Mar 20, 2022 23:59:59",
               "announcemen_link": "",
               "announcement_end_text": "",
               "announcement_end_text_fr": ""

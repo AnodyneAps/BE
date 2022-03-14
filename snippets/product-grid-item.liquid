@@ -47,6 +47,11 @@
 <div class="grid__item grid-product flex {{ grid_item_width }}{% if sold_out %} is-sold-out{% endif %} {% if product.handle contains "houding-corrector-basic" %} basic-hide {% endif %}" data-product-card data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}">
   <div class="card grid-product__wrapper {% if image_hover %} has-hover-image{% endif %}">
     <div class="grid-product__image-wrapper">
+            <!--  custom labels start -->
+            {% if product.metafields.theme.labels__label != blank %}
+            <span class="custom__labels--label">{{product.metafields.theme.labels__label}}</span>
+            {% endif %}
+           <!--  custom labels end-->
       <a href="{{ product_link }}?variant={{ product.first_available_variant.id }}" class="grid-product__image-link">
 
         {% if product_link  contains 'zipper' %}

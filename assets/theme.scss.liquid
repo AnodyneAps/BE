@@ -385,7 +385,7 @@ $colorLink: $colorSecondary;
 $colorLinkHover: $colorSecondary;
 
 // Helper colors
-$colorError: $colorSecondary;
+$colorError: crimson;
 $colorSuccess: $colorPrimary;
 
 // Drawer sizes and colors
@@ -1977,8 +1977,8 @@ $class-type: unquote(".");
 
   // Error message
   .errors {
-    color: $secondary;
-    border-color: $secondary;
+    color: $colorError;
+    background-color: rgba(255, 0, 0, 0.3);
   }
 
   // Select box
@@ -6156,11 +6156,22 @@ cite {
     border-top: $borders;
     border-color: $colorDrawerBorder;
   }
-
   // Error message
   .errors {
-    color: $colorDrawerErrorText;
-    border-color: $colorDrawerErrorText;
+    position: relative;
+    color: $colorError;
+    border-color: rgba(255,0,0,0.01);
+  }
+  .at-terms-error-message::before{
+    content: " ";
+    position: absolute;
+    top: -7px; 
+    left:5px;
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid rgba(255,0,0,0.3);
   }
 }
 

@@ -79,7 +79,7 @@
     "dbtfy_back_in_stock": true,
     "dbtfy_cart_countdown": true,
     "dbtfy_cart_favicon": false,
-    "dbtfy_cart_discount": true,
+    "dbtfy_cart_discount": false,
     "dbtfy_collection_addtocart": false,
     "dbtfy_collection_filters": false,
     "dbtfy_color_swatches": true,
@@ -268,7 +268,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 19,00. Normale prijs €39,00 (bespaar 50%)",
               "dbtfy_cart_specific_upsell_product_trigger": "anodyne-bh",
               "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
@@ -278,7 +278,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 19,00. Normale prijs €39,00 (bespaar 50%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zwart",
               "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
@@ -288,7 +288,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 19,00. Normale prijs €39,00 (bespaar 50%)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zwart",
               "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
@@ -298,7 +298,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 19,00. Normale prijs €39,00 (bespaar 50%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-wit",
               "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
@@ -308,7 +308,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 19,00. Normale prijs €39,00 (bespaar 50%)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-wit",
               "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
@@ -318,7 +318,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 19,00. Normale prijs €39,00 (bespaar 50%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-zwart",
               "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
@@ -328,7 +328,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 19,00. Normale prijs €39,00 (bespaar 50%)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-zwart",
               "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
@@ -338,7 +338,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 19,00. Normale prijs €39,00 (bespaar 50%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-wit",
               "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
@@ -348,7 +348,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 19,00. Normale prijs €39,00 (bespaar 50%)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-wit",
               "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
@@ -358,7 +358,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 19,00. Normale prijs €39,00 (bespaar 50%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-nude",
               "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
@@ -368,7 +368,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 19,00. Normale prijs €39,00 (bespaar 50%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-nude",
               "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
@@ -378,7 +378,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 19,00. Normale prijs €39,00 (bespaar 50%)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-blauw",
               "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
@@ -388,7 +388,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 19,00. Normale prijs €39,00 (bespaar 50%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-blauw",
               "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
@@ -469,7 +469,7 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.be\/pages\/anodyne-korting\" title=\"https:\/\/www.anodyne.be\/pages\/anodyne-korting\"><span style=\"text-decoration:underline\"><strong>Klik hier<\/strong><\/span><strong> <\/strong>om een kortingscode te krijgen<\/a><\/p>",
+              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.be\/collections\/alle-producten\" title=\"https:\/\/www.anodyne.be\/collections\/alle-producten\"><strong>VOORJAARSAANBIEDING | <\/strong>TOT WEL -45%<\/a><\/p>",
               "announcement_text_fr": "",
               "announcement_counter": "",
               "announcemen_link": "",
@@ -1199,8 +1199,10 @@
           "product_title_large": false,
           "show_product_tags": false,
           "show_sharing_icons": true,
-          "product_banner_postureshirt": "shopify:\/\/shop_images\/Desktop_NL_c9f7e699-ef99-4674-ac88-178fa908f22d.jpg",
-          "product_banner_mobile_postureshirt": "shopify:\/\/shop_images\/Mobile_NL_ed06e136-37a1-40b3-8dae-c71ac92430c9.jpg",
+          "product_banner": "shopify:\/\/shop_images\/banner-dbe.png",
+          "product_banner_mobile": "shopify:\/\/shop_images\/banner-mbe.png",
+          "product_banner_postureshirt": "shopify:\/\/shop_images\/banner-dbe.png",
+          "product_banner_mobile_postureshirt": "shopify:\/\/shop_images\/banner-mbe.png",
           "show_product_collections": false,
           "enable_image_zoom": true,
           "enable_video_looping": true,

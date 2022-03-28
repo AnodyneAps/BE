@@ -1,83 +1,82 @@
 <div id="CollectionSection" data-section-id="{{ section.id }}" data-section-type="collection-template">
-  {%- if collection.handle contains 'posture-shirt'-%}
-  {%- if section.settings.collection_banner_postureshirt or section.settings.collection_banner_mobile_postureshirt != blank-%}
-      <div class="wrapper">
-        <div class="collection__banner">
-          <img class="collection__banner-img lazyload"
-          src="{{section.settings.collection_banner_postureshirt | img_url: '1920x60'}}"
-          alt="{{ collection.title }}">
-          <img class="collection__banner-img-mobil lazyload"
-          src="{{section.settings.collection_banner_mobile_postureshirt | img_url: '1920x60'}}"
-          alt="{{ collection.title }}">
-        </div>
+{%- comment -%}
+Get featured image if not exist get first image from products
+{%- endcomment -%}
+{%- capture collection_image -%}
+    <div class="image__container">
+          {% if collection.image %}
+          {{ collection.image.src | collection_img_url: '1080x350' | img_tag: collection.title }}
+  {% else %}
+          {{ collection.products.first.featured_image.src | product_img_url: '1080x350' | img_tag: collection.title }}
+      {% endif %}
       </div>
-  {%- endif-%}
-{%- else -%}
-  {%- if section.settings.collection_banner or section.settings.collection_banner_mobile != blank-%}
-      <div class="wrapper">
-        <div class="collection__banner">
-          <img class="collection__banner-img lazyload"
-          src="{{section.settings.collection_banner | img_url: '1920x60'}}"
-          alt="{{ collection.title }}">
-          <img class="collection__banner-img-mobil lazyload"
-          src="{{section.settings.collection_banner_mobile | img_url: '1920x60'}}"
-          alt="{{ collection.title }}">
-        </div>
-      </div>
-{%- endif-%}
-{%- endif -%}
-  <div class="box">
-    <div class="wrapper">
-      {%- capture collection_header -%}
-        <div class="grid simple_collection_header">
-          <div class="grid__item large--eight-twelfths push--large--two-twelfths">
-            <div class="section-header">
-              <div class="page-title-wrapper">
-                <h2 class="collection-page-title">{{ collection.title }}</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      {%- endcapture -%}
+{%- endcapture -%}
+{%- comment -%}
+Get collection dynamic header title 
+{%- endcomment -%}
+{%- capture collection_header -%}
+    <h2 class="collection-page-title">{{ collection.title }}</h2>
+{%- endcapture -%}
 
-      {%- capture collection_description -%}
-          {%- unless collection.description == blank -%}
-          <div class="desc__container">
-            <p class="collection-description text-lead">
-              {{ collection.description }}
-            </p>
-        </div>
-        {%- endunless -%}
-      {%- endcapture -%}
+{%- comment -%}
+Get collection Description and add it to the end of the page
+{%- endcomment -%}
+{%- capture collection_description -%}
+  {%- unless collection.description == blank -%}
+  <div class="desc__container">
+    <p class="collection-description text-lead">
+      {{ collection.description }}
+    </p>
+</div>
+{%- endunless -%}
+{%- endcapture -%}
 
+{%- comment -%}
+Get the collection sorting options
+{%- endcomment -%}
+{%- capture collection_sort -%}
+  <div class="collection-sortby small--full">
+    <label class="collection-sortby-label inline-label small--full" for="sortBy">
+      <span class="{{ settings.icon }}" aria-hidden="true">sort</span>
+      {{ 'collections.sorting.title' | t }}
+      <span class="filter-dropdown__label--active"></span>
+    </label>
 
+    {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
 
-      {%- capture collection_sort -%}
-        <div class="collection-sortby small--full">
-          <label class="collection-sortby-label inline-label small--full" for="sortBy">
-            <span class="{{ settings.icon }}" aria-hidden="true">sort</span>
-            {{ 'collections.sorting.title' | t }}
-            <span class="filter-dropdown__label--active"></span>
-          </label>
+    <select id="sortBy" class="collection-sortby-select select--small small--full" name="sort_by" aria-describedby="a11y-refresh-page-message" >
+      {%- for option in collection.sort_options -%}
+        <option value="{{ option.value }}"{% if sort_by == option.value %} selected="selected"{% endif %}>{{ option.name }}</option>
+      {%- endfor -%}
+    </select>
+  </div>
+{%- endcapture -%}
 
-          {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
-
-          <select id="sortBy" class="collection-sortby-select select--small small--full" name="sort_by" aria-describedby="a11y-refresh-page-message" >
-            {%- for option in collection.sort_options -%}
-              <option value="{{ option.value }}"{% if sort_by == option.value %} selected="selected"{% endif %}>{{ option.name }}</option>
-            {%- endfor -%}
-          </select>
-        </div>
-      {%- endcapture -%}
-
-      {%- if collection.handle == 'all' or collection.handle == 'frontpage' -%}
-        {{ collection_header }}
-      {%- else -%}
-        {%- if collection_header != blank -%}
+<div class="c_wrapper">
+  {{collection_image}}
+  <div class="c_title">
+          {%- if collection.handle == 'all' or collection.handle == 'frontpage' -%}
           {{ collection_header }}
+        {%- else -%}
+          {%- if collection_header != blank -%}
+            {{ collection_header }}
+          {%- endif -%}
         {%- endif -%}
-      {%- endif -%}
+        <div class="c_subtitle">
+          {%- if collection.metafields.theme.Collection__subtext != blank -%}
+              <p>{{ collection.metafields.theme.Collection__subtext }}</p>
+          {%- endif -%}
+          {%- if section.settings.collection_stars or section.settings.stars_url != blank -%}
+          <a target="_blank" class="t_stars" href="{{section.settings.stars_url | escape}}">
+            <img src="{{section.settings.collection_stars | img_url: '800x42'}}" alt="{{section.settings.collection_stars.alt}}" width="300">
+          </a>
+          {%- endif -%}
+    </div>
+  </div>
+</div>
 
+<div class="box">
+  <div class="wrapper">
       {%- if section.settings.collection_sort_enable and collection.products.size > 0 -%}
         {%- assign show_collection_sort = true -%}
       {%- else -%}
@@ -283,6 +282,20 @@
     "name": "Collection pages",
 	  "class": "collection-section",
     "settings": [
+      {
+        "type": "header",
+        "content": "Trustpilot stars banner"
+      },
+      {
+        "type": "image_picker",
+        "id": "collection_stars",
+        "label": "Add a png picture in 800x42px"
+      },
+      {
+        "type": "text",
+        "id": "stars_url",
+        "label": "Add a link to Trustpilot"
+      },
 	    {
 		    "type": "header",
 		    "content": "Sorting & Filtering"
@@ -410,26 +423,6 @@
             "label": "2"
           }
         ]
-      },
-      {
-        "type": "image_picker",
-        "id": "collection_banner",
-        "label": "Add a banner on top. Size: 1920X60px"
-      },
-      {
-        "type": "image_picker",
-        "id": "collection_banner_mobile",
-        "label": "Add a banner on top for Mobile. Size: 500X40px"
-      },
-      {
-        "type": "image_picker",
-        "id": "collection_banner_postureshirt",
-        "label": "Add a banner on postureshirt top. Size: 1920X60px"
-      },
-      {
-        "type": "image_picker",
-        "id": "collection_banner_mobile_postureshirt",
-        "label": "Add a banner on top for postureshirt Mobile. Size: 500X40px"
       }
     ]
   }

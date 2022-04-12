@@ -79,7 +79,7 @@
     "dbtfy_back_in_stock": true,
     "dbtfy_cart_countdown": true,
     "dbtfy_cart_favicon": false,
-    "dbtfy_cart_discount": false,
+    "dbtfy_cart_discount": true,
     "dbtfy_collection_addtocart": false,
     "dbtfy_collection_filters": false,
     "dbtfy_color_swatches": true,
@@ -469,7 +469,7 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.be\/collections\/alle-producten\" title=\"https:\/\/www.anodyne.be\/collections\/alle-producten\"><strong>VOORJAARSAANBIEDING | <\/strong>TOT WEL -45%<\/a><\/p>",
+              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.be\/pages\/anodyne-korting\" title=\"https:\/\/www.anodyne.be\/pages\/anodyne-korting\"><span style=\"text-decoration:underline\"><strong>KLIK HIER<\/strong><\/span> en bespaar 25% op alles<\/a><\/p>",
               "announcement_text_fr": "",
               "announcement_counter": "",
               "announcemen_link": "",
@@ -1165,6 +1165,8 @@
       "collection-template": {
         "type": "collection-template",
         "settings": {
+          "collection_stars": "shopify:\/\/shop_images\/tp_be_399aa532-b0b6-47c9-992c-6b4777d2495f.jpg",
+          "stars_url": "https:\/\/nl-be.trustpilot.com\/search?query=Anodyne",
           "collection_tags_enable": false,
           "collection_tags_count": false,
           "collection_multiple_tags_filtering_enable": false,
@@ -1172,11 +1174,7 @@
           "tag_selector": "button",
           "rows": "4",
           "desktop_grid": "4",
-          "mobile_grid": "2",
-          "collection_banner": "shopify:\/\/shop_images\/December-offers_NL.jpg",
-          "collection_banner_mobile": "shopify:\/\/shop_images\/December-offers_mobile_NL.jpg",
-          "collection_banner_postureshirt": "shopify:\/\/shop_images\/Desktop_NL_654968a4-518b-49a7-8751-03b0d16902c1.jpg",
-          "collection_banner_mobile_postureshirt": "shopify:\/\/shop_images\/Mobile_NL.jpg"
+          "mobile_grid": "2"
         }
       },
       "dbtfy-collection-filters": {

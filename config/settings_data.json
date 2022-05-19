@@ -28,6 +28,7 @@
     "page_wrapper": "1248",
     "payment_icon_size": 24,
     "sale_type": "percentage",
+    "browsing_link": "shopify:\/\/collections\/alle-producten",
     "zindex_drawer": "999",
     "cart_notes_enable": false,
     "color_announcement_bg": "#ff891d",
@@ -108,7 +109,7 @@
     "synced_variant_image": false,
     "dbtfy_wish_list": false,
     "dbtfy_addtocart_animation_type": "pulse",
-    "dbtfy_agree_text": "<p>Ik ga akkoord met Anodyne® Algemene Voorwaarden en het Anodyne® Privacybeleid<\/p>",
+    "dbtfy_agree_text": "<p>Ik ga akkoord met Anodyne® <a href=\"https:\/\/www.anodyne.be\/policies\/terms-of-service\" title=\"https:\/\/www.anodyne.be\/policies\/terms-of-service\">Algemene Voorwaarden<\/a> en het Anodyne® <a href=\"https:\/\/www.anodyne.be\/policies\/privacy-policy\" title=\"https:\/\/www.anodyne.be\/policies\/privacy-policy\">Privacybeleid<\/a><\/p>",
     "dbtfy_agree_warning_text": "<p>Je moet accepteren<\/p>",
     "dbtfy_agree_order_title": "Ik ga akkoord met Anodyne® Algemene Voorwaarden en het Anodyne® Privacybeleid",
     "dbtfy_agree_order_yes_answer": "Ja",
@@ -124,7 +125,7 @@
     "dbtfy_cart_discount_label": "Kortingscode",
     "dbtfy_cart_discount_placeholder": "Vul hier je kortingscode in",
     "dbtfy_cart_discount_apply_button_label": "Gebruik kortingscode",
-    "nlify_cart_notification": "Koop meer, bespaar meer! Wij bieden u een volumekorting op de meeste van onze producten. U kunt volumekortingen ook combineren met kortingscodes.",
+    "nlify_cart_notification": "Koop meer, bespaar meer! Wij bieden u een volumekorting op de meeste van onze producten.",
     "nlify_custom_drawer_icon": "",
     "dbtfy_cart_goal_before_text": "Nog",
     "dbtfy_cart_goal_amount": "59",
@@ -258,6 +259,7 @@
         "blocks": {
           "1c8bdd4e-9c81-4d5f-ab15-a4dc318ef811": {
             "type": "cart-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_general_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw shirt of BH",
               "dbtfy_cart_general_upsell_product_offer": "copy-of-waszakje-bh",
@@ -469,7 +471,7 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.be\/pages\/anodyne-korting\" title=\"https:\/\/www.anodyne.be\/pages\/anodyne-korting\"><span style=\"text-decoration:underline\"><strong>KLIK HIER<\/strong><\/span> en bespaar 25% op alles<\/a><\/p>",
+              "announcement_text": "<p><a href=\"\/collections\/alle-producten\" title=\"Alle producten\"><strong>VOORJAARSAANBIEDING! <\/strong>Tot wel <span style=\"text-decoration:underline\">-50%<\/span><\/a><\/p>",
               "announcement_text_fr": "",
               "announcement_counter": "",
               "announcemen_link": "",

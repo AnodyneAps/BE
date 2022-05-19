@@ -4491,6 +4491,16 @@ cite {
 {{- settings.icon | prepend: "." -}} {
   @include iconFontStack;
 }
+.Icon {
+  display: inline-block;
+  height: 1.2em;
+  width: 1.2em;
+  fill: currentColor;
+  vertical-align: middle;
+  stroke-width: 1px;
+  background: none;
+  pointer-events: none;
+}
 
 .icon-image {
   line-height: 1;
@@ -5579,76 +5589,76 @@ cite {
 /*============================================================================
   _Sections
 ==============================================================================*/
-
 /*================ _Announcement ================*/
 .announcement-section {
   z-index: $zindexHeader + 1;
-
   .sticky-announcement_bar & {
     @include sticky;
     z-index: $zindexHeader + 1;
   }
-
 }
-
 #announcement {
   background-color: $colorAnnouncement;
   color: $colorAnnouncementText;
-
   a {
     color: $colorAnnouncementText;
-    margin-top: 5px;
   }
-
   .rte {
-    margin-bottom: 5px;
+    margin-bottom: 4px;
   }
-
   p {
     @include ellipsis;
   }
 }
-
 .announcement-grid {
   height: $heightInputSmall;
 }
-
 .announcement-left-message {
   .social-medias + & {
     margin-left: $spacer-sm;
   }
 }
-
 .announcement-message {
   .slick-track {
     @include display-flexbox;
     @include align-items(center);
   }
+  p a{
+    display: inline-block;
+    padding-top:15px;
+  }
 }
-
 .announcement-right-message {
   & + ul {
     margin-left: $spacer-sm;
   }
 }
 .announcement-message-item{
-
-  .announcement-message, .announcement-message_fr{
+  .announcement-message{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:.25em;
+    .Icon{
+      margin-right: 5px;
+      margin-top: -4px;
+      height: 18px;
+      width: auto;
+    }
     p{
-      margin:0 5px 0 0;
-      font-size:0.8rem;
+      padding-top:15px;
+      font-size:.999rem;
       font-weight:500;
       strong{
-        color: $cAccent;
+        color:$white;
       }
     }
   }
   .announcement_counter{
     .announcement_number{
-
       .digit{
         font-size:0.850rem;
-        font-weight:700;
+        font-weight:900;
         margin-right:2px;
       }
       .announcement_text{
@@ -5661,16 +5671,6 @@ cite {
           }
         }
       }
-    }
-    .endtextjs{
-      margin-top:10px;
-      p{
-        font-size:0.850rem;
-        strong{
-          color: $cAccent;
-        }
-      }
-
     }
   }
 }

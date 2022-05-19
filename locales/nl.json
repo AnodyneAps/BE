@@ -309,7 +309,7 @@
       "sold_out": "Uitverkocht",
       "sold_out_html": "Uitverkocht",
       "unavailable": "Niet beschikbaar",
-      "quantity": "Eenheidsprijs",
+      "quantity": "Aantal",
       "add_to_cart": "Aan winkelwagen toevoegen",
       "replace": "Vervangen",
       "full_details": "Alle details",
@@ -334,7 +334,7 @@
       "tab-delivery": "  Levering & Retourneren "
     },
     "radios": {
-      "radio-one": "Koop",
+      "radio-one": "",
       "radio-save-amount": "Bespaar"
     },
     "sizes": {

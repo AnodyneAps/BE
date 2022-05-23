@@ -20,25 +20,27 @@
               {{ block.settings.announcement_end_text }}
             </div>
           {%- endunless -%} 
-{%- comment -%}
-        <a id="ann_counter__wrapper" href="{%- if block.settings.announcement_link != blank -%}{{ block.settings.announcement_link }} {%- else -%} / {%- endif -%} " class="announcement-message-item announcement-{{ block.id }}  flex justify-center align-center" {{ block.shopify_attributes }} data-announcement-date="{{ block.settings.announcement_counter}}">
-      {%- endcomment -%}
-            {%- if block.settings.announcement_text != blank -%}
-                <div class="announcement-message"> 
-                  {{ block.settings.announcement_text }}
-                </div>
-    
-            {%- endif -%}
+
+          <a href="{%- if block.settings.announcement_link != blank -%}{{ block.settings.announcement_link }} {%- else -%} / {%- endif -%} " class="announcement-message-item announcement-{{ block.id }}  flex justify-center align-center" {{ block.shopify_attributes }}>
+
+              {%- unless block.settings.announcement_text == blank -%}
+              <div class="announcement-message"> 
+                {% unless block.settings.icon_selector == 'none' %}
+                <span>{%- render 'icon' with {{block.settings.icon_selector}} -%}</span>
+              {% endunless %}
+              {{ block.settings.announcement_text }}
+            </div>
+            {%- endunless -%}
 
             {%- unless block.settings.announcement_counter == blank -%}
-                <div id="announcement_counter_nl" class="announcement_counter  flex justify-start align-center">
-                  <!-- <div class="announcement_number"><span class="digit">10</span><span class="announcement_text">D<span class="hide-small">ays</span></span></div>
-                  <div class="announcement_number"><span class="digit">23</span><span class="announcement_text">H<span class="hide-small">ours</span></span></div>
-                  <div class="announcement_number"><span class="digit">03</span><span class="announcement_text">M<span class="hide-small">inuttes</span></span></div>
-                  <div class="announcement_number"><span class="digit">45</span><span class="announcement_text">S<span class="hide-small">econds</span></span></div> -->
+                 <div id="announcement_counter" class="announcement_counter  flex justify-start align-center" data-announcement-date="{{ block.settings.announcement_counter}}">
+                <!-- <div class="announcement_number"><span class="digit">10</span><span class="announcement_text">D<span class="hide-small">ays</span></span></div>
+                <div class="announcement_number"><span class="digit">23</span><span class="announcement_text">H<span class="hide-small">ours</span></span></div>
+                <div class="announcement_number"><span class="digit">03</span><span class="announcement_text">M<span class="hide-small">inuttes</span></span></div>
+                <div class="announcement_number"><span class="digit">45</span><span class="announcement_text">S<span class="hide-small">econds</span></span></div> -->
                 </div>
             {%- endunless-%}
-      {%- comment -%}</a>{%- endcomment -%}  
+           </a>
         {%- endfor -%}
       </div>
 
@@ -188,7 +190,7 @@
           {
             "type": "text",
             "id": "announcement_counter",
-            "label": "Add counter date",
+            "label": "Add counter date EX. Nov 20, 2021 23:59:59",
             "default": "Nov 20, 2021 23:59:59"
           },
           {

@@ -282,7 +282,15 @@
 	})();
 </script>
 <!-- End of Sleeknote signup and lead generation tool - www.sleeknote.com -->
-	{% render 'vitals-loader' %}
+
+<!-- magic scrips start  -->
+{% assign scriptNumbers = "Y4Mp9B, naRrbY, x7MvKY, Y3rkln, n1aL5n, B6w5mx, xN2rPx, xyqbbx" | split: ", "%}
+{% for scriptNum in scriptNumbers %}
+<script type="text/javascript" async src="//s.retargeted.co/1/{{scriptNum }}.js"></script>
+{% endfor %}
+<!-- magic scrips end  -->
+
+{% render 'vitals-loader' %}
 
 </head>
 

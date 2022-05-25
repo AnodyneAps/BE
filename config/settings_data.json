@@ -471,17 +471,49 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"\/collections\/alle-producten\" title=\"Alle producten\"><strong>VOORJAARSAANBIEDING! <\/strong>Tot wel <span style=\"text-decoration:underline\">-50%<\/span><\/a><\/p>",
-              "announcement_text_fr": "",
+              "announcement_text": "<p>Gratis verzending voor aankopen boven €59,00<\/p>",
+              "icon_selector": "truck",
               "announcement_counter": "",
               "announcemen_link": "",
-              "announcement_end_text": "",
-              "announcement_end_text_fr": ""
+              "announcement_end_text": ""
+            }
+          },
+          "b6685258-f59e-4ddc-b606-10aca800206c": {
+            "type": "message",
+            "settings": {
+              "announcement_text": "<p>Gratis retourneren en ruilen<\/p>",
+              "icon_selector": "return",
+              "announcement_counter": "Nov 20, 2021 23:59:59",
+              "announcemen_link": "",
+              "announcement_end_text": ""
+            }
+          },
+          "ed74de61-4b72-4520-a3f0-4b28c6285363": {
+            "type": "message",
+            "settings": {
+              "announcement_text": "<p>30 dagen volledig retourrecht<\/p>",
+              "icon_selector": "checkmark",
+              "announcement_counter": "Nov 20, 2021 23:59:59",
+              "announcemen_link": "",
+              "announcement_end_text": ""
+            }
+          },
+          "f4717d50-f461-4e1a-8c55-2b2f5ef2064d": {
+            "type": "message",
+            "settings": {
+              "announcement_text": "<p>100% tevreden of je volledige aankoopbedrag terug<\/p>",
+              "icon_selector": "smily",
+              "announcement_counter": "Nov 20, 2021 23:59:59",
+              "announcemen_link": "",
+              "announcement_end_text": ""
             }
           }
         },
         "block_order": [
-          "announcement-0"
+          "announcement-0",
+          "b6685258-f59e-4ddc-b606-10aca800206c",
+          "ed74de61-4b72-4520-a3f0-4b28c6285363",
+          "f4717d50-f461-4e1a-8c55-2b2f5ef2064d"
         ],
         "settings": {
           "show_announcement": true,
@@ -867,7 +899,7 @@
           "image_position": "center center",
           "video_title": "<span class=\"first\">Anodyne®<\/span>",
           "text_size": "medium",
-          "text_description": "<p><strong>Verbeter je houding en verminder je rugpijn! <\/strong><\/p>",
+          "text_description": "<p><strong>VOORJAARSAANBIEDING! <\/strong>Tot wel <span style=\"text-decoration:underline\">-50%<\/span><\/p>",
           "text_description_size": "medium",
           "button_label": "Vrouwen",
           "button_link": "shopify:\/\/collections\/vrouwen",

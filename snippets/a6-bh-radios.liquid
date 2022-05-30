@@ -1,4 +1,5 @@
   <!-- custom input radio buttons -->
+
 	<div class="radio  product-single__form product-form__item">
 		<input type="radio" class="single-option-selector-{{ section.id }} "
 		{% if option.selected_value == value %} checked="checked"{% endif %} id="Quantity-1" name="quantity" value="1" min="1" class="product-form__input" pattern="[0-9]*">
@@ -7,22 +8,23 @@
 			<span class="qb-radio text-money">
 				<span class="qb-discounted-price on-sale text-sale">
 					<span class="money">
-						€ 59,00 
+						€49,00
 					</span>
 				</span>
-			<span class="qb-original-price text-strike text-muted">
+				<span class="qb-original-price text-strike text-muted">
 					<span class="money">
-						€ 79,00 
+						€79,00 
 					</span>
 				</span>
-					<span class="badge qb-saved-amount">
-					{{ 'products.radios.radio-save-amount' | t }}  <span class="money">€20,00</span>
+				{%- comment -%}
+				<span class="badge qb-saved-amount">
+					{{ 'products.radios.radio-save-amount' | t }}  <span class="money">€30,00</span>
 				</span>
+				{%- endcomment -%}
 			</span>
 		</label>
 		</div>
 
-		
 	<div class="radio product-single__form product-form__item">
 		<input type="radio" class="single-option-selector-{{ section.id }} "
 	id="Quantity-2" name="quantity" value="2" min="2" class="product-form__input" pattern="[0-9]*">
@@ -30,17 +32,19 @@
 			<span class="qb-radio text-money">
 				<span class="qb-discounted-price on-sale text-sale">
 					<span class="money">
-						€ 110,00 
+						€89,00
 					</span>
 				</span>
 				<span class="qb-original-price text-strike text-muted">
 					<span class="money">
-						€ 158,00 
+						€158,00 
 					</span>
 				</span>
+				{%- comment -%}
 				<span class="badge qb-saved-amount">
-					{{ 'products.radios.radio-save-amount' | t }}  <span class="money">€48,00</span>
+					{{ 'products.radios.radio-save-amount' | t }}  <span class="money">€68,00</span>
 				</span>
+				{%- endcomment -%}
 			</span>
 		</label>
 	</div>
@@ -51,17 +55,19 @@
 			<span class="qb-radio text-money">
 				<span class="qb-discounted-price on-sale text-sale">
 					<span class="money">
-						€ 147,00 
+						€119,00
 					</span>
 				</span>
 				<span class="qb-original-price text-strike text-muted">
 					<span class="money">
-						€ 237,00 
+						€237,00 
 					</span>
 				</span>
+				{%- comment -%}
 				<span class="badge qb-saved-amount">
-					{{ 'products.radios.radio-save-amount' | t }} <span class="money">€90,00</span>
+					{{ 'products.radios.radio-save-amount' | t }} <span class="money">€118,00</span>
 				</span>
+				{%- endcomment -%}
 			</span>
 		</label>
 	</div>

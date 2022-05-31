@@ -5592,66 +5592,81 @@ cite {
 /*================ _Announcement ================*/
 .announcement-section {
   z-index: $zindexHeader + 1;
+
   .sticky-announcement_bar & {
     @include sticky;
     z-index: $zindexHeader + 1;
   }
+
 }
+
 #announcement {
   background-color: $colorAnnouncement;
   color: $colorAnnouncementText;
+
   a {
     color: $colorAnnouncementText;
   }
+
   .rte {
     margin-bottom: 4px;
   }
+
   p {
     @include ellipsis;
   }
 }
+
 .announcement-grid {
   height: $heightInputSmall;
 }
+
 .announcement-left-message {
   .social-medias + & {
     margin-left: $spacer-sm;
   }
 }
+
 .announcement-message {
   .slick-track {
     @include display-flexbox;
     @include align-items(center);
   }
 }
+
 .announcement-right-message {
   & + ul {
     margin-left: $spacer-sm;
   }
 }
 .announcement-message-item{
+  transition: left 300ms ease-in;
   .announcement-message{
     display: flex;
     justify-content: center;
     align-items:center;
-    gap:.25em;
-    .Icon{
-      margin-right: 5px;
-      margin-top: -4px;
-      height: 18px;
-      width: auto;
-    }
+    gap: .35rem;
+      .Icon-wrapper{
+        height: 20px;
+        width: 20px;
+        .Icon{
+          display: inline-block;
+          height: 20px;
+          width: 20px;
+        }
+      }
     p{
-      padding-top:15px;
+      padding-top:18px;
       font-size:.999rem;
       font-weight:500;
       strong{
-        color:$white;
+        color:$cAccent;
       }
     }
   }
   .announcement_counter{
     .announcement_number{
+
       .digit{
         font-size:0.850rem;
         font-weight:900;
@@ -7067,6 +7082,10 @@ margin: 0 0.3rem;
 .product-single__meta--wrapper {
   margin-top: $gutter;
   @include align-self(flex-start);
+  @include screenUp($postSmall){
+    margin-top: 0;
+    padding-left: $gutter;
+  }
 }
 
 // Title

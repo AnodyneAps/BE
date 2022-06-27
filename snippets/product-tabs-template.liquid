@@ -648,18 +648,18 @@
                 {% render "dbtfy-back-in-stock", product: product, current_variant: current_variant %}
               {%- endif -%}
             </div>
-            
-
-
                 <!-- Nl basic counter start -->
+                {% if section.settings.show_instead_of_counter_text %}
                 <div class="nlify-counter">
-                  {%- if shop.locale == 'fr' -%}
-                <div id="be___fr-counter"></div>
-                  {%- else -%}
-                <div id="be___nl-counter"></div>
-                  {%- endif -%} 
+                <!-- <div id="dk___js-counter"></div> -->
+                {% if section.settings.instead-of-counter-text != blank %}
+                <a href="{% if section.settings.instead-of-counter-link != blank%}{{ section.settings.instead-of-counter-link}}{% endif %} /" class="instead-of-counter-link">
+                  <p>{{section.settings.instead-of-counter-text}}</p>
+                </a>
+                {% endif %}
               </div>
               <!-- Nl basic counter end -->
+            {% endif %}
               
             {%- render "dbtfy-trust-badge", position: "product_page" -%}
 

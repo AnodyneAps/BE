@@ -6346,6 +6346,7 @@ cite {
   @include colorOverwrite($colorFooter, $colorFooterDefault, $colorFooterBorder, $colorFooterText, $colorFooterPrimary, $colorFooterSecondary, $colorFooterButtonText, $colorFooterInput, $colorFooterSalesPrice);
   position: relative;
   z-index: $zindexBase;
+  padding-bottom: 40px;
 
   // Select
   select {
@@ -9876,9 +9877,17 @@ body:not(.dbtfy-wish_list-destroy) {
 
 .nlify-counter{
   margin: $gutter-sm 0;
-  padding: $gutter-sm;
-  border: 1px solid darken($white, 6%);
-  background-color: darken($white, 3%);
+  .instead-of-counter-link{
+    display: block;
+    padding: 16px 8px 8px 8px;
+    border: 1px solid darken($white, 6%);
+    background-color: darken($white, 3%);
+    cursor: pointer;
+    p{
+      cursor: pointer;
+     text-align: center;
+    }
+  }
   .timer__wrapper{
     .timer__text{
       font-size:1.25rem;
@@ -10332,6 +10341,196 @@ selector[data-type="languages"][data-id="283692853"].ls-sw-all > .active .ls-ico
     }
   }
 }
+
+// site flip clock 
+.flip-container{
+  display: none;
+  &.show-flip {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    font-size: 1rem;
+    height: 40px;
+    background-color: $cAccent;
+    gap: .15em;
+    z-index: 9999;
+    @include screenUp($postSmall){
+      height: 50px;
+    }
+    .flip-outer-text{
+      color: $white;
+      font-size: 1.2rem;
+      padding: 0 6px;
+      letter-spacing: -1.5px;
+      font-style: italic;
+    }
+    .dots{
+      color: $white;
+     }
+     .flip-group{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      .flip-group-title{
+        font-size: .8rem;
+      }
+      .flip-wrapper{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap:.15em;
+        .flip-card {
+          position: relative;
+          display: -webkit-inline-box;
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
+                  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
+          border-radius: 2px;
+  
+          .top,
+          .bottom,
+          .top-flip,
+          .bottom-flip {
+            height: 12px;
+            line-height: 1;
+            padding: 4px;
+            overflow: hidden;
+          }
+          .top,
+          .top-flip {
+            background-color: lighten($colorLightGray, 28%);
+            border-top-right-radius: 2px;
+            border-top-left-radius: 2px;
+            border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+          }
+          .bottom,
+          .bottom-flip {
+            background-color: $white;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: end;
+                -ms-flex-align: end;
+                    align-items: flex-end;
+            border-bottom-right-radius: 2px;
+            border-bottom-left-radius: 2px;
+          }
+          .top-flip {
+            position: absolute;
+            width: 100%;
+            -webkit-animation: flip-top 250ms ease-in;
+                    animation: flip-top 250ms ease-in;
+            -webkit-transform-origin: bottom;
+                -ms-transform-origin: bottom;
+                    transform-origin: bottom;
+          }
+         .bottom-flip {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            -webkit-animation: flip-bottom 250ms ease-out 250ms;
+                    animation: flip-bottom 250ms ease-out 250ms;
+            -webkit-transform-origin: top;
+                -ms-transform-origin: top;
+                    transform-origin: top;
+            -webkit-transform: rotateX(90deg);
+                    transform: rotateX(90deg);
+          }
+        }
+      }
+     }
+     .close__btn{
+      display: none;
+      color: $white;
+      position: absolute;
+      bottom: 10px;
+      right: 20px;
+      z-index: 999;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      @include transition($transitions);
+      @include screenUp($postSmall){
+      display: block;
+      }
+      &:hover{
+        transform: scale(1.2);
+        color: $white;
+        background-color: lighten($cAccent, 10%);
+        border-radius: 5px;
+        border: 2px solid $white;
+      }
+    }
+    .close__btn::after,
+    .close__btn::before{
+      content: '';
+      position: absolute;
+      top:50%;
+      left: 15%;
+      transform: translate(-85%, -50%);
+      width: 18px;
+      height: 1px;
+      background-color: $white;
+    }
+    .close__btn::after{
+      transform: rotate(-45deg);
+    }
+    .close__btn::before{
+      transform: rotate(45deg);
+    }
+   }
+   &.hide{
+    display: none !important;
+   }
+  }
+
+//counter animation keys
+  @-webkit-keyframes flip-top {
+    100% {
+      -webkit-transform: rotateX(90deg);
+              transform: rotateX(90deg);
+    }
+  }
+  @keyframes flip-top {
+    100% {
+      -webkit-transform: rotateX(90deg);
+              transform: rotateX(90deg);
+    }
+  }
+  @-webkit-keyframes flip-bottom {
+    100% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+    }
+  }
+  @keyframes flip-bottom {
+    100% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+    }
+  }
 {%- if settings.custom_style != blank -%}
 /*================ _custom_styles ================*/
 {{ settings.custom_style }}

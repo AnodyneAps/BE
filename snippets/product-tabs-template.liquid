@@ -575,9 +575,12 @@
 
 
                             <!-- manual Qb check start -->
-                            {% if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" %}
+                              {% for tag in product.tags %}
+                              {% if tag contains 'posture_shirt'%}     
                               {%- render "a3-posture-shirt-radios" -%}
-                              {%- elsif  product.handle == "houding-corrector-comfort" -%}
+                              {% endif %}
+                              {% endfor %}
+                              {%- if  product.handle == "houding-corrector-comfort" -%}
                               {%- render "a2-comfort-plus-radios" -%}
                               {%- elsif  product.handle == "houding-corrector" -%}
                               {%- render "a1-basic-brace-radios" -%}
@@ -595,6 +598,11 @@
                           {%- render "dbtfy-inventory-quantity", product: product -%}
                           {%- if section.settings.quantity_enabled -%}
                                      <!-- Quantity selecter check start -->
+                                     {% for tagm in product.tags %}
+                                     {% if tagm contains 'MINT'%}     
+                                     {%- render "quantity-selector", type: "product", id: quantity_id -%}
+                                     {% endif %}
+                                     {% endfor %}
                                     {% if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" %}
                                     {%- assign hide_quantity_box = false -%}
                                     {%- elsif  product.handle == "houding-corrector-comfort" -%}
